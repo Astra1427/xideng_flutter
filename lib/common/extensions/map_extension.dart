@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 extension MapExtension on Map{
-  String toJson(){
+  String toRawJson(){
     return json.encode(this);
   }
 }

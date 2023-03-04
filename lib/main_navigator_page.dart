@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:xideng_flutter/models/account/account_dto.dart';
 import 'package:xideng_flutter/pages/public_plan_page.dart';
+import 'package:xideng_flutter/providers/account_provider.dart';
 
 import 'pages/home_page.dart';
 import 'pages/my_page.dart';
@@ -13,6 +16,16 @@ class MainNavigationPage extends StatefulWidget {
 
 class _MainNavigationPageState extends State<MainNavigationPage> {
   int curIndex = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      debugPrint('main navigator page addPostFrameCallback...');
+      Provider.of<AccountProvider>(context,listen: false).loadSavedUserInfo();
+    });
+  }
+
 
   @override
   Widget build(BuildContext context) {

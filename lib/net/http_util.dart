@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -8,19 +9,21 @@ class HttpUtil{
   static const host = '101.33.206.168';
   static const port = 8001;
 
-  static const baseUrl = '$host/api/';
+  static const baseUrl = 'http://$host/api/';
   static HttpClient client = HttpClient()..findProxy = null;
-  static Future<HttpClientResponse> get(String path,{String? token,Map<String,dynamic>? queryParams})async {
+  static Future<HttpClientResponse?> get(String path,{String? token,Map<String,dynamic>? queryParams})async {
 
     try {
-      var request = await client.getUrl(Uri(host: host,port: port,path: path,queryParameters:queryParams));
+      var request = await client.getUrl(Uri(host: host,port: port,path: '/api/$path',queryParameters:queryParams,scheme: "http"));
       if(token!=null) {
         request.headers.add("Authorization", "Bearer $token");
       }
       var response = await request.close();
       return response;
     } catch (e, s) {
-      throw s;
+      log(e.toString(),time:DateTime.now(),stackTrace: s);
+      // throw s;
+      return null;
     }
     finally{
       debugPrint('get end....');

@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:xideng_flutter/styles/main_style.dart';
 
@@ -11,7 +12,12 @@ extension ContextExtension on BuildContext {
   Future<bool?> showMsg(
     String content, {
     String title = '提示',
-    List<Widget> actions = const [BoolTextButton(text: '好的',result: false,)],
+    List<Widget> actions = const [
+      BoolTextButton(
+        text: '好的',
+        result: false,
+      )
+    ],
   }) {
     return showDialog<bool>(
         context: this,
@@ -33,13 +39,52 @@ extension ContextExtension on BuildContext {
     );
   }
 
-  void closeLoading()async{
-    if(_LoadingDialogState.isShown){
+  Future<String?> showSelectionDialog(String title, List<String> items) async {
+    return await showDialog<String>(
+        context: this,
+        builder: (dialogContext) {
+          return AlertDialog(
+            title: Text(title),
+            content: ConstrainedBox(
+              constraints: BoxConstraints(
+                maxHeight: 300
+              ),
+
+
+              child: ListView(
+                shrinkWrap: true,
+                children: [
+                  for (var item in items)
+                    InkWell(
+                      child: Padding(
+                        padding: EdgeInsets.all(10),
+                        child: Text(item),
+                      ),
+                      onTap: () {
+                        Navigator.of(dialogContext).pop(item);
+                      },
+                    )
+                ],
+              ),
+            ),
+            actions: const [DialogResultButton(result: "")],
+          );
+        });
+  }
+
+  void closeLoading() async {
+    if (_LoadingDialogState.isShown) {
       Navigator.of(this).pop();
     }
   }
 
   showSnackBar(String msg) {
-    ScaffoldMessenger.of(this).showSnackBar(SnackBar(content: Text(msg,style: TextStyle(color: Theme.of(this).textTheme.bodyText1?.color),),backgroundColor: Theme.of(this).backgroundColor,));
+    ScaffoldMessenger.of(this).showSnackBar(SnackBar(
+      content: Text(
+        msg,
+        style: TextStyle(color: Theme.of(this).textTheme.bodyText1?.color),
+      ),
+      backgroundColor: Theme.of(this).backgroundColor,
+    ));
   }
 }

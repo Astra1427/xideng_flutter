@@ -20,6 +20,21 @@ class BoolTextButton extends StatelessWidget {
     );
   }
 }
+class DialogResultButton extends StatelessWidget {
+  const DialogResultButton({Key? key ,required this.result, this.text = '取消'}) : super(key: key);
+  final String text;
+  final dynamic result;
+  @override
+  Widget build(BuildContext context) {
+    return  TextButton(
+      onPressed: () {
+        Navigator.of(context).pop(result);
+      },
+      child: Text(text),
+    );
+  }
+}
+
 
 class LoadingDialog extends StatefulWidget {
   const LoadingDialog(
@@ -86,5 +101,20 @@ class _LoadingDialogState extends State<LoadingDialog> {
             ),
           ),
         ));
+  }
+}
+
+
+class XiDengLogo extends StatelessWidget {
+  const XiDengLogo({Key? key,this.width,this.height}) : super(key: key);
+  final double? width;
+  final double? height;
+  @override
+  Widget build(BuildContext context) {
+    return Image(
+      image: const AssetImage('images/xd_logo_02.png'),
+      height: height,
+      width: width,
+    );
   }
 }

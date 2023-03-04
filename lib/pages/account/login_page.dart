@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:xideng_flutter/common/extensions/string_extension.dart';
 import 'package:xideng_flutter/common/utils.dart';
 import 'package:xideng_flutter/models/account/account_dto.dart';
+import 'package:xideng_flutter/models/account/register.dart';
 import 'package:xideng_flutter/providers/account_provider.dart';
 import 'package:xideng_flutter/providers/theme_provider.dart';
 import 'package:xideng_flutter/services/service_response.dart';
@@ -19,6 +20,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  var txtUserNameController = TextEditingController();
   var txtEmailController = TextEditingController(text: '1427917847@qq.com');
   var txtPasswordController = TextEditingController();
   var txtConfirmPasswordController = TextEditingController();
@@ -41,23 +43,24 @@ class _LoginPageState extends State<LoginPage> {
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       setState(() {
         currentThemeModel =
-            Provider.of<AppThemeProvider>(context, listen: false)
+            Provider
+                .of<AppThemeProvider>(context, listen: false)
                 .currentThemeMode;
       });
     });
-    sendSecondCountDownTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
-      debugPrint((lastSendSecond > 0).toString());
+    sendSecondCountDownTimer =
+        Timer.periodic(const Duration(seconds: 1), (timer) {
+          debugPrint((lastSendSecond > 0).toString());
 
-      setState(() {
-        if(lastSendSecond > 0){
-
-          lastSendSecond --;
-          sendVerifyCodeButtonText = '$lastSendSecond秒后可发送验证码';
-        }else{
-          sendVerifyCodeButtonText = '发送验证码';
-        }
-      });
-    });
+          setState(() {
+            if (lastSendSecond > 0) {
+              lastSendSecond --;
+              sendVerifyCodeButtonText = '$lastSendSecond秒后可发送验证码';
+            } else {
+              sendVerifyCodeButtonText = '发送验证码';
+            }
+          });
+        });
   }
 
   @override
@@ -65,6 +68,7 @@ class _LoginPageState extends State<LoginPage> {
     // TODO: implement dispose
     super.dispose();
 
+    txtUserNameController.dispose();
     txtEmailController.dispose();
     txtPasswordController.dispose();
     txtConfirmPasswordController.dispose();
@@ -81,8 +85,16 @@ class _LoginPageState extends State<LoginPage> {
         child: ListView(
           children: [
             //logo
-            buildLogo(),
+            const XiDengLogo(height: 100),
             const SizedBox(height: 30),
+            if(isRegisterPage) Column(
+              children: [
+                buildOutlinedTextField(labelText: '用户名',
+                    controller: txtUserNameController,
+                    textInputAction: TextInputAction.next),
+                SizedBox(height: columnSpacer)
+              ],
+            ),
             buildEmailField(),
             SizedBox(height: columnSpacer),
             buildPasswordField(controller: txtPasswordController, label: '密码'),
@@ -116,12 +128,7 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  Image buildLogo() {
-    return const Image(
-      image: AssetImage('images/xd_logo_02.png'),
-      height: 128,
-    );
-  }
+
 
   Widget buildEmailField() {
     return buildOutlinedTextField(
@@ -140,6 +147,7 @@ class _LoginPageState extends State<LoginPage> {
         labelText: label,
       ),
       obscureText: true,
+      textInputAction: TextInputAction.next,
     );
   }
 
@@ -178,12 +186,11 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  Widget buildOutlinedTextField(
-      {TextEditingController? controller,
-      String? labelText,
-      TextInputType? keyboardType,
-      TextInputAction? textInputAction,
-      Widget? suffix}) {
+  Widget buildOutlinedTextField({TextEditingController? controller,
+    String? labelText,
+    TextInputType? keyboardType,
+    TextInputAction? textInputAction,
+    Widget? suffix}) {
     return TextField(
       controller: controller,
       decoration: InputDecoration(
@@ -233,6 +240,7 @@ class _LoginPageState extends State<LoginPage> {
       }
       Provider.of<AccountProvider>(context, listen: false)
           .setCurrentUser(result.dataModel!);
+
       context.showSnackBar('登录成功！');
       Navigator.pop(context);
     } else {
@@ -245,9 +253,9 @@ class _LoginPageState extends State<LoginPage> {
       context.showSnackBar('请输入正确邮箱地址');
       return;
     }
-    if(lastSendSecond > 0){
+    if (lastSendSecond > 0) {
       context.showSnackBar('请等待$lastSendSecond秒后再尝试发送验证码');
-      return ;
+      return;
     }
 
     context.showLoading('发送中...');
@@ -261,11 +269,13 @@ class _LoginPageState extends State<LoginPage> {
     if (!mounted) return;
     context.closeLoading();
     context.showSnackBar(result.msg);
-
   }
 
-  void register() {
-
+  void register() async{
+    if(txtUserNameController.text.isEmpty){
+      context.showSnackBar('请输入用户名');
+      return;
+    }
     if (txtEmailController.text.isEmpty || txtPasswordController.text.isEmpty) {
       context.showSnackBar('请输入邮箱和密码');
       return;
@@ -274,16 +284,25 @@ class _LoginPageState extends State<LoginPage> {
       context.showSnackBar('请输入正确邮箱地址');
       return;
     }
-    if(txtConfirmPasswordController.text.isEmpty){
+    if (txtConfirmPasswordController.text.isEmpty) {
       context.showSnackBar('请输入确认密码');
       return;
     }
-    if(txtVerifyCodeController.text.isEmpty){
+    if (txtVerifyCodeController.text.isEmpty) {
       context.showSnackBar('请输入验证码');
       return;
     }
 
     //register
+    var result = await accountService.register(RegisterRequestBody(
+        name: txtUserNameController.text,
+        email: txtEmailController.text,
+        password: txtPasswordController.text,
+        confirmPassword: txtConfirmPasswordController.text,
+        registerCode: txtVerifyCodeController.text));
 
+    if(!mounted) return;
+
+    context.showSnackBar(result.msg);
   }
 }
