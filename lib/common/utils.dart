@@ -1,12 +1,15 @@
 
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xideng_flutter/styles/main_style.dart';
 
 import '../services/service_response.dart';
 
 part 'common_components.dart';
 
-class Util {}
+class Util {
+
+}
 
 extension ContextExtension on BuildContext {
   Future<bool?> showMsg(
@@ -86,5 +89,9 @@ extension ContextExtension on BuildContext {
       ),
       backgroundColor: Theme.of(this).backgroundColor,
     ));
+  }
+
+  showOverlayDialog(){
+
   }
 }

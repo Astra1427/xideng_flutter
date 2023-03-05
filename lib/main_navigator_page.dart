@@ -1,8 +1,16 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:xideng_flutter/common/extensions/string_extension.dart';
+import 'package:xideng_flutter/common/utils.dart';
 import 'package:xideng_flutter/models/account/account_dto.dart';
+import 'package:xideng_flutter/models/skill/skill_dto.dart';
 import 'package:xideng_flutter/pages/public_plan_page.dart';
 import 'package:xideng_flutter/providers/account_provider.dart';
+import 'package:xideng_flutter/providers/app_config_provider.dart';
+import 'package:xideng_flutter/providers/skills_provider.dart';
+import 'package:xideng_flutter/services/skill_services.dart';
 
 import 'pages/home_page.dart';
 import 'pages/my_page.dart';
@@ -20,9 +28,10 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp){
       debugPrint('main navigator page addPostFrameCallback...');
       Provider.of<AccountProvider>(context,listen: false).loadSavedUserInfo();
+
     });
   }
 
