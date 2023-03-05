@@ -1,0 +1,2708 @@
+[
+  {
+    "id": "0750db49-7017-4d73-974f-95b0c4a067d5",
+    "name": "俯卧撑",
+    "description": "铠甲般的胸肌与钢铁般的肱三头肌",
+    "imgUrl": "series1",
+    "ownerId": "c37ab71c-7a4a-47a1-80e7-e408de3c196d",
+    "createTime": "2022-03-03T16:25:08.393818",
+    "orderNumber": 1,
+    "skillStyles": [
+      {
+        "id": "bed696a1-12e7-4689-b116-0a7d94f24914",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "墙壁式",
+        "img1Url": "Skill_1_Style_1_1",
+        "img2Url": "Skill_1_Style_1_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=2&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "面对墙壁站立，双脚并拢，双臂伸直，与肩同宽，双手平放在墙上，手掌与胸等高。这是该动作的起始姿势。弯曲肘部，直到前额轻触墙面。这是该动作的结束姿势。然后将自己推回到起始姿势，如此重复。",
+        "analysis": "俯卧撑动作共有十式，墙壁俯卧撑只是第一式。既然是第一式，也就最容易的，毫无疑问普通人都能做。墙壁俯卧撑也是第一个有治疗效果的练习。刚受伤、做过手术或身体正处于恢复期的人若想加快恢复速度、尽快拥有强健的体魄，可以选择这个动作。肘、腕、肩（尤其是柔弱的肩袖）极易出现慢性或急性损伤，这项练习能够轻柔地刺激这些部位，并改善血液循环。不熟悉徒手体操的初学者应该以较轻柔的动作开始训练，然后逐步提高自己的运动技巧，循序渐进地增强自己的运动能力。我建议就从这个练习动作开始。",
+        "slowSteady": "只要身体没有残疾、没有严重的伤病或疾病，一般人应该都能完成这个动作。如果你刚好处于伤病或手术的恢复期，那么这个动作就是很好的“测试”，能让你了解自己的身体在恢复期的弱点。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 1,
+        "standards": [
+          {
+            "id": "2ec3ba03-87ef-47dd-8b5c-bbf450f0fde9",
+            "styleId": "bed696a1-12e7-4689-b116-0a7d94f24914",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "7bff18db-b46d-47b2-ba81-a56488c5d33e",
+            "styleId": "bed696a1-12e7-4689-b116-0a7d94f24914",
+            "groupNumber": 2,
+            "number": 25,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "85873c98-b0c9-415c-96ad-9c2848ac6320",
+            "styleId": "bed696a1-12e7-4689-b116-0a7d94f24914",
+            "groupNumber": 3,
+            "number": 50,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "61e468ae-5516-4221-bb0b-0eb6311b5f1d",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "上斜式",
+        "img1Url": "Skill_1_Style_2_1",
+        "img2Url": "Skill_1_Style_2_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=3&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "做这个动作需要借助一个稳固的物体，高度大约是你身高的一半（大概到臀部位置）。桌子、高一些的椅子、工作台、厨房操作台、矮墙、结实的栅栏都是不错的选择。大多数监狱牢房里的洗漱台高度就正好，不过你得保证它足够结实。双脚并拢，身体成一条直线，然后前倾上身，双臂伸直，双手抓住所选物体，与肩同宽。这是该动作的起始姿势。弯曲肘部，放低身体，直到胸部轻触物体顶部。如果你选择的物体高度合适，那么此时你的身体与地面的夹角约为 45°。暂停一会，然后将自己推回到起始姿势，如此重复。",
+        "analysis": "这个动作的难度比第一式（墙壁俯卧撑）高，因为你将自己推回到起始姿势时，身体与地面的夹角更小，这意味着你的上肢肌肉要承受更大的重量。上斜俯卧撑比标准俯卧撑（第五式）容易，对大多数人来说，这个动作对肌肉的要求并不太高，而且它能帮助初学者平稳进步，对康复期的健身者也非常有帮助。",
+        "slowSteady": "到达动作的最低点时，你的身体与地面的夹角约为 45°。初学者如果达不到这么高的水平，那就降低难度（加大倾斜角度，也就是让身体更接近直立）——只要选择高度高于你身体中间点的物体即可。然后，再逐渐减小角度，直到可以轻而易举地完成倾斜 45°的上斜俯卧撑。如果你还想尝试更小的角度，可以利用台阶做此动作——随着能力的提高，你可以逐渐降低支撑物的高度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 2,
+        "standards": [
+          {
+            "id": "6d3189df-e80b-44b8-8bd5-9e7f177fef06",
+            "styleId": "61e468ae-5516-4221-bb0b-0eb6311b5f1d",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "a7e1f9c8-34d7-4d9d-a6ed-c901ba95d5ec",
+            "styleId": "61e468ae-5516-4221-bb0b-0eb6311b5f1d",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "d1cd10f6-28a1-4932-9250-e96883af143e",
+            "styleId": "61e468ae-5516-4221-bb0b-0eb6311b5f1d",
+            "groupNumber": 3,
+            "number": 40,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "3728490f-943a-4256-b4bb-b1b00c0bd2e0",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "膝盖式",
+        "img1Url": "Skill_1_Style_3_1",
+        "img2Url": "Skill_1_Style_3_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=4&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "双脚并拢，双膝着地。双臂伸直，与肩同宽。双手在胸部的正下方，两个手掌平放在地面上。脚踝搭在一起，大腿与上身及头部成一条直线，不要撅屁股或者塌腰。这是该动作的起始姿势。然后以膝盖为支点，弯曲肘部，直到胸部与地面仅一拳之隔。暂停一下，然后将自己推回到起始姿势，如此重复。",
+        "analysis": "膝盖俯卧撑是俯卧撑系列的第三式，是初学者要掌握的重要动作。它是在地面上做的俯卧撑中最容易的一个，起着承前启后的作用—此前的俯卧撑都是站立完成的，后面的俯卧撑全是地面动作，而且难度更高。女士们经常会做膝盖俯卧撑，因为她们的上肢力量相对较弱，不易完成标准俯卧撑，不过这个动作对男士也大有好处。对那些超重或身材走形的人来说，膝盖俯卧撑是不错的起点。因为采用这样的姿势推起上半身相对容易，所以在开始做更难的俯卧撑之前，膝盖俯卧撑是绝佳的热身练习。",
+        "slowSteady": "如果你不能完成标准的膝盖俯卧撑，可以减小动作幅度—不要降低到离地面一拳的距离，而是把动作幅度缩短到你能舒服地完成的程度，同时增加次数（约 20 次）。你要不断练习（保持高反复次数），逐渐增加动作深度，直至可以完成标准的膝盖俯卧撑。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 3,
+        "standards": [
+          {
+            "id": "aae3aed0-0e72-4e6d-86c0-f29e66d5580c",
+            "styleId": "3728490f-943a-4256-b4bb-b1b00c0bd2e0",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "aeb54d8c-49e2-4310-b415-07266a6283dd",
+            "styleId": "3728490f-943a-4256-b4bb-b1b00c0bd2e0",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "b28d211d-9b10-46b5-9680-1eb7979b6c70",
+            "styleId": "3728490f-943a-4256-b4bb-b1b00c0bd2e0",
+            "groupNumber": 3,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "9601d84b-10d0-4309-b0f8-b2bf831a6e2c",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "半俯式",
+        "img1Url": "Skill_1_Style_4_1",
+        "img2Url": "Skill_1_Style_4_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=5&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "跪在地板上，双手撑地，双腿向后蹬直。双手与肩同宽，并处于上胸部的正下方。双腿双脚并拢，锁紧身体，使上身、髋部和双腿成一条直线。先伸直手臂，然后降低身体到大约一半臂长的高度，或者直到肘部弯成直角。控制下降高度的绝佳方式就是使用篮球或橄榄球——将球放在髋部下方。这是该动作的起始姿势。接下来，弯曲肘部，直到髋部与球轻轻接触。对大多数人来说，这样可以方便且客观地标示这个动作的最低点。暂停一下，然后用力将自己推回到起始姿势。",
+        "analysis": "半俯卧撑非常重要，要熟练掌握。很多人做俯卧撑的方法都不正确—撅屁股或者塌腰，这是因为他们的腰部肌肉和脊椎肌肉不发达。这个动作可以锻炼你的腰部肌肉和脊椎肌肉，从而能够锁定 a 部，使身体成一条直线。",
+        "slowSteady": "如果你做不了半俯卧撑，可以减小动作幅度。如果你选用的是篮球，那就将其放在膝盖下，而不是髋部下方。伸直手臂，然后慢慢降低身体，直到膝盖与球接触，这相当于四分之一俯卧撑。如果你能做 10 次以上四分之一俯卧撑，那就可以把篮球向上移一点儿，就这样逐步移动篮球，直到其位于髋部下方为止。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 4,
+        "standards": [
+          {
+            "id": "80cae4ea-614b-42ca-898e-f5d497352a67",
+            "styleId": "9601d84b-10d0-4309-b0f8-b2bf831a6e2c",
+            "groupNumber": 1,
+            "number": 8,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "914ef009-2ac7-434b-8b04-d7af4f22510a",
+            "styleId": "9601d84b-10d0-4309-b0f8-b2bf831a6e2c",
+            "groupNumber": 2,
+            "number": 12,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "87c819e0-4d3d-411e-9b92-e57cba6e8aae",
+            "styleId": "9601d84b-10d0-4309-b0f8-b2bf831a6e2c",
+            "groupNumber": 3,
+            "number": 25,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "d347ba92-ec50-4351-9f38-2efefda85498",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "标准式",
+        "img1Url": "Skill_1_Style_5_1",
+        "img2Url": "Skill_1_Style_5_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=6&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "跪在地板上，双手撑地，双腿向后蹬直。双腿双脚并拢，双手与肩同宽，并处于上胸部的正下方。双臂伸直，臀部与脊椎成一条直线。这是该动作的起始姿势。接着，弯曲肘部，直至胸部与地面仅一拳之隔。监狱里进行俯卧撑比赛时，计数者会握拳，让小拇指一侧紧贴地面，这样只需数参赛者胸部接触自己大拇指的次数即可。若你是单独锻炼，又想控制动作幅度，并想让身体与地面保持正确距离，可以在胸部正下方放一个棒球或网球。你在做动作的过程中，待胸部碰到球后暂停一下，然后回到起始姿势。",
+        "analysis": "这就是“经典”俯卧撑。大多数人在体育课上学到的就是这个动作。说到俯卧撑，大多数人脑海中浮现的也是这个动作。标准俯卧撑是极好的上身练习动作，可以锻炼我们的手臂、胸部和上肢带肌，而且效果明显。然而无论如何，标准俯卧撑的难度并不是最高的，它在十式中只排第五。",
+        "slowSteady": "你可能感到费解，很多看上去很健硕的家伙都不能正确地完成标准俯卧撑。如果你也一样，那还是找个篮球做半俯卧撑吧！如果你已能很好地完成第四式—当球放在髋部下面时，你能重复此动作 25 次，那么每次训练时你可以把球向前移动几厘米，在次数保持不变的情况下继续练习。当你的下-61 能碰到球时，你再尝试做标准俯卧撑。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 5,
+        "standards": [
+          {
+            "id": "764b13c3-b0f6-466a-9db9-85f05b48a1b8",
+            "styleId": "d347ba92-ec50-4351-9f38-2efefda85498",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "73fda27c-d148-4186-980a-90795850ce21",
+            "styleId": "d347ba92-ec50-4351-9f38-2efefda85498",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "50890dd8-682f-41eb-83f0-23e3fccaa934",
+            "styleId": "d347ba92-ec50-4351-9f38-2efefda85498",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "bbcc11f1-1552-40f2-bbb8-45d7204a0b4d",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "窄距式",
+        "img1Url": "Skill_1_Style_6_1",
+        "img2Url": "Skill_1_Style_6_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=7&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "窄距俯卧撑的起始姿势与标准俯卧撑基本相同（见第五式），只不过需要双手相触——无需重叠，也不需要让双手的拇指与食指构成一个“钻石”，只要两个食指指尖相触就可以了。从手臂伸直的起始姿势开始，慢慢放低身体，直到胸部轻触手背。暂停一下，然后将自己推回到起始姿势。",
+        "analysis": "窄距俯卧撑很古老，它在俯卧撑十式中至关重要，但人们通常更喜欢弹震式俯卧撑或下斜俯卧撑这些花哨的动作，而忽略窄距俯卧撑。这简直是悲剧，因为窄距俯卧撑在攻克单臂俯卧撑之旅中必不可少。大多数人做单臂俯卧撑都会感到吃力，他们会发现很难在身体降到最低点之后再把自己推起来。这是因为此时肘部的弯曲程度最大，而肘部的弯曲角度超过直角时胳膊就很难使上力气。做窄距俯卧撑时，由于双手的特殊位置，当你的身体降到最低点时，肘部的弯曲度比做标准俯卧撑时的更大。这个动作可以锻炼三头肌，并且强化你的肘部与腕部的肌腱。因此，能舒服地做窄距俯卧撑的人在终于要挑战单臂俯卧撑的时候，会更从容一些。",
+        "slowSteady": "如果你做不了双手相触的窄距俯卧撑（如上所述），可以继续做标准俯卧撑，在次数不变的前提下，让双手逐渐靠近，每次靠近几厘米。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 6,
+        "standards": [
+          {
+            "id": "d0c5a099-10c3-4e5f-a3cf-18f63b248872",
+            "styleId": "bbcc11f1-1552-40f2-bbb8-45d7204a0b4d",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "d1660479-7a67-4dba-8a38-dbda98c30b4a",
+            "styleId": "bbcc11f1-1552-40f2-bbb8-45d7204a0b4d",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "e2b27d00-e0ea-4a60-be46-5cfe019cd837",
+            "styleId": "bbcc11f1-1552-40f2-bbb8-45d7204a0b4d",
+            "groupNumber": 3,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "84a07610-3aeb-41b9-82e0-059d29475194",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "偏重式",
+        "img1Url": "Skill_1_Style_7_1",
+        "img2Url": "Skill_1_Style_7_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=8&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "双脚并拢，双腿、髋部、上身成一条直线。双臂伸直，双手撑地，并处于上胸部的正下方。一只手稳固地支撑身体，另一只手撑在篮球上，这是该动作的起始姿势。找到平衡之后，尽力将身体的重量均匀地分摊在两只手上。这样做虽然不容易，但一定要坚持。接下来，弯曲肘部，慢慢降低身体，直到胸部轻触撑在篮球上的那只手。暂停一下，然后将自己推回到起始姿势。",
+        "analysis": "这是第一个高级俯卧撑动作，它能够帮助健身者适应由双手俯卧撑向单臂俯卧撑的过渡。你也可以选用一个固定的物体（如砖块），而不用篮球，不过篮球是最好的选择。控制篮球的同时可以锻炼你的肩袖，这有助于你完成难度更高的动作。你还可以选用足球，但篮球还是首选，因为篮球表面粗糙更容易抓握。",
+        "slowSteady": "能正确地完成窄距俯卧撑的人都可以信心十足地尝试这个动作。如果刚开始你觉得有些困难，那是因为你的协调性不好，而不是力量不足。你可以用固定的物体，而不用会滚来滚去的篮球。砖块是个不错的选择，等你可以在一块砖上重复此动作 20 次之后，你就可以尝试将两块砖探起来做这个动作。在你可以在三块垒起的砖上重复此动作 20 次之后，你就可以尝试用篮球练习了。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 7,
+        "standards": [
+          {
+            "id": "7ce251c6-be2d-4041-9260-f124d26513f7",
+            "styleId": "84a07610-3aeb-41b9-82e0-059d29475194",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "ace91714-9c38-4cc3-bee5-3d142fd6d6e9",
+            "styleId": "84a07610-3aeb-41b9-82e0-059d29475194",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "6cc9b1e2-e14d-4ad0-afee-dea4287a4a73",
+            "styleId": "84a07610-3aeb-41b9-82e0-059d29475194",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "7187a765-d600-4bc0-b35e-f4906b34b3a3",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "单臂半式",
+        "img1Url": "Skill_1_Style_8_1",
+        "img2Url": "Skill_1_Style_8_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=9&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "摆出半俯卧撑最高点时的姿势，即将篮球放在髋部下方（见第四式）。将一只手撑在胸部下方的地面上，手臂伸直，另一只手背在身后。这是该动作的起始姿势。接着弯曲肘部，直到髋部轻触篮球。这是该动作的最低点。暂停一下，然后将自己推回到起始姿势。如果你的肱三头肌不够发达，那做该动作时上身很容易发生扭曲。坚持住，整个身体保持一条直线，做所有俯卧撑都应如此。",
+        "analysis": "单臂半俯卧撑是俯卧撑系列的第八式。通过这个练习，训练者可以逐步从双侧练习转为单侧练习。该动作可以提高你的平衡能力，而这对做单臂俯卧撑极其重要。因为只靠单臂发力，所以这个动作也会让手部、腕部和肩部关节为之后的动作做好准备。单臂半俯卧撑在这个系列中不可或缺，你必须掌握。不过由于肘关节只是部分弯曲，所以对一次完整的俯卧撑训练来说，只做这样的练习是不够的。你需要再做一些肘部弯曲角度小于 90°的练习来补充，比如在之后加上窄距俯卧撑或偏重俯卧撑。",
+        "slowSteady": "如果做不了单臂半俯卧撑，你可以把篮球放在膝下，做四分之一单臂俯卧撑。练习一段时间之后，就一点点向前移动篮球，加大动作幅度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 8,
+        "standards": [
+          {
+            "id": "b08a1a95-4dc5-4a0d-a9ca-524f4daa2779",
+            "styleId": "7187a765-d600-4bc0-b35e-f4906b34b3a3",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "e934aadd-d87e-4c49-911b-649cc58dda09",
+            "styleId": "7187a765-d600-4bc0-b35e-f4906b34b3a3",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "c1c3b19a-fd8c-41ba-8e3b-28b9432ba039",
+            "styleId": "7187a765-d600-4bc0-b35e-f4906b34b3a3",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "d0a37a98-e29d-49ef-93bc-b31de7375630",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "杠杆式",
+        "img1Url": "Skill_1_Style_9_1",
+        "img2Url": "Skill_1_Style_9_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=10&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "摆出做俯卧撑的姿势，身体成一条直线，一只手撑在胸部正下方的地面上，另一只手放在身体外侧的篮球上，靠双脚和撑在地上的那只手支撑身体。双臂伸直，放在球上的手要尽量向远处伸。这是该动作的起始姿势（图 17）。要有控制地慢慢放低身体，直到胸部与地面只有一拳之隔。如果你是独自锻炼，可以像做标准俯卧撑那样，借助棒球或网球控制动作幅度。放低身体时手会顺势把篮球推到远离身体的位置（图 18）。身体降至最低点时，暂停一下，然后将自己推回到起始姿势。",
+        "analysis": "标准杠杆俯卧撑的难度与单臂俯卧撑相差无几，这也正是杠杆俯卧撑在俯卧撑十式中排在第九的原因。你会发现，撑在篮球上的那只手臂几乎帮不上什么忙，这就迫使支撑身体的手臂必须使出全力。如果你还没强大到足以在做单臂俯卧撑时把自己撑起，那你可以先练习杠杆俯卧撑。",
+        "slowSteady": "由于杠杆原理，撑在篮球上的那只手臂如果完全伸直的话就很难用力。你可以让这只手臂的肘部稍稍弯曲，从而让篮球离你的身体近一点儿，这样做杠杆俯卧撑会容易一些。不过不要太过，要是你把篮球放在身体正下方，那这个动作就变成了第七式—偏重俯卧撑。随着你越来越强壮，你可以逐渐让球远离身体，直到可以将手臂伸直做标准的杠杆俯卧撑。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 9,
+        "standards": [
+          {
+            "id": "dfbb0d56-0893-4b53-bd93-320c53b87596",
+            "styleId": "d0a37a98-e29d-49ef-93bc-b31de7375630",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "f5c286ff-3e99-4c2c-a21c-c7adc029f033",
+            "styleId": "d0a37a98-e29d-49ef-93bc-b31de7375630",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "dc602067-37ef-4dbf-8941-672c34f55c13",
+            "styleId": "d0a37a98-e29d-49ef-93bc-b31de7375630",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "3a6d1dfa-bd31-41dd-aa7a-b34b49aa2991",
+        "skillId": "0750db49-7017-4d73-974f-95b0c4a067d5",
+        "name": "单臂式",
+        "img1Url": "Skill_1_Style_10_1",
+        "img2Url": "Skill_1_Style_10_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=11&share_source=copy_web",
+        "traningPart": "胸肌、肱三头肌",
+        "actionDescription": "跪在地板上，一只手撑在你前方的地面上。双腿向后蹬直，用脚趾支撑身体。脊柱与髋部成一条直线，支撑身体的手臂在胸部下方伸直——不要在身体侧面或是靠前的位置。稳定之后，把不起支撑作用的那只手背在身后。这是该动作的起始姿势（图 19）。弯曲肘部，有控制地放低身体，直到下巴与地面大约有一拳之隔（图 20）。在动作的最低点暂停一下，然后将自己推回到起始姿势。",
+        "analysis": "姿势正确的单臂俯卧撑是检验胸部与肘部力量的黄金标准，而且能够让人一见难忘。许多健身者都声称自己能做单臂俯卧撑，但你千万不要被他们蒙骗。当你让他们动真格的时候，你就会发现，他们所谓的单臂俯卧撑就是个笑话：双腿朝两边分开，上身丑陋地扭曲——这是为了更容易做动作，然后他们会用摇摇摆摆、虚弱无力的胳膊猛地将自己推起，而且他们只能完成少数几次反复。毫无疑问，真正能做单臂俯卧撑的人可谓是危险的稀有动物，你要对自己有点儿信心，相信自己也能跻身其间。",
+        "slowSteady": "如果你已经攻克了杠杆俯卧撑，那么单臂俯卧撑对你而言就不是特别恐怖了。但是，如果你还不能标准地完成 5 次单臂俯卧撑，那么你还是回到第九式，确保自己可以标准地完成20 次杠杆俯卧撑。如果你能做到这一点，但做单臂俯卧撑还是有问题，那么请你继续练习杠杆俯卧撑，直到你可以完成 30 次反复，然后再挑战单臂俯卧撑。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 10,
+        "standards": [
+          {
+            "id": "f0c6122f-8182-447e-89b2-ae9c99093320",
+            "styleId": "3a6d1dfa-bd31-41dd-aa7a-b34b49aa2991",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "4a01cc56-679e-4f11-a743-e5ac482cc3b1",
+            "styleId": "3a6d1dfa-bd31-41dd-aa7a-b34b49aa2991",
+            "groupNumber": 6,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "db0e5eec-d2b2-48d4-81f5-c03cb969e4f8",
+            "styleId": "3a6d1dfa-bd31-41dd-aa7a-b34b49aa2991",
+            "groupNumber": 1,
+            "number": 100,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "俯卧撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      }
+    ]
+  },
+  {
+    "id": "8a3a2575-5543-4799-a94b-a3af48741c89",
+    "name": "深蹲",
+    "description": "升降机般的大腿",
+    "imgUrl": "series2",
+    "ownerId": "c37ab71c-7a4a-47a1-80e7-e408de3c196d",
+    "createTime": "2022-03-03T16:25:08.393818",
+    "orderNumber": 2,
+    "skillStyles": [
+      {
+        "id": "be44f0ef-9fb0-4042-b50f-1c8f3e1a605e",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "肩倒立式",
+        "img1Url": "Skill_2_Style_1_1",
+        "img2Url": "Skill_2_Style_1_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=31&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "平躺，双膝弯曲，双手下压。双脚蹬离地面，直到举到空中。在将双腿举起的过程中，顺势把双手撑在下背部，注意上臂要紧贴地面。你现在摆出的姿势是肩倒立—靠双肩、上背部以及上臂支撑身体。要记住，始终用这几个部位支撑身体，不要让颈部受到压力。身体要锁定伸直，髋部不要弯曲。这是该动作的起始姿势（图 21）。上半身要尽可能伸直，弯曲髋部与膝关节，直到膝盖轻触前额，这是该动作的结束姿势（图 22）。然后伸直双腿，直到身体回到起始姿势，如此重复。",
+        "analysis": "对任何开始练习深蹲的人来说，肩倒立深蹲都是完美的起点。由于做该动作时身体处于倒立姿势，所以膝盖和下背部无需承受身体的重量，这就使得该动作成为一个理想的恢复性训练动作—可以帮助那些背部和膝盖有伤的健身者，或是刚做完手术正处于恢复期的健身者重新开始腿部训练。从力量角度来说，做肩倒立其实对健身者上身的要求更高。但是这一动作能让紧绷的关节放松，增加关节的活动幅度，从而能让初学者为练就完美的深蹲打下基础。",
+        "slowSteady": "第一次尝试该动作时，不是人人都能做到膝盖轻触前额。你可以在每次锻炼时试着加大动作幅度，这样你的关节很快就会得到放松。另外，有啤酒肚的人几乎无法完成这个动作，因为他的大肚子会碍事。对这类人来说，坚持空腹练习会好一些——直到他们减掉肚子上的赘肉。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 1,
+        "standards": [
+          {
+            "id": "3962491a-8226-4ec3-adba-29eddb786595",
+            "styleId": "be44f0ef-9fb0-4042-b50f-1c8f3e1a605e",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "f19acc78-a810-4332-96f6-980757120542",
+            "styleId": "be44f0ef-9fb0-4042-b50f-1c8f3e1a605e",
+            "groupNumber": 2,
+            "number": 25,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "eb215bd0-7f4f-494c-b3ae-9956f877253c",
+            "styleId": "be44f0ef-9fb0-4042-b50f-1c8f3e1a605e",
+            "groupNumber": 3,
+            "number": 50,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "f3415270-23a3-41a0-820d-884cff51b237",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "折刀式",
+        "img1Url": "Skill_2_Style_2_1",
+        "img2Url": "Skill_2_Style_2_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=32&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "站在一个稳固的物体前，此物体的高度大约与你的膝盖等高，至少也要达到胫骨上部，小咖啡桌、椅子、床铺都是不错的选择。双腿分开，与肩同宽或略宽。双腿伸直，弯腰俯身，直到双手与面前的物体接触。身体前倾，使一部分体重落在双手上。这是该动作的起始姿势（图23）。上半身尽量与地面平行，弯曲膝关节和髋部，直到大腿后侧紧贴小腿，无法蹲得更低为止。这是该动作的最低点（图24）。下蹲过程中你还需要弯曲双臂，在下降到最低点后腿部与手臂要同时发力，将身体推回到起始姿势。在整个动作过程中，脚跟始终不能抬离地面。",
+        "analysis": "做折刀深蹲时上半身前倾，并不直接位于双腿上方，因此两条手臂会承担一部分体重。该动作的难度大约只有标准深蹲（第五式）的一半，但这是能帮助下身肌肉与肌腱为之后的动作做准备的最佳动作。只要正确练习，这个动作就能让初级健身者拥有足够的平衡能力和跟腱的柔韧性，来征服标准深蹲中的最低点。",
+        "slowSteady": "下降到最低点时该动作的难度最大，因为此时下肢需要承担身体的大部分重量。如果你觉得动作有难度，那就逐步加大动作幅度来慢慢适应。还有一种方法就是让双臂分担更多的身体重量，这样能够帮助你从最低点站起来。等腿部更强壮之后，你就可以试着减少双臂的用力，更多地依赖双腿。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 2,
+        "standards": [
+          {
+            "id": "884210c2-e944-4d5b-b25d-f0bc346909a8",
+            "styleId": "f3415270-23a3-41a0-820d-884cff51b237",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "c74cc877-8098-4dea-a274-c270ae5306da",
+            "styleId": "f3415270-23a3-41a0-820d-884cff51b237",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "66c017de-794e-4772-95ea-505da631ec3c",
+            "styleId": "f3415270-23a3-41a0-820d-884cff51b237",
+            "groupNumber": 3,
+            "number": 40,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "c5fc3493-451a-4c86-a1e6-d57212a1f147",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "支撑式",
+        "img1Url": "Skill_2_Style_3_1",
+        "img2Url": "Skill_2_Style_3_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=33&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "直立，双脚分开，与肩同宽或略宽。手臂向斜下方伸出，双手放在比自己的大腿略高的稳固物体上，书桌、高脚凳或椅背都可以。这是该动作的起始姿势（图25）。弯曲髋部与膝关节，身体慢慢下降，背部尽可能保持挺直，直到大腿后侧紧贴小腿，无法蹲得更低为止，这是该动作的最低点（图26）。暂停一会，然后主要靠腿部发力站起来。为了分担双腿的一部分压力，尤其是在最低点时，你要通过向下按压面前的物体，来借用手臂的一部分力量。手臂要尽量伸直，在整个动作过程中都不要让脚跟抬离地面。",
+        "analysis": "支撑深蹲是半深蹲之前的最后一式。它是折刀深蹲（双腿承受大部分身体重量）与半深蹲（双腿承受全部身体重量）之间理想的过渡动作。支撑深蹲能够进一步加强下肢的柔韧性和力量，锻炼膝盖的肌腿、韧带及软组织。它能让你的深蹲动作更标准，锻炼你仅仅使用肌肉力量而非惯性从最低点推起身体的能力。",
+        "slowSteady": "要想对该练习所需的腿部力量进行微调，方法非常简单。要使该练习对下身来说更容易，只要更多地使用上身的力量即可。随着你在动作最低点时感觉越来越轻松，你可以逐渐减少在起身过程中臂力的使用。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 3,
+        "standards": [
+          {
+            "id": "b00ac6b3-e064-4acf-a6bb-ef0dcb59bfe8",
+            "styleId": "c5fc3493-451a-4c86-a1e6-d57212a1f147",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "a6de68fa-fc9a-4683-bd33-3a54710635d3",
+            "styleId": "c5fc3493-451a-4c86-a1e6-d57212a1f147",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "ff0999e0-f226-48e0-ad74-f6019d7cef7f",
+            "styleId": "c5fc3493-451a-4c86-a1e6-d57212a1f147",
+            "groupNumber": 3,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "c46a8177-c7aa-4ea0-baed-4f04e978ec58",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "半蹲式",
+        "img1Url": "Skill_2_Style_4_1",
+        "img2Url": "Skill_2_Style_4_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=34&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "站立，双脚分开，与肩同宽或略宽。脚尖不要步勃M 前方，而要略微向外。双手放在髋部、胸部、肩部都可以——以舒适为前提。这是该动作的起始姿势（图27）。弯曲髋部和膝盖，直到膝关节弯曲成90°——换句话说就是大腿与地面平行。这是该动作的最低点（图28）。刚开始你可以借助一面镜子或是找朋友帮忙，直到能够自如地控制动作幅度。不要求快，也不要借助惯性起身，而要完全在肌肉控制下做整个动作。在最低点（半空中）坚持1秒钟，然后再回到起始姿势。在整个动作过程中，背部始终要挺直，双脚脚跟始终不能抬离地面。膝盖与脚尖应该始终朝向同一方向，深蹲时膝盖绝不要向内转，脚尖指向外有助于你做到这一点。",
+        "analysis": "在深蹲系列中，半深蹲是双腿在没有任何辅助的情况下承受全部体重的第一式。因此，它应该受到重视。该动作教你在无辅助的情况下保持平衡和身体姿势，这些对于后面的深蹲练习都是必要的。此外，该动作也能够让你了解如何让膝盖与双脚摆出对你来说最适合的姿势。这个动作对大腿而言难度并不大，因此下面给出的训练目标量比正常的量要大。攻克了这个动作之后，你会发现自己髋部和大腿内侧的肌肉变得更强了。",
+        "slowSteady": "如果做不了半深蹲，那就先做四分之一深蹲，每当你感到有余力时，就可以适当加大动作幅度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 4,
+        "standards": [
+          {
+            "id": "e1f82145-4680-411d-92aa-f0e70823c490",
+            "styleId": "c46a8177-c7aa-4ea0-baed-4f04e978ec58",
+            "groupNumber": 1,
+            "number": 8,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "a0fa4c6a-742a-4b77-a505-8042ac9116fb",
+            "styleId": "c46a8177-c7aa-4ea0-baed-4f04e978ec58",
+            "groupNumber": 2,
+            "number": 35,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "a7a7ff04-df2e-488a-9011-128dfd4dc6a8",
+            "styleId": "c46a8177-c7aa-4ea0-baed-4f04e978ec58",
+            "groupNumber": 2,
+            "number": 50,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "4d40bc2b-7886-42c1-90ea-69d7ff6468a8",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "标准式",
+        "img1Url": "Skill_2_Style_5_1",
+        "img2Url": "Skill_2_Style_5_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=35&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "直立，双脚分开，与肩同宽或略宽（取决于个人偏好）。双脚略微向外转，双臂随意摆放，只要舒服即可。这是该动作的起始姿势（图29）。髋部与膝关节弯曲，背部始终挺直。当大腿达到几乎与地面平行时，把你的身体重心向后转移，就像要坐下一样。有控制地继续放低身体，直到大腿后侧紧贴小腿。这是该动作的最低点（图30）。暂停一会，然后仅靠腿部发力将自己推回到起始姿势。起身过程和下蹲过程应该是完全相反的。脚跟始终不要抬离地面，膝盖也不能向内转。",
+        "analysis": "标准深蹲是经典的自身体重练习动作。数千年来该动作始终流行于世，是有一定原因的。标准深蹲能够强化膝关节，并增强大腿肌肉、臀部肌肉、脊椎肌肉和髋部肌肉的力量和运动能力。另外，这个动作也能使小腿、胫骨前肌、脚踝，甚至包括脚掌得到相应的锻炼。标准深蹲有助于让双腿保持年轻活力。",
+        "slowSteady": "如果你已经达到了半深蹲的升级标准，那么做标准深蹲就不会有太大问题。由于杠杆原理，当动作到达最低点时难度最大，对个子较高的人来说尤其如此。如果你达不到初级标准的目标，那就继续去做半深蹲。如果你感到自己变强了，那就增加几厘米的动作幅度。不要心急，一定不要借助惯性起身、让脚跟离地或是摇晃前倾。要纯粹使用肌肉力量，否则就别练了！",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 5,
+        "standards": [
+          {
+            "id": "d22d8795-023c-4219-a098-4bacf575251e",
+            "styleId": "4d40bc2b-7886-42c1-90ea-69d7ff6468a8",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "6fda7074-4ea9-477b-8223-ae0f0f397ac4",
+            "styleId": "4d40bc2b-7886-42c1-90ea-69d7ff6468a8",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "e315d599-5ade-4f11-846b-264c58e9e328",
+            "styleId": "4d40bc2b-7886-42c1-90ea-69d7ff6468a8",
+            "groupNumber": 2,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "99d7b5ef-3291-4d8a-989c-f349f6beb86d",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "窄距式",
+        "img1Url": "Skill_2_Style_6_1",
+        "img2Url": "Skill_2_Style_6_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=36&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "直立，双脚脚跟相碰，脚尖微微向外，双臂前伸。这是该动作的起始姿势（图31）。弯曲膝盖和舰部，直到大腿后侧紧贴小腿，无法蹲得更低为止。此时，你的胸部应该紧贴大腿（图32）。注意，脚跟始终不要抬离地面。为避免后倾，你得收缩胫骨肌肉使身体微微前倾。保持这一姿势，然后仅靠腿部发力将自己推回到起始姿势。",
+        "analysis": "窄距深蹲具有标准深蹲的所有益处，但是对股四头肌的影响更大。经常练习该动作真的能强化你的膝盖、胫骨和臀部肌肉，让你的臀部更紧实，效果比任何一种器械训练都好。",
+        "slowSteady": "很多训练者练习前几式时进展神速，但到了窄距深蹲就会碰到问题——在动作最低点或接近最低点时，身体有可能失去平衡而后倾。这些问题在腿骨长、个头高的训练者身上尤为突出。之所以会出现这些问题，是因为训练者胫骨前侧的肌肉缺乏力量以及平衡能力不强。如果练习前几式时你的进度太快，那就回到标准深蹲，在练习过程中逐渐缩小双脚之间的距离——每次缩小几厘米。双臂前伸能够让重心前移。此外，你也可以手拿重物——如哑铃、书或矿泉水瓶等——练习该动作，不过最好还是空手能完成。有些训练者由于身体结构的原因，做该动作真的很困难，如果你就是这样，那么可以让双脚脚跟保持一掌的距离。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 6,
+        "standards": [
+          {
+            "id": "a8ef7037-cab8-44e7-830d-f819bc393378",
+            "styleId": "99d7b5ef-3291-4d8a-989c-f349f6beb86d",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "50bb1e23-06e4-4039-b004-33d6181ba6b5",
+            "styleId": "99d7b5ef-3291-4d8a-989c-f349f6beb86d",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "08d938fb-4c02-4259-8e48-f7c2f8a15535",
+            "styleId": "99d7b5ef-3291-4d8a-989c-f349f6beb86d",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "2bcef78d-30ca-44c8-b2aa-ef0ea0f70852",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "偏重式",
+        "img1Url": "Skill_2_Style_7_1",
+        "img2Url": "Skill_2_Style_7_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=37&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "直立，一只脚踩在地上，另一只脚的脚跟放在位于自己前方、距身体约一步远的篮球上。双脚分开，与肩同宽或略宽，双臂在胸前伸直。这是该动作的起始姿势（图33）。弯曲膝盖和髋部，直到踩在地上的那条腿的大腿后侧紧贴小腿后侧。这是该动作的最低点（图34）。刚开始练习时，到达最低点后可能出现身体后倾的情况，所以要确保身后有足够的干净空间，这一点对所有全幅深蹲都适用。暂停一下，然后双腿发力把自己推回到起始姿势。在动作过程中，脚跟始终不要抬离地面，身体不要向前摇晃，尽管你可能不自觉地想这样做。切记，要有控制地完成整个动作。",
+        "analysis": "偏重深蹲是到挑战单腿深蹲的第一步。到现在为止，深蹲系列中各式的动作都是对称的——都能够均衡地锻炼双腿。练习该动作时，放在篮球上的那条腿位置相对较高，而且又必须控制篮球，所以无法完全发力。踩在地上的那条腿需要承担大部分工作，要有足够的力量在另一条腿的辅助下把身体从最低点推起。这个动作还可以很好地改善你的平衡能力与协调能力。",
+        "slowSteady": "与前几式相比，该动作需要更多的技巧和更大的力量。如果把脚架在篮球上难以保持平衡，那你可以选用稳固的物体（如三块垒起的砖头）代替篮球。如果这样还是有问题，你可以选择降低物体的高度（如一块砖）。随着你的信心与平衡能力的增强，可以逐渐增加物体的高度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 7,
+        "standards": [
+          {
+            "id": "d76e375e-de3e-4a1e-a9f3-3bd822c45114",
+            "styleId": "2bcef78d-30ca-44c8-b2aa-ef0ea0f70852",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "d0a85ed5-9ebd-4510-9deb-477aa035f2f6",
+            "styleId": "2bcef78d-30ca-44c8-b2aa-ef0ea0f70852",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "2b45ad52-943a-46df-8030-f826e3db04f8",
+            "styleId": "2bcef78d-30ca-44c8-b2aa-ef0ea0f70852",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "119b05e2-8091-4a2d-bb2f-a91ffed51b83",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "单腿半蹲式",
+        "img1Url": "Skill_2_Style_8_1",
+        "img2Url": "Skill_2_Style_8_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=38&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "直立，只靠一条腿站立，另一条腿向前抬起，伸直或略微弯曲，抬起的脚大约处在另一条腿大腿的高度上，双手向胸前伸出。这是该动作的起始姿势（图35）。弯曲髋部和支撑腿的膝盖，直到膝关节几乎弯曲成90°，即大腿几乎与地面平行。在此过程中，抬起的那条腿应该始终在空中。这是该动作的最低点（图36）。暂停一会，然后单腿发力把自己推回到起始姿势。在动作过程中，背部始终要保持平直，而且支撑腿的脚跟始终不能抬离地面。",
+        "analysis": "该练习是深蹲系列中第一个完全的单腿动作。攻克这个动作很重要，因为这可以让健身者的平衡能力得到极大的提升，从而为标准单腿深蹲打下基础。通过这个动作，健身者能够逐步掌握非支撑腿长时间离地的技巧。这可不容易，因为这需要非常强壮的a 部屈肌，可大多数人的髋部屈肌都很弱。由于只有一条腿支撑身体，所以这个动作可以更好地增强我们的腿部力量。不过由于该动作的运动幅度只有正常的一半，所以在练习该动作时，应该辅以一个全幅动作—窄距深蹲或偏重深蹲都可以。",
+        "slowSteady": "达到偏重深蹲升级标准的健身者，做该动作应该不成问题。如果你发现这个动作对你来说还是个挑战的话，那就先使用更小的动作幅度，随着体能的发展再逐步增加下蹲的深度即可。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 8,
+        "standards": [
+          {
+            "id": "da6f5819-f065-4859-9978-20ca4a81a064",
+            "styleId": "119b05e2-8091-4a2d-bb2f-a91ffed51b83",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "ab2b01d0-b599-4710-9a45-0f9925a427a8",
+            "styleId": "119b05e2-8091-4a2d-bb2f-a91ffed51b83",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "a1e589de-d63b-4321-a78f-b46cce99e138",
+            "styleId": "119b05e2-8091-4a2d-bb2f-a91ffed51b83",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "4927ddc8-d8cc-4b34-b5d8-13cb391a6eec",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "单腿辅助式",
+        "img1Url": "Skill_2_Style_9_1",
+        "img2Url": "Skill_2_Style_9_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=39&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "把篮球放在要练的那条腿的外侧。直立，一只脚平放在地面上，另一只脚在你前方抬起——同单腿半深蹲（第八式）的起始姿势。抬起那条腿的同侧手臂向前伸出，另一只手臂自然垂于体侧（图37）。然后弯曲髋部和支撑腿的膝盖，直到大腿后侧紧贴小腿，无法继续下蹲为止。此时，你的手应该稳稳地放在篮球上，这是该动作的最低点（图38）。起身时主要依靠腿部力量，但你也要用手按压篮球，以便在反向动作的最初阶段借力。注意，在动作过程中，支撑腿的脚跟始终不能抬离地面。",
+        "analysis": "任何一种深蹲动作的最低点都是最难的，单腿深蹲尤其如此。该动作通过允许你做反向动作时在至关重要的最初几厘米中用手辅助、借力，安全地解决了在最低位置时的问题。通过练习该动作，你膝关节处的韧带与肌腱将变强，之后你就可以信心十足地开始挑战最终式——单腿深蹲。另外，该动作还会迫使髋部屈肌更加用力，以保持抬起的那条腿比做单腿半深蹲时抬得更高，而这可能需要你花点儿时间才能适应。在这重要的一式上投入点时间。",
+        "slowSteady": "如果你还达不到该练习的初级标准，那就试着使用比篮球高的物体，椅子或矮咖啡桌都是不错的选择。相比于使用篮球，这些物体可以在更大的运动范围内为你的手臂提供支撑。一旦你借助更高物体能完成该动作，就可以换用矮一些的物体，就这样循序渐进地练习，直到你准备好再次尝试用篮球做该动作。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 9,
+        "standards": [
+          {
+            "id": "609085a5-e6ad-4992-a922-73fb56b5f59f",
+            "styleId": "4927ddc8-d8cc-4b34-b5d8-13cb391a6eec",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "f3deaa34-03ce-4f72-b3c9-3f35c331ad44",
+            "styleId": "4927ddc8-d8cc-4b34-b5d8-13cb391a6eec",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "a1ac276b-f9a4-4244-9f68-f9d3c8b91d7d",
+            "styleId": "4927ddc8-d8cc-4b34-b5d8-13cb391a6eec",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "23ebbea9-ac4f-4987-9cdd-51790f7ece4f",
+        "skillId": "8a3a2575-5543-4799-a94b-a3af48741c89",
+        "name": "单腿式",
+        "img1Url": "Skill_2_Style_10_1",
+        "img2Url": "Skill_2_Style_10_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=40&share_source=copy_web",
+        "traningPart": "臀部、大腿",
+        "actionDescription": "直立，抬起一条腿，直到脚大约与髋部等高，腿要尽量伸直，双臂在胸前前伸。如果你在之前几式上已经花了大量时间，那么这些对你来说不会太难。这是该动作的起始姿势（图39）。然后弯曲髋部与支撑腿的膝盖。你应该有控制地放低身体，不要一下蹲到底。缓慢地下蹲，直到支撑腿的大腿后侧紧贴小腿，无法继续下蹲为止。此时，你的腹部应该与支撑腿的大腿紧贴在一起。这是该动作的最低点（图40）。在紧张状态下，暂停一下（数一个数），然后单腿发力把自己推回到起始姿势。注意，千万不要借助惯性起身。在动作过程中，背部始终挺直，抬起的腿始终离地，而支撑腿则应稳稳地踩在地上。到达动作最高点时暂停一下，然后再下蹲。",
+        "analysis": "单腿深蹲是深蹲动作之王，也是锻炼下身力量的终极练习。它可以锻炼脊椎、髋部、大腿、小腿和双脚，还能增强我们的耐力和运动能力。久而久之，皮包骨的双腿将变成强有力的支柱——有钢索般的股四头肌、硬如岩石的臀大肌、壮硕有形的小腿。掌握这个动作，你的双腿就绝不会衰老。而且，它还会保护你免受髋部病痛与膝关节损伤的折磨。",
+        "slowSteady": "如果你达不到单腿深蹲的初级标准，那就回到第九式（单腿辅助深蹲），并使用比篮球略小的物体，如三块裸起的砖。逐渐使用越来越小的物体，直到根本无需支撑。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 10,
+        "standards": [
+          {
+            "id": "32662238-5ca1-4836-ac5a-5bb717dca418",
+            "styleId": "23ebbea9-ac4f-4987-9cdd-51790f7ece4f",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "90885955-bb46-4b1f-ac1f-12b9facbee55",
+            "styleId": "23ebbea9-ac4f-4987-9cdd-51790f7ece4f",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "1a21bbc7-8644-4e66-a0b8-eae41c9ae7f3",
+            "styleId": "23ebbea9-ac4f-4987-9cdd-51790f7ece4f",
+            "groupNumber": 2,
+            "number": 50,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "深蹲",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      }
+    ]
+  },
+  {
+    "id": "701b7d16-09c2-427b-9963-11335efc0167",
+    "name": "引体向上",
+    "description": "仓门般的背部与大炮般的肱二头肌",
+    "imgUrl": "series3",
+    "ownerId": "c37ab71c-7a4a-47a1-80e7-e408de3c196d",
+    "createTime": "2022-03-03T16:25:08.393818",
+    "orderNumber": 3,
+    "skillStyles": [
+      {
+        "id": "e6f44637-4710-45d0-936e-a4748088079d",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "垂直式",
+        "img1Url": "Skill_3_Style_1_1",
+        "img2Url": "Skill_3_Style_1_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=41&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "找一个可抓握且很稳固的竖直物体，门框和高一点的栏杆都是上好之选。靠近物体站立，脚尖与之保持约 8 一巧厘米的距离。以舒服的姿势抓住该物体，理想情况是双手与肩同宽，但不必要——只要双手对称即可。这是该动作的起始姿势（图 41）。由于你距离物体很近，所以手臂会弯曲。身体慢慢向后倾，在此过程中伸展手臂，直到手臂几乎伸直、身体后倾与地面成一定角度为止。这是该动作的结束姿势（图 42）。此时，你的上背部应该有拉伸感，手臂可能也会有同感。暂停一会，再并拢肩脚骨并弯曲手臂，把身体拉回到起始姿势。暂停，然后再重复该动作。",
+        "analysis": "垂直引体是动作非常轻微的引体向上动作。对那些背部和手臂力量正处于恢复阶段的训练者来说，这是非常理想的练习。此外，这个动作对肩部、肱二头肌或肘部受过伤的训练者而言更适合，因为它可以增加血液流动，并让他们的身体找回“拉力”的感觉。对初学者来说，这也是上好的练习。由于该动作强度较小，可以使初尝拉力训练的人，在进人难度更大的动作之前真切地感受肩部和上背部肌肉的“发力”。",
+        "slowSteady": "垂直引体几乎是人人都能做的简易练习。如果你正处在伤病康复阶段，觉得该动作对某些身体部位（也许是缝针部位）而言太过剧烈，那就减小动作幅度，绷紧肩部，别让手臂伸得太直。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 1,
+        "standards": [
+          {
+            "id": "20ba1c2f-1f51-4375-9b9c-a708a79faaa5",
+            "styleId": "e6f44637-4710-45d0-936e-a4748088079d",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "0074df8b-afd8-41da-95f3-73b02e0a0de8",
+            "styleId": "e6f44637-4710-45d0-936e-a4748088079d",
+            "groupNumber": 2,
+            "number": 25,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "b5376108-75ff-4ef5-bde7-b40aacc0a5f0",
+            "styleId": "e6f44637-4710-45d0-936e-a4748088079d",
+            "groupNumber": 3,
+            "number": 40,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "68857e8c-6915-4a1a-b8ae-0f3d26197692",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "水平式",
+        "img1Url": "Skill_3_Style_2_1",
+        "img2Url": "Skill_3_Style_2_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=42&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "找一个至少与你的髋部等高、稳固且双手可抓握的水平物体。该物体要能安全地承载你的体重，又大又结实的桌子（如餐桌和书桌）通常是最佳之选。钻到桌子下面——胸部与下肢都位于桌子下面，抬手抓住桌子边缘（使用正握姿势）。理想情况是，双手与肩同宽，但这要取决于你用的是什么样的桌子。然后拉起身体，使背部离地，只有脚跟与地面接触。有时你的手臂可能需要适当弯曲才能使背部离地——这取决于桌子的高度。身体绷紧，让双手和双脚脚跟承担身体的重量。这是该动作的起始姿势（图43）。然后平缓地拉起身体，在此过程中整个身体（尤其是膝盖）要成一条直线，直到胸部触到桌子边缘。这是该动作的结束姿势（图44）。暂停一下，然后降低身体，回到起始姿势，如此重复。",
+        "analysis": "水平引体向上与垂直引体类似，但练习水平引体向上时身体会更加倾斜，因此该动作对力量的要求更高。这是非常好的过渡练习，在开始后续的悬垂式练习之前，训练者一定要掌握它。该动作也可以强健某些关节，尤其是易于受伤的肘关节和肩关节。",
+        "slowSteady": "所用物体越高，该练习也就更容易。如果刚开始你觉得太难，那就找一些比自己髋部略高的物体。等你能做30 次反复之后，再尝试用与髋部等高的物体来练习。在该动作中，双脚会在地面上适当滑动，如果这个过程中的摩擦对你构成了明显阻力，那么可以试着使用更容易滑动的鞋或地板，或者双手抓在吊环类的物体上——这样双手的位置就可以在动作过程中适时调整，从而免除了双脚滑动的必要性。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 2,
+        "standards": [
+          {
+            "id": "df9bb9fe-b744-413a-ba6f-e6b0afee60e4",
+            "styleId": "68857e8c-6915-4a1a-b8ae-0f3d26197692",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "ccf76e21-66de-4534-9ac5-693e36e056c2",
+            "styleId": "68857e8c-6915-4a1a-b8ae-0f3d26197692",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "978a9a39-9d53-41f3-8c94-023d271dd3dd",
+            "styleId": "68857e8c-6915-4a1a-b8ae-0f3d26197692",
+            "groupNumber": 3,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "2fe7298f-3545-41f5-aee3-8daa29ab0229",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "折刀式",
+        "img1Url": "Skill_3_Style_3_1",
+        "img2Url": "Skill_3_Style_3_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=43&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "练习折刀引体向上需要高一点的横杆，横杆下面放一把高脚凳或类似物体。向上跳起抓住横杆，手臂大约与肩同宽，采取正握姿势。用横杆训练时，肩部始终要收紧（参见第107页），手臂也不能完全放松，肘部微微弯曲。将双腿向上摆，把双脚脚跟搭在横杆前方的高脚凳上，双腿要完全伸直。该物体要足够高，理想情况是双腿伸直时脚踩与骨盆恰好在同一高度，此即经典的折刀角度。这是该动作的起始姿势（图45）。然后平缓地把身体拉起，伸直的双腿向下压以帮助完成动作，最后使下巴高过横杆。这是该动作的结束姿势（图46）。暂停一下，然后降低身体，在肌肉的完全控制下回到起始姿势。注意，每组练习都不要做到“精疲力竭”，好在练习结束后能安全地下来。如果你还没站稳就松开双手，可能会跌倒受伤。",
+        "analysis": "折刀引体向上是全幅度引体向上动作。由于双腿晏承担一部分体重，在动作最低点时还可以起协助作用，所以该练习比标准引体向上容易。",
+        "slowSteady": "最低点是所有引体向上动作中最难的部分。如果你做不了全幅的折刀引体向上，那就先集中练习上半部分的动作幅度，也就是手臂保持一定的弯曲度，随着力量的增长再逐渐增加动作幅度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 3,
+        "standards": [
+          {
+            "id": "ca2fef77-9744-4db0-b486-353c36507042",
+            "styleId": "2fe7298f-3545-41f5-aee3-8daa29ab0229",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "b0b76902-2ba1-48a6-9200-34e3e7a02623",
+            "styleId": "2fe7298f-3545-41f5-aee3-8daa29ab0229",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "e4fcca5a-945e-4b9b-bb24-c3547bd5244d",
+            "styleId": "2fe7298f-3545-41f5-aee3-8daa29ab0229",
+            "groupNumber": 3,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "7933ea1e-6e61-4433-bf80-0c417d6d56b0",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "半引体式",
+        "img1Url": "Skill_3_Style_4_1",
+        "img2Url": "Skill_3_Style_4_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=44&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "选择足够高的横杆，使得身体悬垂在上面时双脚依然离地，即便只离地一厘米也可以。向上跳起抓住横杆，采用正握姿势，两手与肩同宽或略宽，双臂弯曲接近90°（上臂应与地面平行），肩部始终收紧。膝部微屈，脚躁交叠在一起，以免双腿辅助借力。这是该动作的起始姿势（图47）。弯曲肘部，夹起肩部，平缓地拉起身体，直到下巴超过横杆。这是该动作的结束姿势（图48）。在最高处暂停一下，然后有控制地下降到起始姿势。在动作过程中肘部可以向前移动，但两腿应始终保持不动。",
+        "analysis": "现在要来真格的了！在做半引体向上时，上身肌肉要支撑你全身的重量，这肯定比你舒坦地划船或做下拉动作强度大。因此，你的抓握能力会大大增强，背部、肱二头肌和前臂也能够得到锻炼。",
+        "slowSteady": "在引体向上系列中，该动作是训练者在无辅助条件下移动身体的第一个动作。对许多训练者来说（尤其是那些体重略重或超重的家伙），此动作是一个“暂停点”。如果你的身上有赘肉（大多数人都有），那在这一点上就需要减重。在减重过程中你依然可以坚持练习该动作。如果觉得有困难，就减少动作幅度，下巴只需接近横杆即可。随着体重减轻，你可以逐步增加动作幅度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 4,
+        "standards": [
+          {
+            "id": "a763012b-41c0-451d-af82-a2d457676a08",
+            "styleId": "7933ea1e-6e61-4433-bf80-0c417d6d56b0",
+            "groupNumber": 1,
+            "number": 8,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "cc273f50-a842-4d31-bde6-ea6719add76e",
+            "styleId": "7933ea1e-6e61-4433-bf80-0c417d6d56b0",
+            "groupNumber": 2,
+            "number": 11,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "e2df5dae-0c9c-4f46-b0f4-a1545bb46367",
+            "styleId": "7933ea1e-6e61-4433-bf80-0c417d6d56b0",
+            "groupNumber": 3,
+            "number": 15,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "273ba6dc-3a69-4d72-b2b5-7d86dc6e640d",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "标准式",
+        "img1Url": "Skill_3_Style_5_1",
+        "img2Url": "Skill_3_Style_5_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=45&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "以正握姿势握住横杆，双手与肩同宽或略宽——你可以试试看多大宽度对你来说最容易发力。双脚离地，双膝微屈，脚踝交叠在一起并置于身后。身体绷紧，双肩收紧，肘部略微弯曲（几乎看不出来），让肌肉而不是肘关节承担压力。这是该动作的起始姿势（图49）。弯曲肘部，夹起肩部，直至下巴超过横杆。这是该动作的结束姿势（图50）。欣赏一下上面的风景吧！暂停一会，然后有控制地反向运动。不要做爆发式动作，否则惯性就会参与进来。平缓的动作是练出肌肉的完美技巧。试着用2 秒钟将自己拉起来，再用2 秒钟缓慢地放低身体，并在动作的最高点和最低点各停顿1 秒钟。",
+        "analysis": "标准引体向上是锻炼上背部与肱二头肌的经典练习。掌握这个动作后，你将具有出众的行动能力与运动力量。人类天生就善于把自己拉起来，一个男人要是连引体向上都做不了，那就称不上真的强壮。",
+        "slowSteady": "标准引体向上是一个强度颇大的体操动作，如果你觉得该动作比较难，那么很多人都和你有同样的感受。该动作的关键在于坚持不懈，你一定要忍住，不要早早“蹬腿” （参见第108 页），因为那会让你养成坏习惯。如果你需要借力才能走出困境（即手臂完全伸直时），那就把一只脚放在椅子上，轻轻向下压。每次训练时都减少一点这只脚的用力，直到最终只在刚开始的三四厘米中才用脚借力。最后，你就能在没有协助的情况下做标准引体向上了。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 5,
+        "standards": [
+          {
+            "id": "aa4d3335-8481-4768-a755-4c4b08a1e8fd",
+            "styleId": "273ba6dc-3a69-4d72-b2b5-7d86dc6e640d",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "95bfb190-f8bf-4547-8175-c1801bad899d",
+            "styleId": "273ba6dc-3a69-4d72-b2b5-7d86dc6e640d",
+            "groupNumber": 2,
+            "number": 8,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "70aeb0e1-3a69-4a55-b89d-dad37228f219",
+            "styleId": "273ba6dc-3a69-4d72-b2b5-7d86dc6e640d",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "ff54ed75-66c6-437c-ada9-ec552c9d5c17",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "窄距式",
+        "img1Url": "Skill_3_Style_6_1",
+        "img2Url": "Skill_3_Style_6_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=46&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "向上跳起抓住横杆，采用正握姿势，双手尽量挨在一起—如果距离太近关节会感到不适，但最宽也不要超过10 厘米。双膝弯曲，双脚脚跺交叠在一起并置于身后，以免腿部借力。肘部微微弯曲，双肩收紧。这是该动作的起始姿势（图51）。弯曲肘部，夹起肩部，平缓地将自己拉起来，直到下巴高过横杆。这是该动作的结束姿势（图52）。暂停一下，然后再慢慢放低身体，回到起始姿势。暂停，然后再重复。整个运动过程中，腿部尽量保持不动。",
+        "analysis": "在所有的引体向上动作中，短板都是手臂上的屈肌，即肱二头肌与相关的前臂肌肉。如果训练者已经掌握了双臂引体向上，想升级到单臂引体向上，那就得花时间极大地强化肱二头肌—这就是窄距引体向上的用意所在。两手紧挨在一起时，更大、更强的背部肌肉不容易发力，这样就迫使手臂上的屈肌承担更大的负荷，从而让它们（尤其是肱二头肌）变得更大、更有力。",
+        "slowSteady": "有些练习标准引体向上的训练者会觉得窄距引体向上有点儿难，因为双手间距缩小的话，我们在上拉身体的时候手臂会不自觉地向内扭转—正握的姿势有时会限制这种自然倾向。这是试验各种抓握姿势的好时候，你不妨尝试一下侧握或反握姿势。如果条件允许，也可以尝试使用吊环（参见第108 页）。如果力量不足，那就继续练习标准引体向上，每次练00习时把两手的距离缩小两厘米，久而久之你便会掌握窄距引体向上。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 6,
+        "standards": [
+          {
+            "id": "a03b7978-4a1f-43d6-8982-60cf36121c51",
+            "styleId": "ff54ed75-66c6-437c-ada9-ec552c9d5c17",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "865ace0f-251b-4ce3-b893-12d916e662e4",
+            "styleId": "ff54ed75-66c6-437c-ada9-ec552c9d5c17",
+            "groupNumber": 2,
+            "number": 8,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "764ba780-2848-461e-9272-7e558eb9163a",
+            "styleId": "ff54ed75-66c6-437c-ada9-ec552c9d5c17",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "6ad6a392-052c-4768-8d4f-1ee767f479e2",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "偏重式",
+        "img1Url": "Skill_3_Style_7_1",
+        "img2Url": "Skill_3_Style_7_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=47&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "单手抓住横杆。采用侧握或反握姿势会比经典的正握姿势舒服。用另一只手抓住握横杆那只手的手腕—大拇指位于那只手的手掌下方，其他手指则位于其手背下方。双脚离地，双膝弯曲，脚跺交叠在一起并置于身后。始终收紧上肢带肌，抓横杆那只手臂伸直，但肘部要略微弯曲。另一只手臂由于位置较低，弯曲程度会比较大。你的双肘会朝向前方。这是该动作的起始姿势（图53）。弯曲肘部，夹起肩部，平缓地将自己拉起来，直到下巴高过横杆。这是该动作的结束姿势（图54）。暂停一下，然后慢慢放低身体，回到起始姿势。再次暂停并重复。",
+        "analysis": "偏重引体向上的历史可以追溯到几百年前，但此动作再度流行则是因为电影《洛奇2》—史泰龙用该动作进行训练。由于手臂的位置不同，抓握横杆的那只手臂不得不承担大部分的工作，这将为做单臂引体向上打下基础。该动作能够增强背阔肌、肱二头肌以及背部肌肉的力量，同时也会极大地锻炼抓握能力。",
+        "slowSteady": "如果你能做窄距引体向上，那应该也能做偏重引体向上。这两个动作最大的不同在于，偏重引体向上中你只能用单手吊起身体。如果你觉得吃力，那你在做引体向上之后就要花点儿时间练习单臂悬垂以增强抓握能力。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 7,
+        "standards": [
+          {
+            "id": "e013c9dc-f14f-4bf4-9ea6-53447847773f",
+            "styleId": "6ad6a392-052c-4768-8d4f-1ee767f479e2",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "2c9d51e0-b161-4836-9545-d6540dab0421",
+            "styleId": "6ad6a392-052c-4768-8d4f-1ee767f479e2",
+            "groupNumber": 2,
+            "number": 7,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "40000027-9696-4213-95ff-344014a34df6",
+            "styleId": "6ad6a392-052c-4768-8d4f-1ee767f479e2",
+            "groupNumber": 3,
+            "number": 8,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "bd6fd1be-bd36-4942-a5ee-ce424e81ba29",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "单臂半引体式",
+        "img1Url": "Skill_3_Style_8_1",
+        "img2Url": "Skill_3_Style_8_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=48&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "单手抓住高过头顶的横杆，要选择对你来说最容易发力的抓握姿势——有人是正握，有人是侧握或反握，但对大多数人来说，在吊环上做该动作可能最容易。另一只手可随意放置，舒服即可。我的大多数学生喜欢将手臂悬于空中，我个人更喜欢像做单臂俯卧撑那样将手置于身后。哪种姿势都可以，只要不妨碍你做动作就好。将要锻炼的那只手臂（可以通过跳、蹬腿或借助一把椅子等方式）置于半弯曲状态，肘部弯曲成直角，即上臂与地面平行。双脚离地，脚踩交叠在一起并置于身后。发力的那侧肩部应该收紧，同时全身都要绷紧。这是该动作的起始姿势（图55）。弯曲肘部，夹起肩部，平缓地将自己拉起来，直到下巴高过横杆。这是该动作的结束姿势（图56）。暂停一下，然后慢慢放低身体，回到起始姿势。在起始姿势暂停，再重复练习。",
+        "analysis": "在引体向上系列中，这是第一个用单臂拉起全部体重的动作。该动作可以帮助训练者高平衡能力，熟悉标准单臂引体向上所要求的发力方法。该动作还会发展肱二头肌和背部的力量，练就粗壮的手臂。但由于运动幅度只有一半，所以练习该动作之后，你需要补充一些完整幅度的动作，比如偏重引体向上或窄距引体向上。",
+        "slowSteady": "身体降得越低，引体向上就越难做。如果你还不能很好地掌握单臂半引体向上，那还是先集中练习该动作的靠上阶段，即身体接近横杆时的幅度。久而久之，一点点地增加动作幅度，直到可以标准地做这个动作。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 8,
+        "standards": [
+          {
+            "id": "557f504a-f00d-43fe-93ce-e66c8238599f",
+            "styleId": "bd6fd1be-bd36-4942-a5ee-ce424e81ba29",
+            "groupNumber": 1,
+            "number": 4,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "75cf964c-6757-47eb-88e2-c56ee42ab606",
+            "styleId": "bd6fd1be-bd36-4942-a5ee-ce424e81ba29",
+            "groupNumber": 2,
+            "number": 11,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "0abe6aca-c815-42ae-ae00-015f7e9cb24e",
+            "styleId": "bd6fd1be-bd36-4942-a5ee-ce424e81ba29",
+            "groupNumber": 2,
+            "number": 8,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "6b7b49c7-9879-42e5-ba3a-aed8b3bbd944",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "单臂辅助式",
+        "img1Url": "Skill_3_Style_9_1",
+        "img2Url": "Skill_3_Style_9_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=49&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "在横杆上搭一条毛巾，向上跳起，单手以最容易发力的姿势抓住横杆，悬挂的毛巾位于另一只手的那一侧。用那只手抓住毛巾，抓握位置要尽量低——对大多数人来说，与眼睛等高的位置比较合适。双膝弯曲，脚踩交叠在一起并置于身后。双肩收紧，抓握横杆的那只手臂要微微弯曲。这是该动作的起始姿势（图57）。然后将自己拉起来——前一半动作中，即从起始姿势到抓握横杆那只手臂弯曲成直角的过程中，另一只手都要拉毛巾以协助完成动作。此后放开毛巾，只用单手继续将自己向上拉，直到下巴高过横杆（图58）。暂停一下，然后仅用单手的力量放低身体。在动作的最低点时再抓住毛巾。暂停，再重复动作。",
+        "analysis": "单臂辅助引体向上是一个特殊练习，它的作用是帮助锻炼者“体验”单臂引体向上，又不至于使其卡在最低位置。该动作可以缓慢、安全并极大地增强训练者肌腿的力量——这是做真正的单臂引体向上所必需的.",
+        "slowSteady": "抓握毛巾的那只手的位置越低，就越难提供助力。如果你不能做5 次反复，那就升高抓握毛巾的位置，使其更靠近横杆一点儿。等你变得更强以后，就可以降低抓握毛巾的位置。最后，你会感觉到自己是在向下“推”毛巾，而不是“拉”毛巾，这样你的身体就能在这个动作中变得越来越强，并为练习最终式——单臂引体向上——做好准备。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 9,
+        "standards": [
+          {
+            "id": "db6a19d4-b9e8-4e9e-854b-9ed9ec7cfaed",
+            "styleId": "6b7b49c7-9879-42e5-ba3a-aed8b3bbd944",
+            "groupNumber": 1,
+            "number": 3,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "76f0d121-e33b-4512-af59-74398a2ff1c1",
+            "styleId": "6b7b49c7-9879-42e5-ba3a-aed8b3bbd944",
+            "groupNumber": 2,
+            "number": 5,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "ba78c3c7-8470-4a2c-b73a-5f46517e729a",
+            "styleId": "6b7b49c7-9879-42e5-ba3a-aed8b3bbd944",
+            "groupNumber": 2,
+            "number": 7,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "efceccff-071b-449f-a00a-a846b104c0cb",
+        "skillId": "701b7d16-09c2-427b-9963-11335efc0167",
+        "name": "单臂式",
+        "img1Url": "Skill_3_Style_10_1",
+        "img2Url": "Skill_3_Style_10_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=50&share_source=copy_web",
+        "traningPart": "背部、肱二头肌",
+        "actionDescription": "向上跳起，单手以最容易发力的抓握姿势牢牢抓住高过头顶的横杆。双腿离地，双膝弯曲，脚躁交叠在一起并置于身后，以防止腿部摆动。另一只手可随意放置，舒服即可。（你在练习第八式单臂半引体向上时，应该已经找到了最舒服的姿势）。发力的肩部要收紧，同时全身绷紧准备做动作。你将要做的可是高级力量技巧，所以你需要在心理上也做好准备。发力那只手的手臂几乎伸直，但略有弯曲以减少关节的压力。这是该动作的起始姿势（图59）。弯曲肘部，夹起肩部，将自己拉起来，直到下巴高过横杆。在整个动作过程中，尽量少用惯性。这是该动作的结束姿势（图60）。暂停一下，再缓慢地放低身体，回到起始姿势。在最低处暂停一下，再重复动作—如果你行的话。",
+        "analysis": "不靠“蹬腿”的完整幅度的单臂引体向上，可能是最伟大的背部与手臂练习，它可以赋予你强悍的力量与块头。掌握单臂引体向上后，你的背阔肌就会像一对翅膀一般，上背部也会发展出如蟒蛇盘绕交错般的肌肉。此外，你的抓握力、上臂及前臂力量会比健身房里的那些寻常鼠辈不知强多少倍—你很可能在摔跤比赛中把那些所谓健美人士的手臂扯下来。",
+        "slowSteady": "这是一个艰苦卓绝的技巧，但如果你下定决心、身体力行，最终肯定能掌握它。但也别梦想一步登天，你需要时间和耐心，在前九式中好好地发展身体。你最初的目标是完成一次完美的单臂引体向上，当你做到了之后，再进行“巩固训练”（参见第249 页）。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 10,
+        "standards": [
+          {
+            "id": "797b9775-3d35-4806-9fd5-9ef098c1e751",
+            "styleId": "efceccff-071b-449f-a00a-a846b104c0cb",
+            "groupNumber": 1,
+            "number": 1,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "12b02ae1-7254-4187-a763-ff00cbb9d211",
+            "styleId": "efceccff-071b-449f-a00a-a846b104c0cb",
+            "groupNumber": 2,
+            "number": 3,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "f9f2adab-fe46-4558-a4d3-17fe64d99df8",
+            "styleId": "efceccff-071b-449f-a00a-a846b104c0cb",
+            "groupNumber": 2,
+            "number": 6,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "引体向上",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      }
+    ]
+  },
+  {
+    "id": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+    "name": "举腿",
+    "description": "魔鬼六块腹肌",
+    "imgUrl": "series4",
+    "ownerId": "c37ab71c-7a4a-47a1-80e7-e408de3c196d",
+    "createTime": "2022-03-03T16:25:08.393818",
+    "orderNumber": 4,
+    "skillStyles": [
+      {
+        "id": "cbeec0d4-8f89-4b24-9e2b-8dcf275864cf",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "坐姿屈膝式",
+        "img1Url": "Skill_4_Style_1_1",
+        "img2Url": "Skill_4_Style_1_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=12&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "坐在椅子或床的边缘，身体略微向后倾斜，双手抓住边沿，两腿伸直，双脚并拢，脚跟距离地面几厘米。这是该动作的起始姿势。平缓地抬起膝盖，直到膝盖距胸部约 15 一 25 厘米。在此过程中呼气，动作完成时呼气结束，腹肌保持收缩状态。这是该动作的结束姿势。暂停 1 秒钟，进行反向运动并回到起始姿势。伸展膝盖的同时吸气。双脚应该始终沿着一条直线移动，而且始终保持悬空，直到一组动作完成方可接触地面。腹部要始终收缩，动作要慢，要抵制快速完成动作的冲动。如果需要，可以在两次动作之间喘几口气（所有中段练习都一样）。",
+        "analysis": "对初学者来说，坐姿屈膝是理想的腹部练习动作，因为该动作可以培养良好的脊柱姿势，锻炼腹部肌肉，增强髋部屈肌。对大多数人来说，这个动作也相对容易，因此给他们提供了发展完美技巧的绝佳机会，为以后的中段练习做好准备。切记，动作要平缓，呼吸节奏要正确，腹部始终要保持收紧状态。",
+        "slowSteady": "坐姿屈膝动作的起始姿势（两腿伸展）与结束姿势（两膝靠近胸部）难度相当。想要降低坐姿屈膝的难度，就要在这两个难点之间适当缩小动作幅度。随着训练者的腰部越来越强，再逐渐加大动作幅度，直至动作完美无缺。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 1,
+        "standards": [
+          {
+            "id": "07881f58-e0b2-490f-b190-390dfe4844cb",
+            "styleId": "cbeec0d4-8f89-4b24-9e2b-8dcf275864cf",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "2924b3a2-3ef1-443b-93cc-6b32a31b368a",
+            "styleId": "cbeec0d4-8f89-4b24-9e2b-8dcf275864cf",
+            "groupNumber": 2,
+            "number": 25,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "7660b89e-1c6e-4a49-bf96-e3fe5d3670b2",
+            "styleId": "cbeec0d4-8f89-4b24-9e2b-8dcf275864cf",
+            "groupNumber": 3,
+            "number": 40,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "788ab68f-79a8-42ca-abc5-0bcf1be2be50",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "平卧抬膝式",
+        "img1Url": "Skill_4_Style_2_1",
+        "img2Url": "Skill_4_Style_2_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=13&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "平躺在地上，双腿并拢，双手置于身体两侧的地板上。膝盖弯曲近 90°，双脚距离地面约 2 一 5 厘米。双手用力向下按压地板，这样有助于保持身体稳定。这是该动作的起始姿势（图 63）。然后平缓地抬起膝盖，越过髋部，直到大腿与地面垂直、小腿与地面平行，整个过程中膝盖始终接近 900。在此过程中呼气，腹部肌肉保持收紧。这是该动作的结束姿势（图 64）。暂停 1 秒钟，进行反向动作。降低双脚，回到起始姿势，并在此过程中吸气。在整组练习中双脚都不能接触地面。",
+        "analysis": "掌握坐姿屈膝之后，接着练习平卧抬膝可以进一步强化训练者的腰部。平卧抬膝训练脊椎肌肉、腹部肌肉、腹斜肌和腹横肌，使之协调工作，同时也能够锻炼大腿前侧肌肉。由于该动作要求训练者平躺在地上，所以髋部屈肌也必须更多地参与其中，这会使训练者适应之后强度更大的平卧动作和悬垂动作。",
+        "slowSteady": "平卧抬膝的难点是要保持双脚离地。如果这对你来说有点儿困难，那就在两次动作之间让双脚接触地面。当你有力量在双脚离地的情况下连续做几次动作时，就要尽量抬起脚—即便只能做 2 次也应如此。久而久之，在两脚离地的前提下不断增加动作次数。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 2,
+        "standards": [
+          {
+            "id": "d99a7390-556d-4e65-b259-568de8057f48",
+            "styleId": "788ab68f-79a8-42ca-abc5-0bcf1be2be50",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "802edf5b-2778-4de3-9dec-c58925d93aaa",
+            "styleId": "788ab68f-79a8-42ca-abc5-0bcf1be2be50",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "a5d376a0-b537-45a5-9865-546b09a555ab",
+            "styleId": "788ab68f-79a8-42ca-abc5-0bcf1be2be50",
+            "groupNumber": 3,
+            "number": 35,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "e2463d78-2992-4022-91bd-71f4345d2281",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "平卧屈举式",
+        "img1Url": "Skill_4_Style_3_1",
+        "img2Url": "Skill_4_Style_3_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=14&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "平躺在地上，双腿并拢伸展，双手置于身体两侧的地面上。双腿抬起，膝盖弯曲，使大腿与小腿的夹角大约成135°，双脚距离地面约2 一5 厘米。这是该动作的起始姿势（图65）。该练习前半部分的动作包括平缓地抬起双腿和双脚，持续大约2 秒钟，直到双脚位于骨盆正上方（图66）。在整个动作过程中，膝盖弯曲的角度应该保持不变——始终“锁定”。双手向下按压地板，这样有助于保持身体稳定。两脚位于骨盆正上方时，略作停顿，然后进行反向动作。在回复到起始姿势时也略作停顿，然后重复以上过程。双脚向上运动时呼气，向下运动时吸气。在整组练习中，腹部始终都要收紧，双脚始终不能接触地面。",
+        "analysis": "平卧屈举腿是平卧抬膝的简单延续。双脚与身体距离更远，这会增加动作的难度，也会加大髋部、腰部以及腹部肌肉所受的压力，使它们变得更加有力。",
+        "slowSteady": "平卧抬膝要求膝盖弯曲成90°，平卧屈举腿则要求膝盖弯曲成135°。弯曲角度越大，力臂越长，难度就越大。如果你还达不到该动作的初级标准，那就让膝盖再弯曲一点儿，略大于90°即可。等你变得更强之后，再一点点把腿伸直，直到达到135°的标准。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 3,
+        "standards": [
+          {
+            "id": "ebac7b26-f841-4c1b-b787-5d33ded1c92a",
+            "styleId": "e2463d78-2992-4022-91bd-71f4345d2281",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "b99c57d0-dc6d-4f38-bf90-ed9ece3a01ef",
+            "styleId": "e2463d78-2992-4022-91bd-71f4345d2281",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "ac4a5cdc-72cb-462c-abf5-331005731c98",
+            "styleId": "e2463d78-2992-4022-91bd-71f4345d2281",
+            "groupNumber": 3,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "39e9d772-bbd0-4f34-81f2-b64e857b38e6",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "平卧蛙举式",
+        "img1Url": "Skill_4_Style_4_1",
+        "img2Url": "Skill_4_Style_4_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=15&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "先做第三式前半部分的屈举腿动作，但在最高点的时候（图66）不要停顿，而是要完全伸直双腿，使其与地面垂直，并与上半身的夹角成90°。这是该动作的结束姿势（图67）。应该在这个两部分的动作过程中呼气。大多数中段练习此时都要反向重复前半部分的动作，但这个练习有所不同。在有阻力（重力）的情况下降低双腿比抬起双腿要容易，蛙举腿正利用了这一点。降低双腿并保持完全伸展（图68），直到双腿距离地面约2-5 厘米（图69）。大多数练习动作中上与下的过程都要经过2 秒钟，但该练习的下落过程要经过4 秒钟，以便身体在有利的姿势中获得更多的锻炼。双腿慢慢下降时吸气，然后重复以上动作。",
+        "analysis": "不管是平卧姿势，还是悬垂姿势，从屈举腿到直举腿的过渡都是相当大的挑战，需要更多的柔韧性和力量。蛙举腿能够帮助训练者渡过这个难关，其作用就像是屈举腿与直举腿之间的摆渡人，因为它能够锻炼腘绳肌和背郡勘力量与柔韧性。可惜的是，蛙举腿在健身界少有耳闻——20 世纪60 年代之后似乎就已失传，因为那时举腿练习已经被卷腹取代，不再流行。",
+        "slowSteady": "如果你发现这个动作对你来说有些吃力，那就集中在靠上的动作幅度内，即不要把双腿放得太低。随着你力量的增加，再慢慢加大动作幅度，直到可以练习完整的动作。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 4,
+        "standards": [
+          {
+            "id": "c1d2f45d-4a07-4adc-9593-ec267aaa3559",
+            "styleId": "39e9d772-bbd0-4f34-81f2-b64e857b38e6",
+            "groupNumber": 1,
+            "number": 8,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "ea48028d-f394-43fc-90a3-f123f2f34eb2",
+            "styleId": "39e9d772-bbd0-4f34-81f2-b64e857b38e6",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "817a7fd9-3dab-40a3-8de7-e74064f44475",
+            "styleId": "39e9d772-bbd0-4f34-81f2-b64e857b38e6",
+            "groupNumber": 3,
+            "number": 25,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "15b4c994-e5f3-473c-b61e-fb3ba2283b40",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "平卧直举式",
+        "img1Url": "Skill_4_Style_5_1",
+        "img2Url": "Skill_4_Style_5_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=16&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "平躺在地上，面部朝上。双脚并拢，双腿伸直，双手置于身体两侧。抬起双脚，使其距离地面约2-5 厘米。双手向下按压地板，以保持身体稳定。这是该动作的起始姿势（图70）。双腿锁定，抬起双脚直到它们到达骨盆正上方，即双腿与上半身的夹角成90°。这是该动作的结束姿势（图71）。抬脚的过程中呼气，腹部保持收紧。至少要用2 秒钟平缓地完成该动作，不要用猛劲。停顿片刻，然后反向动作，降低双腿的过程中吸气。到达起始姿势后略作停顿，再重复。在整个动作过程中，膝盖始终要锁定，双脚不能接触地面，直到一组完成之后方可。",
+        "analysis": "这个动作在军事训练营和武术学校中颇受欢迎，因为它既可以增加腹部和髋部的力量及耐力，又可以提升身体的运动能力和柔韧性。该动作貌似很简单，但那只是假象：只要膝关节稍微弯曲，两脚触地，借助惯性离开地板，该动作就会变得非常容易；可是，这也会使练习成效大打折扣。",
+        "slowSteady": "只要膝盖稍微弯曲，就可以大幅降低动作难度，但我不推荐大家这样做，因为该动作的主要益处就是来自于双腿伸直。如果你还达不到该动作的初级标准，那就回到平卧蛙举腿（第四式），等你能够达到3 组，每组各30 次的标准后再尝试该动作。如果那时你还觉得困难，那就保持双腿伸直，但是缩小动作幅度，集中做靠上部分的动作，随着力量的增加再逐渐增加动作幅度，把脚放得越来越低。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 5,
+        "standards": [
+          {
+            "id": "29193efc-058d-4b20-9a47-6d49012a347c",
+            "styleId": "15b4c994-e5f3-473c-b61e-fb3ba2283b40",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "d61f5a10-38ee-4645-9211-2f2c33b04841",
+            "styleId": "15b4c994-e5f3-473c-b61e-fb3ba2283b40",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "d9274a80-f364-40d8-a3d3-ced99c7e1fb9",
+            "styleId": "15b4c994-e5f3-473c-b61e-fb3ba2283b40",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "86fce1ff-3bbc-49d0-8d14-00d234dfacf2",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "悬垂屈膝式",
+        "img1Url": "Skill_4_Style_6_1",
+        "img2Url": "Skill_4_Style_6_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=17&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "向上跳起，抓住高过头顶的横杆，双手与肩同宽。横杆要够高，以使身体悬垂时双脚依然离地，即使离地仅有一厘米。身体成一条直线，保持肩部收紧（参见第107 页）。这是该动作的起始姿势（图72）。平缓地抬起膝盖，直到双膝与骨盆处于同一高度，膝关节弯曲成90°，大腿与地面平行。在以上运动过程中呼气，同时保持收腹。这是该动作的结束姿势（图73）。暂停一下，然后反向运动，直到身体完全伸展。在此过程中吸气，然后重复练习。",
+        "analysis": "从这一式开始，训练者将开始举腿系列中更难的悬垂动作。在地板上练习时，训练者只需部分地克服重力，而现在必须完全克服重力。这种变化会在短时间内急剧增强髋部与身体中段的力量。此外，在横杆上悬垂，也增加了胸腔肌肉（如前锯肌与肋间肌，它们在手臂和腹部之间起连接作用）的活动性。因此，在横杆上进行悬垂举腿练习比在双杠或类似设备上练习效果更好。",
+        "slowSteady": "如果你还不能严格按照要求做5 次悬垂屈膝，那就减小动作幅度，集中于动作的靠上阶段，然后再逐渐增加幅度。不管做什么动作，都不要使用惯性。在该系列的前几式使用平缓的、完全有控制的动作，能够很好地锻炼肌肉与肌键的力量，这对你掌握后面的练习至关重要。切记，惯性无益。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 6,
+        "standards": [
+          {
+            "id": "d11eba3f-6aa2-41dc-863a-cef3dd5c3c94",
+            "styleId": "86fce1ff-3bbc-49d0-8d14-00d234dfacf2",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "842826ee-ab5b-4488-bab0-5ffe02274604",
+            "styleId": "86fce1ff-3bbc-49d0-8d14-00d234dfacf2",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "c9912395-981e-402a-bf24-602031b53d2d",
+            "styleId": "86fce1ff-3bbc-49d0-8d14-00d234dfacf2",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "c82e3b0d-6c7b-4550-b941-becf2363e722",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "悬垂屈举式",
+        "img1Url": "Skill_4_Style_7_1",
+        "img2Url": "Skill_4_Style_7_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=18&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "向上跳起，抓住高过头顶的横杆。身体成一直缪星叙脚离地。双手大致与肩同宽，肩部收紧。弯曲膝盖，直到膝关节大约成135°，双脚置于身后几厘米。这是该动作的起始姿势（图74）。以髋部为轴，平缓地抬起双腿，直到双脚与骨盆在一个高度上。这是该动作的结束姿势（图75）。暂停一下，然后做反向动作，如此重复。整个运动过程中，只能移动髋部，膝盖要保持锁定。举腿时呼气，下降时吸气，始终保持收腹。",
+        "analysis": "悬垂屈举腿是悬垂屈膝的延伸，难度更大。悬垂屈膝时膝盖要弯曲成90°，而悬垂屈举腿时膝盖则要成135°。增长的力臂使得悬垂屈举腿成为到目前为止最难的中段练习。你的腹肌、腰部肌肉、前锯肌、髋部屈肌都会变得更强壮。",
+        "slowSteady": "最初，你可能很难在整个动作过程中都将膝关节锁定在135°。双腿下降时，你很想把双腿伸直一点儿。要尽量避免这一趋势，因为在此过程中重新调整膝关节的角度会产生惯性，从而导致身体摇晃。如果你做该动作有困难，只要减少膝盖的弯曲角度即可—更接近90°。随着在每次练习后力量的不断提高，再逐渐增加膝盖的弯曲角度，直到最终成135°。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 7,
+        "standards": [
+          {
+            "id": "84f1282c-92d9-4ebd-96ae-54d3d9bf9f48",
+            "styleId": "c82e3b0d-6c7b-4550-b941-becf2363e722",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "9d8b481e-572e-4aec-8c92-bebdadf6219d",
+            "styleId": "c82e3b0d-6c7b-4550-b941-becf2363e722",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "ee1c1c49-2000-4e80-b9f1-2411b68b1295",
+            "styleId": "c82e3b0d-6c7b-4550-b941-becf2363e722",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "b0059852-411b-417a-984a-9dee27223a70",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "悬垂蛙举式",
+        "img1Url": "Skill_4_Style_8_1",
+        "img2Url": "Skill_4_Style_8_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=19&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "起始姿势与第七式悬垂屈举腿相同（图74），就像做第七式一样，抬起双腿。双脚与髋部在同一高度时（图75），再将双脚伸向正前方，直至双腿完全伸直。这时双腿与地面平行，即与上半身之间的夹角成900（图76）。暂停一下，然后慢慢放下双腿，在此过程中双腿始终伸直（图77）。该动作完成时，身体完全伸展（图78）。然后回到起始姿势，重复练习。举腿时呼气，下降时吸气，腹部从始至终都要收紧。",
+        "analysis": "从力学上来说，举腿的下降过程比上举过程容易，悬垂蛙举腿便充分利用了这一点。努力练习该动作，可以非常快速地增加力量和柔韧性，从而使你能够更轻松地过渡到后面的直腿练习（第九式与最终式）。",
+        "slowSteady": "如果你能达到悬垂屈举腿的升级标准，那做5 次悬垂蛙举腿应该不在话下。训练者难以从悬垂屈举腿升级到悬垂蛙举腿，通常是因为身体柔韧性较差，而非力量不足。其实这很容易解决：练习之前先做几分钟体前屈动作，拉伸下背部和腘绳肌。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 8,
+        "standards": [
+          {
+            "id": "5fa6f416-b674-4f17-89da-5fae1da69744",
+            "styleId": "b0059852-411b-417a-984a-9dee27223a70",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "09a291b3-e67c-4ee4-aa93-2014d80fd58e",
+            "styleId": "b0059852-411b-417a-984a-9dee27223a70",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "84035b80-a782-4ffa-8ad3-4170829e0c06",
+            "styleId": "b0059852-411b-417a-984a-9dee27223a70",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "e51de0cc-8dc3-4bc4-8e4f-a0a00b08d25a",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "悬垂半举式",
+        "img1Url": "Skill_4_Style_9_1",
+        "img2Url": "Skill_4_Style_9_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=20&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "抓住高过头顶的横杆，身体成一条直线，双脚摺窦也，双肩收紧。双腿锁定，然后慢慢抬起，使之与地面之间的夹角成45°。这是该动作的起始姿势（图79）。膝关节保持锁定，然后平缓地抬起双腿，直到它们与地面平行。这是该动作的结束姿势（图80）。暂停一会，然后放下双腿，回到起始姿势，如此重复。举腿时呼气，下降时吸气，腹部保持收紧。",
+        "analysis": "膝盖锁定、不使用惯性做直举腿相当难，500 个认真的训练者里可能就有一个人能完成——没准更少。该动作如此困难的原因之一是动作幅度大（身体从完全伸展到完全直角的姿势）。训练者一旦获得在最高点将腿伸直（即悬垂蛙举腿的结果）所需的力量和柔韧性，就可以练习悬垂半举腿。与第八式相比，该动作使上半幅度的动作更难一些，并去除了下半幅度的动作。",
+        "slowSteady": "如果你能达到悬垂蛙举腿的升级标准，那就意味着你能够完成更难的直腿动作（图80）。如果你觉得悬垂半举腿太难，那一定是因为你的肌肉力量还无法完成这么大的动作幅度。做出该动作的结束姿势（双腿伸直与地面平行），然后慢慢地、小幅度地向下再向上移动双腿，即便刚开始只能移动几厘米也没关系，随着力量的增加，你就能够动作标准地完成悬垂半举腿了。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 9,
+        "standards": [
+          {
+            "id": "6bce81c3-2880-4e97-bfa4-17b3b0b841f2",
+            "styleId": "e51de0cc-8dc3-4bc4-8e4f-a0a00b08d25a",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "1787c44f-80e2-4ade-a103-8cc1f356855b",
+            "styleId": "e51de0cc-8dc3-4bc4-8e4f-a0a00b08d25a",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "9eac8cd6-8d1f-4133-a599-ece97b8215b3",
+            "styleId": "e51de0cc-8dc3-4bc4-8e4f-a0a00b08d25a",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "4fa140ca-aa09-477a-bdba-88c9bcaa4037",
+        "skillId": "58676d4c-5771-4824-b21b-8a0ee391efe6",
+        "name": "悬垂直举式",
+        "img1Url": "Skill_4_Style_10_1",
+        "img2Url": "Skill_4_Style_10_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=21&share_source=copy_web",
+        "traningPart": "腹部",
+        "actionDescription": "现在你已经知道该怎么做悬垂直举腿了。抓住禅唾头顶的横杆，要保证身体悬垂时双脚依然离地。双手大致与肩同宽，双肩收紧。这是该动作的起始姿势（图81）。平缓地举起双腿，直到它们与地面平行，此过程至少要持续2 秒钟。举腿时呼气，尽量将所有气体都呼出肺部，使腹部完全收紧。这是该动作的结束姿势（图82）。暂停一下，然后反向运动，回到起始姿势，这一过程至少也要持续2 秒钟，在此过程中吸气。即使在起始姿势中腹部也要收紧，两腿始终锁定，整个运动过程中只用肌肉控制，不要用惯性。",
+        "analysis": "若根据上述规定严格练习，那么悬垂直举腿将是世界上最伟大的中段练习动作，卷腹、器械练习和负重仰卧起坐都相形见细。如果你能完美无缺地做上20 次悬垂直举腿，那你的腰部将无比强大和灵活，腹外斜肌、前锯肌、腹横肌和肋间肌将犹如岩石般坚硬突出，腹肌也会像钢板般结实。你将拥有魔鬼六块！",
+        "slowSteady": "开始练习悬垂直举腿时，你应该已经很好地掌握了悬垂半举腿。如果还没有，那就不要贸然前行。如果已经掌握，那只需不断练习，慢慢增加动作幅度—即便每次只增加1 厘米——你会在不知不觉之间征服这个动作。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 10,
+        "standards": [
+          {
+            "id": "a054fffa-6e6b-43f6-8ab2-4cde8d3375e2",
+            "styleId": "4fa140ca-aa09-477a-bdba-88c9bcaa4037",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "c66390b6-f474-4fa3-8a4c-2a181e4df1e4",
+            "styleId": "4fa140ca-aa09-477a-bdba-88c9bcaa4037",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "aa6c1973-44d5-421a-8bb2-301b13a62079",
+            "styleId": "4fa140ca-aa09-477a-bdba-88c9bcaa4037",
+            "groupNumber": 2,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "举腿",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      }
+    ]
+  },
+  {
+    "id": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+    "name": "桥",
+    "description": "严阵以待的脊柱",
+    "imgUrl": "series5",
+    "ownerId": "c37ab71c-7a4a-47a1-80e7-e408de3c196d",
+    "createTime": "2022-03-03T16:25:08.393818",
+    "orderNumber": 5,
+    "skillStyles": [
+      {
+        "id": "b276ec17-4ade-479e-acf1-2e131582cb7a",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "短桥式",
+        "img1Url": "Skill_5_Style_1_1",
+        "img2Url": "Skill_5_Style_1_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=22&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "躺在地上，双手叠放在腹部。膝盖弯曲，将双脚拉向臀部，直到胫骨与地面接近垂直，此时脚跟距离臀部约 15 一 20 厘米，脚掌平放在地上。双脚与肩同宽或略窄，依个人舒适度而定。这是起始姿势。然后双脚用力下压，身体向上拱起，使髋部和背部离开地面，直到仅以双肩和双脚支撑整个身体。此时，大腿和躯干应成一条直线，髋部不要下沉。这是结束姿势。暂停一会，然后做反向动作，缓缓地放低身体，直到回到起始姿势，如此重复。身体撑起时呼气身体放低时吸气",
+        "analysis": "用下肢来推动整个身体，这是开始脊柱训练最温和的方式。因为在日常生活中，我们通常都是通过腿部带动脊柱活动的，比如散步、弯腰等。在短桥的最高处保持躯干伸直的动作，会刺激脊椎和髋部的肌肉，同时几乎不会给脊椎骨造成任何压力。所以，对椎间盘有伤的人来说，这是极好的治疗动作。",
+        "slowSteady": "大多数人做短桥时都不会感觉太吃力。如果你正处于背伤恢复阶段，动作对你而言稍有困难，那你可以在锁部下方放上枕头或坐垫，以缩小动作幅度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 1,
+        "standards": [
+          {
+            "id": "87887fa5-caee-4a97-819b-9bd950e30a55",
+            "styleId": "b276ec17-4ade-479e-acf1-2e131582cb7a",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "dded391e-cfcc-4b03-9a6f-706a48e978b8",
+            "styleId": "b276ec17-4ade-479e-acf1-2e131582cb7a",
+            "groupNumber": 2,
+            "number": 25,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "570bee9a-7a54-4491-b0e7-204fe2c9322a",
+            "styleId": "b276ec17-4ade-479e-acf1-2e131582cb7a",
+            "groupNumber": 3,
+            "number": 50,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "19b6ae94-69b3-43c8-9399-10a0b7a7c707",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "直桥式",
+        "img1Url": "Skill_5_Style_2_1",
+        "img2Url": "Skill_5_Style_2_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=23&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "坐在地上，双腿伸直，双脚与肩同宽。手掌平放在髋部两侧的地上，手指朝前。坐直，此时腿和上半身之间的夹角成90°。这是该动作的起始姿势（图85）。双手用力下压，双臂绷紧，同时将髋部向上推起，直到双腿与躯干成一条直线。下巴向上抬起，看向天花板，此时只用手掌和脚跟支撑身体。这是结束姿势（图86）。暂停一会，然后反向运动。身体撑起时呼气，身体放低时吸气。",
+        "analysis": "短桥主要通过双腿的推动活动脊椎肌肉，而直桥在此基础上又增加了手臂，再加上伸直整个身体的动作，从而增加了难度。直桥一方面会训练手臂，另一方面也会打开僵硬的身躯，并强化肩胛骨之间的肌肉，这对于难度更大的桥而言至关重要。",
+        "slowSteady": "如果你觉得上面描述的动作太难，那么可以缩短力臂，降低难度。像做短桥一样弯曲而不是伸直双腿做该动作（图84）。如果这样还是太难，那就双膝跪地、身体后仰做这个动作，将臀部向上抬起几厘米，使其离开小腿。一直这样练习，直到你足够强壮之后再尝试做标准的直桥。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 2,
+        "standards": [
+          {
+            "id": "f324c05a-2d96-4fcc-afe2-e9e7bfaa06a0",
+            "styleId": "19b6ae94-69b3-43c8-9399-10a0b7a7c707",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "f8ad655c-1fce-4db9-97a0-ed41f4afe108",
+            "styleId": "19b6ae94-69b3-43c8-9399-10a0b7a7c707",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "c05d199a-7cc6-4f83-814b-86837002d310",
+            "styleId": "19b6ae94-69b3-43c8-9399-10a0b7a7c707",
+            "groupNumber": 3,
+            "number": 40,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "679b4469-17db-4f20-a460-3da047e5d58c",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "高低式",
+        "img1Url": "Skill_5_Style_3_1",
+        "img2Url": "Skill_5_Style_3_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=24&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "高低桥需要借助一个与膝盖等高或略高的物体产提监狱里，床铺是最好的选择。一般家庭里的床稍高一点，但也可以。坐在床的边缘，身体向后躺在床上，双脚平放地上，与肩同宽。身体往前挪，以便髋部离开床。双手放在头部两侧，手指指向脚。这是该动作的起始姿势（图87）。双手用力下压，肘部打开，推起髋部，同时背部弯起成弧形。继续平缓地尽力上推身体，至少让头部与身体完全离开床。手臂不必完全伸直，肘部应该是弯曲的。或许你只能将自己的身体推起几厘米，那就可以了。有控制地向后仰头，以便能看见身后的墙壁。这是该动作的结束姿势（图88）。然后反向运动，缓慢地放低身体，直到躯干与头部再次完全躺在床上。保持正常呼吸。",
+        "analysis": "高低桥是桥系列中第一个标准的“头手并列”姿势的练习。这种姿势会强化训练者的腕部，打开其肩部与胸部，为之后的动作打下基础。相比于之前的几式，此动作要求脊椎上部有更高的柔韧性和收缩力。",
+        "slowSteady": "角度越小（即头和手所处的位置越高），桥就越容易。如果床上的高低桥太难，那你可以尝试在更高的物体上练习，比如餐桌或书桌，直到可以用更低的物体练习为止。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 3,
+        "standards": [
+          {
+            "id": "4c062c66-7822-4881-8470-d1d11ce7404b",
+            "styleId": "679b4469-17db-4f20-a460-3da047e5d58c",
+            "groupNumber": 1,
+            "number": 8,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "c43717a1-99da-4b20-8420-22335527c792",
+            "styleId": "679b4469-17db-4f20-a460-3da047e5d58c",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "780adfa8-5b93-4535-81c8-e4dec9efa86b",
+            "styleId": "679b4469-17db-4f20-a460-3da047e5d58c",
+            "groupNumber": 3,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "40ddc75e-e189-4524-b880-dc78262f694e",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "顶桥式",
+        "img1Url": "Skill_5_Style_4_1",
+        "img2Url": "Skill_5_Style_4_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=25&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "平躺在地上，弯曲膝盖，把脚拉向臀部，直到脚跟与臀部相距约15-20 厘米。双脚与肩同宽或略窄，双手撑在头部两侧的地板上，手指指向脚，两肘指向天花板。尽力抬起髋部，使身体离地。手臂与腿继续用力推，直到背部形成优美的弧形，髋部高高抬起。头向下仰，头顶指向地板，这是“桥式”。保持这个姿势一会儿，然后弯曲手臂与双腿，直到头部轻轻接触地板。这是该动作的起始姿势（图89）。再次暂停一会，然后将背部向上推起成“桥式”。这是该动作的结束姿势（图90）。运动过程中要小L，以免撞到头部。在整个练习组中，背部始终要保持弧形，并且尽量正常呼吸。完成训练目标之后，慢慢地放低肩部、背部和髋部，直至整个身体接触地面。",
+        "analysis": "瑜伽是以静态姿势训练人体的背部，“老派”体操则专注于动态的力量。这种小幅度练习只是学习完整的桥的预备阶段。",
+        "slowSteady": "如果你刚开始进人“桥式”有点儿吃力，那就在腰下面放一些东西——两三个坐垫或枕头应该就够了。如果你不能让头部接触地板，那就先练习较小的动作幅度，在以后的锻炼中再把头降得越来越低。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 4,
+        "standards": [
+          {
+            "id": "c688f607-a552-48ea-8bfb-7ca375a9f2ee",
+            "styleId": "40ddc75e-e189-4524-b880-dc78262f694e",
+            "groupNumber": 1,
+            "number": 8,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "83beb66a-6267-4914-aaaa-3d7efde0ca06",
+            "styleId": "40ddc75e-e189-4524-b880-dc78262f694e",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "4548608d-648b-4a8c-8b63-07a56a694de6",
+            "styleId": "40ddc75e-e189-4524-b880-dc78262f694e",
+            "groupNumber": 2,
+            "number": 25,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "1e7ad1fa-460b-4fff-9ccb-4d25bf8ba636",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "半桥式",
+        "img1Url": "Skill_5_Style_5_1",
+        "img2Url": "Skill_5_Style_5_2",
+        "videoUrl": null,
+        "traningPart": "脊椎",
+        "actionDescription": "这个动作需要借助一个篮球或足球来控制动作幅度。坐在地上，把球放在自己身后的地上（靠近自己）。向后躺，只有双肩和双脚在地面上，双脚与肩同宽或略窄，球支撑着腰部。如果你感觉这种姿势不舒服，在开始前可以在球上放上毛巾或坐垫。双手撑在头部两侧的地板上，手指指向脚。然后，用手把双肩和头部推离地板，只用双脚、球和手掌支撑身体。这是该动作的起始姿势（图91）。在这个姿势基础上髋部要尽力向上顶起，伸展手臂和双腿，抬起背部，直到背部完全离开球。继续向上运动，直到背部形成完全的弧形。这是结束姿势（图92）。在最高处暂停一会，然后慢慢放低身体，回到起始姿势。在一组动作过程中，后腰只能轻轻接触球，而不能将整个身体的重量都压在球上。重复练习，尽量保持正常呼吸。",
+        "analysis": "半桥其实是第六式标准桥的上半部分动作。等你能达到下面的升级标准后，你的脊椎肌肉将变得强劲且柔韧，足以完成更难的标准桥的下半部分动作。",
+        "slowSteady": "与大多数桥动作一样，如果你觉得如上述般完成训练目标有困难，可以先缩小动作幅度，然后一点点增加难度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 5,
+        "standards": [
+          {
+            "id": "27a7b67e-9de4-477c-a640-f6d6f3f56cf1",
+            "styleId": "1e7ad1fa-460b-4fff-9ccb-4d25bf8ba636",
+            "groupNumber": 1,
+            "number": 8,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "ec69a017-098e-4896-ad4a-1c9f5faf638d",
+            "styleId": "1e7ad1fa-460b-4fff-9ccb-4d25bf8ba636",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "ef00abbf-8572-46a6-9c90-d258a8bc63d7",
+            "styleId": "1e7ad1fa-460b-4fff-9ccb-4d25bf8ba636",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "11474ec8-89c9-487e-a56a-bdabeac59c6e",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "标准式",
+        "img1Url": "Skill_5_Style_6_1",
+        "img2Url": "Skill_5_Style_6_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=26&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "平躺在地上，弯曲膝盖，让双脚向臀部靠近，直至与其相距约15 一20 厘米。双脚与肩同宽或略窄，双手撑在头部两侧的地板上，手指指向脚，两肘指向天花板。这是该动作的起始姿势（图93）。尽量把髋部向上抬，从而使身体离开地板。手臂和双腿继续用力推，直到背部形成优美的弧形。在完美的桥中，手臂要完全伸直。头部尽量后仰，从而看到后面的墙壁。这是该动作的结束姿势（图94）。在最高处暂停一会儿，然后反向运动，有控制地放低身体——要平缓地降低，不要一下塌下来，这样你会受益更多。继续放低身体，直到髋部、背部和头部完全接触地面。这一连串动作就是一个标准的桥。完成相应的训练目标，整个过程尽量保持正常呼吸。",
+        "analysis": "标准桥是一个不同寻常的动作，它既可以预防和治疗很多背部问题，也可以增加全身的柔韧性，还可以增强脊柱深层肌肉的力量、扩展胸腔，舒展肩膀。此外，它还能强化双臂和双腿，改善血液循环，甚至有助于消化。",
+        "slowSteady": "想要做到理想的桥——尤其是将双臂和双腿完全伸展—确实很难，需要耐心刻苦的练习。开始时尽量把身体向高抬，“完美”终有一天会来眷顾你的。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 6,
+        "standards": [
+          {
+            "id": "9c89d1f6-36df-49b0-b41a-9195051e70bb",
+            "styleId": "11474ec8-89c9-487e-a56a-bdabeac59c6e",
+            "groupNumber": 1,
+            "number": 6,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "a7a230f1-07cd-438f-b193-9cf5b341db3f",
+            "styleId": "11474ec8-89c9-487e-a56a-bdabeac59c6e",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "14b10c3e-0cc0-4d7e-a103-ff29352482e1",
+            "styleId": "11474ec8-89c9-487e-a56a-bdabeac59c6e",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "78febd02-0e2c-45b5-828a-1cee5f8c4413",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "下行式",
+        "img1Url": "Skill_5_Style_7_1",
+        "img2Url": "Skill_5_Style_7_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=27&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "站在距墙壁大约一臂远的位置，如果把握不准，可以稍近一点儿，这样可以更安全地调整。双脚与肩同宽，锁部向前挺，身体向后弯。抬起下巴，头尽量向后仰，以舒服为准。身体继续平缓地向后弯，直到可以看到身后的墙壁。一旦能看见墙壁，便将双手举过头顶，手掌紧贴墙壁，手指朝下，与头部齐平。这是该动作的起始姿势（图95）。将一部分体重向后转移到手上，把一只手降低几厘米，再让其紧贴墙壁；然后再移动另一只手，使其降得更低。用手在墙壁上向下“行走”时，身体要一直向后弯曲（图96）。手向下移动的同时，双脚也要一点点远离墙壁，以适应身体弯曲—只要感觉需要这样做.就小步向前移动。双手继续交替下移，直到移至墙根为止。之后双手手掌撑地，此时你其实是在墙根处做标准的桥式。这是该动作的最低点（图97）。然后让身体落到地板上，再站起来，回到起始姿势，重新开始下一轮动作。整个动作过程中要平缓呼吸。",
+        "analysis": "顺着墙璧向下“走”比向上“走”容易，所以要先掌握这个。",
+        "slowSteady": "第一次做该动作就能“走”到墙根的人寥寥无几。你可以一点点地增加动作幅度——每次训练都降得更低一点儿。另外，“把步子迈得小一些”也会更容易一些。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 7,
+        "standards": [
+          {
+            "id": "9f81980f-1d94-422a-8dc0-8fba8057ac4a",
+            "styleId": "78febd02-0e2c-45b5-828a-1cee5f8c4413",
+            "groupNumber": 1,
+            "number": 3,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "2f219f06-b1d8-4a75-bcc0-c1235c7e2acd",
+            "styleId": "78febd02-0e2c-45b5-828a-1cee5f8c4413",
+            "groupNumber": 2,
+            "number": 6,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "2b860212-2fc4-49c0-94df-5074e58ab83b",
+            "styleId": "78febd02-0e2c-45b5-828a-1cee5f8c4413",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "704d45eb-040d-42f2-b370-328aad4812a4",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "上行式",
+        "img1Url": "Skill_5_Style_8_1",
+        "img2Url": "Skill_5_Style_8_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=28&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "背向墙壁（不接触墙壁）站立，身体向后弯曲，双手举过头顶，与墙壁接触，做出第七式的起始姿势（图95）。然后，如第七式中描述的那样，双手向下“行走”，直到贴着墙根做出标准的桥式（图97）。接下来，你需要向反方向运动。让一只手重新接触墙壁，同时用力推墙壁，之后让另一只手也接触墙壁，位置比之前那只手略高（图98）。把双手从地面上转移到墙壁上，是该动作最难的地方。接来下只是交替地把一只手放得比另一只手更靠上一些，顺着墙壁往上“走”。随着身体逐渐伸展，你很可能需要慢慢小步移动向墙壁靠拢，以保证手掌处有足够的压力。继续向上“走”，直到身体几乎伸直（图99）。然后，双手轻轻推墙，再次完全脱离墙壁站立（图100）。站立、向下“行走”、向上“行走”、再回到站立姿势，这就是一个完整的动作。",
+        "analysis": "一旦你具备了顺着墙壁向下“走”所需要的柔韧性与力量，就该开始练习向上“走”了。这并不要求更好的柔韧性，但要求更大的力量，因为你要克服重力。",
+        "slowSteady": "与第七式一样，想要完美地做成该动作，关键在于逐渐增加动作幅度。首次尝试时，只要顺墙壁向下“走’到某一点就可以了—确保你还能从这一点再向上“走”回来。如果觉得有用，就用粉笔把这一点标记下来，并逐渐降低下降的高度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 8,
+        "standards": [
+          {
+            "id": "b995eec9-8e43-4a3a-9b3a-a34347b06c4e",
+            "styleId": "704d45eb-040d-42f2-b370-328aad4812a4",
+            "groupNumber": 1,
+            "number": 2,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "a8faf95a-f518-4997-81be-2767e2823a38",
+            "styleId": "704d45eb-040d-42f2-b370-328aad4812a4",
+            "groupNumber": 2,
+            "number": 4,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "269268cc-6431-4c67-8041-9fb89bd8c67d",
+            "styleId": "704d45eb-040d-42f2-b370-328aad4812a4",
+            "groupNumber": 2,
+            "number": 8,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "35148114-0b88-4c64-afd5-0fa39005b38f",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "合式",
+        "img1Url": "Skill_5_Style_9_1",
+        "img2Url": "Skill_5_Style_9_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=29&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "直立，双脚与肩同宽，身体后方的空地要足以让训练者平躺。这是该动作的起始姿势。双手置于镜部两侧，并开始向前推骨盆（图101）。当骨盆移至你的极限时，开始弯曲膝盖，同时脊柱向后弯曲成弓形。然后头部向后仰，眼睛向后看。整个过程要流畅、一气呵成。继续弯曲脊柱，直到你可以看到身后几厘米的地面。一旦看到地面，就让双手离开髋部并将其举过头顶（图102）。这种姿势要求你有很好的柔韧性，前移的髋部加上弯曲的膝盖能够防止你向后摔倒。继续向后、向下运动，手臂保持伸展，直到手掌接触地面。这是该动作的结束姿势（图103），标准的桥式。接着，弯曲手臂与双腿，直到背部着地。然后站起来，回到起始姿势，重复动作。在整个练习组中，保持正常呼吸。",
+        "analysis": "该动作是目前为止难度最高的桥。它包含最终式铁板桥中的“离心”运动阶段，即反向运动阶段。",
+        "slowSteady": "起初，在该动作的最后三分之一阶段，你的身体很可能会向后倒，运气好的话你可能还能够用手掌“砸”地。这样可不行，你必须反复练习，直到你可以让双手温和地落在地面上。有个小窍门对你会有帮助，就是向后倒在台阶上—每次选择更低的台阶，直到可以让双手缓和地落在地上。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 9,
+        "standards": [
+          {
+            "id": "c009c303-cdb4-42d3-82fc-f14e7540b7e4",
+            "styleId": "35148114-0b88-4c64-afd5-0fa39005b38f",
+            "groupNumber": 1,
+            "number": 1,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "b1c2086a-2f94-4f5d-a2dc-2ba4d07209d9",
+            "styleId": "35148114-0b88-4c64-afd5-0fa39005b38f",
+            "groupNumber": 2,
+            "number": 3,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "3dcfaec7-b39f-42fe-9acd-368f6d8ff929",
+            "styleId": "35148114-0b88-4c64-afd5-0fa39005b38f",
+            "groupNumber": 2,
+            "number": 6,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "5ed3ee2a-f7fa-49aa-ae15-c1466a9996f4",
+        "skillId": "8c7b9ef4-0b3f-4e8f-90da-34b5c702b703",
+        "name": "铁板式",
+        "img1Url": "Skill_5_Style_10_1",
+        "img2Url": "Skill_5_Style_10_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=30&share_source=copy_web",
+        "traningPart": "脊椎",
+        "actionDescription": "直立，按照合桥（第九式）的运动过程，做出标准桥式（图104）。双臂伸直，同时弯曲膝盖，将体重转移至双腿。双手（最后是手指）用力按压地面，使手掌离地，同时继续向前转移体重。此时，如果你的后背足够柔韧以维持高度的弓形，腹部又足够有力，在你起身时手指会离地（图105）。这个向上的运动过程应该是平缓向前转移体重的结果，而非用双手以爆发力推地面的结果。继续向上运动，双手绕过肩部收回，颈部也收回，与身体成一直线。最后，将髋部拉回，成直立姿势，双手回到身体两侧。这是该动作的结束姿势（图106）。从直立姿势做成标准桥式，然后把自己从下向上拉回成直立姿势，就是一次完整的动作。重复练习，保持正常呼吸。",
+        "analysis": "这是桥系列的最终式，它需要不可思议的柔韧性、强大的关节、强有力的肌肉以及极好的平衡能力和协调能力。经常练习铁板桥，可以增强敏捷性、按摩内部器官，调整脊椎和肌肉系统，让你精力充沛。达到高次数练习后，它还会为你的新陈代谢“加油”",
+        "slowSteady": "犹如练习合桥（第九式）一样，练习铁板桥也可以借助台阶一点点增加动作幅度。采用较宽的站姿也会有所帮助，但最终还是要争取回归到与肩同宽的站姿。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 10,
+        "standards": [
+          {
+            "id": "3734870b-8db4-4121-8e23-c663c63642aa",
+            "styleId": "5ed3ee2a-f7fa-49aa-ae15-c1466a9996f4",
+            "groupNumber": 1,
+            "number": 1,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "0cf62eb4-0f42-4c57-9231-2d56016f79b8",
+            "styleId": "5ed3ee2a-f7fa-49aa-ae15-c1466a9996f4",
+            "groupNumber": 2,
+            "number": 3,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "5c6832ad-d8ea-4ee6-aa53-f54b856e4746",
+            "styleId": "5ed3ee2a-f7fa-49aa-ae15-c1466a9996f4",
+            "groupNumber": 2,
+            "number": 30,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "桥",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      }
+    ]
+  },
+  {
+    "id": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+    "name": "倒立撑",
+    "description": "强有力的肩膀",
+    "imgUrl": "series6",
+    "ownerId": "c37ab71c-7a4a-47a1-80e7-e408de3c196d",
+    "createTime": "2022-03-03T16:25:08.393818",
+    "orderNumber": 6,
+    "skillStyles": [
+      {
+        "id": "0c17f059-a33e-4220-9956-975016a7916e",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "顶墙式",
+        "img1Url": "Skill_6_Style_1_2",
+        "img2Url": "Skill_6_Style_1_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=52&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "找一堵墙，在墙根处放置一个枕头（坐垫或叠好的毛巾也可）。双手和双膝着地，将头顶在枕头上，头部距离墙壁约 15 一 25 厘米。双手稳稳地放在头部两侧，大约与肩同宽。抬起一条腿的膝盖，让其靠近同侧的肘部，同时伸直另一条腿，使膝盖离地（图 107）。然后，让靠近肘部的腿使劲蹬地，同时将另一条腿向上踢，从而让两条腿同时靠向墙壁。一旦双脚靠在墙壁上，就慢慢伸直双腿，把身体摆正（图 108）。嘴巴保持闭合，用鼻子平缓呼吸。坚持所需时间后，弯曲双腿，并有控制地放下它们。",
+        "analysis": "任何想做倒立撑的人，首先都必须掌握倒立姿势。靠墙顶立是完美的人门技巧，只需稍加练习，我们的血管、内脏器官以及头部就会适应这种突然的颠倒。在这个动作中，整个身体都在头部上方，这对身体的平衡能力是一个考验。肩部要维持身体的平衡，因此也会得到一定的锻炼。",
+        "slowSteady": "在做靠墙顶立时，大多数人都能坚持几秒钟，主要问题是如何做成倒立姿势。难就难在找到上墙所需的推和蹬的正确力道。如果你觉得这有点儿困难，可以先请朋友帮忙，直到最终可以独立完成。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 1,
+        "standards": [
+          {
+            "id": "c96f8de6-1e32-4f6c-94a7-25e2fa544754",
+            "styleId": "0c17f059-a33e-4220-9956-975016a7916e",
+            "groupNumber": 1,
+            "number": 30,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "3f2566ff-c826-4a11-9dde-65d300dee3f3",
+            "styleId": "0c17f059-a33e-4220-9956-975016a7916e",
+            "groupNumber": 1,
+            "number": 60,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "b0d127a7-40ee-4975-80b4-df2e51d29cb9",
+            "styleId": "0c17f059-a33e-4220-9956-975016a7916e",
+            "groupNumber": 1,
+            "number": 120,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": true,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "86f4276f-609b-4be3-b2d6-d08d229cd65f",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "乌鸦式",
+        "img1Url": "Skill_6_Style_2_1",
+        "img2Url": "Skill_6_Style_2_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=53&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "双膝分开，呈蹲坐姿势。双手手掌放在身体前面的地板上，与肩同宽。双臂略微弯曲，身体向前倾斜，然后让双膝稳稳地夹在两肘外侧（图109）。身体继续前倾，一点一点把体重转移到手掌上，双脚的负重则越来越少。最终重心前移，双脚离地。双脚用力提起，保持平衡，平缓呼吸，坚持一定的时间（图110）。然后反向运动，身体重心慢慢后倾，直到脚尖再次接触地面。",
+        "analysis": "乌鸦式将教你结合手臂和肩部的力量使身体达到平衡，这是进人倒立撑练习的必要一步，因为你要通过手臂来平衡全身的重量。第一式已经使你在倒立时更加自在，第二式则能够帮助你发展肩部、腕部和手指的基本“平衡”力量。由于这不是倒立姿势，所以练习该动作之后，要接着练习靠墙顶立，才能获得力量训练与倒立平衡的全部效果。",
+        "slowSteady": "这个动作的关键是找到独特的平衡点。在这个姿势中保持平衡的艺术在于利用微妙的手指力量阻止身体向前倾倒（在用手平衡的更高级的动作中也都一样）。如果你开始向前倾，那就要使劲下压手指。腿要抬得足够高，以防身体向后落。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 2,
+        "standards": [
+          {
+            "id": "0b28b578-db91-4190-a869-badce6942700",
+            "styleId": "86f4276f-609b-4be3-b2d6-d08d229cd65f",
+            "groupNumber": 1,
+            "number": 10,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "aeb0e038-7714-4fee-a036-cbbec8356d71",
+            "styleId": "86f4276f-609b-4be3-b2d6-d08d229cd65f",
+            "groupNumber": 1,
+            "number": 30,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "8097a8fe-227c-4440-a868-1ccbe300ad70",
+            "styleId": "86f4276f-609b-4be3-b2d6-d08d229cd65f",
+            "groupNumber": 1,
+            "number": 60,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": true,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "db5a7f97-f36c-43d0-9992-e1a3aac274fc",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "靠墙式",
+        "img1Url": "Skill_6_Style_3_2",
+        "img2Url": "Skill_6_Style_3_2",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=54&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "找一面墙，双手手掌平放在距离墙根约15-25 厘米的地面上，双手与肩同宽。手臂伸直或近乎伸直，膝盖弯曲，撑起身体。提起一条腿的膝盖，让其靠近同侧的肘部（图111），然后使劲向下蹬地，同时让另一条腿向后上方摆。与此同时，让蹬地的腿也离地，紧随另一条腿向墙壁靠近，手臂保持伸展，双脚脚跟应同时接触墙壁。刚开始练习时，上踢的力量如果过大，你的后背和屁股会猛地撞到墙上，但久而久之你就会掌握完美的上墙技艺。最后，你的手臂应该是直的，身体摆正，背部略向内弓。这就是标准的靠墙倒立姿势（图112）。保持这一姿势一段时间，整个过程中保持正常呼吸。",
+        "analysis": "靠墙顶立应该已经让你适应了上下颠倒，乌鸦式应该已经使你的手臂和腕部获得力量来安全地通过双手平衡全部的体重。掌握这些动作之后，接下来就需要学习蹬起靠墙成标准倒立姿势的技艺，这比蹬起成顶立姿势更难（因为手臂要完全伸展）。这个动作不仅能教你这个重要技巧，还会增加你的肩部的基础万量。",
+        "slowSteady": "如果你练过蹬起成靠墙顶立（第一式），那么这个动作对你来说应该不会太难，只不过在蹬起时需要更加用力。如果刚开始感觉这点有些困难，可以尝试将双脚踩在某个东西（比如盒子或椅子）上蹬起。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 3,
+        "standards": [
+          {
+            "id": "686546a7-d2ca-4df9-8aa3-4d664f9c9cd7",
+            "styleId": "db5a7f97-f36c-43d0-9992-e1a3aac274fc",
+            "groupNumber": 1,
+            "number": 30,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "e8cb2ee6-b5fb-4640-b4e4-00d36a725ea1",
+            "styleId": "db5a7f97-f36c-43d0-9992-e1a3aac274fc",
+            "groupNumber": 1,
+            "number": 60,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "4771c0b6-3ce5-4cdd-99ce-fd803510e99b",
+            "styleId": "db5a7f97-f36c-43d0-9992-e1a3aac274fc",
+            "groupNumber": 1,
+            "number": 120,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": true,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "d72ad32f-5c36-462c-b8e2-2e8bdb288666",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "半倒立式",
+        "img1Url": "Skill_6_Style_4_1",
+        "img2Url": "Skill_6_Style_4_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=55&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "找一堵墙，双手手掌平放在距离墙根约15 一25 厘米的地面上，双手与肩同宽。手臂尽量伸直，蹬起成靠墙倒立姿势（第三式）。你现在应该处于标准的靠墙倒立姿势——手臂伸直，身体收紧，背部略微向内弓，脚跟与墙壁轻轻接触。这是该动作的起始姿势（图113）。然后弯曲肘部，使头部向地面方向下降一半高度。这是该动作的结束姿势（图114）。暂停一下，然后稳稳地推起身体，回到起始姿势。整个动作的运动幅度大约只有15 厘米。刚开始练习时不要误判距离，让身体降得太低。整组练习中保持平缓呼吸。",
+        "analysis": "在靠墙倒立（第三式）的静止姿势中，你的肩部、肘部和躯干应该已经获得了一些力量。该动作的强度要大得多，能够强化整个上肢带肌，并培养强劲有力的肘部和肪三头肌，同时对胸肌上部也有好处。",
+        "slowSteady": "通过之前几式的练习，你应该已经学会如何顺利蹬起靠墙成倒立姿势了。但是半倒立撑还要求上半身必须有极好的力量，如果上述动作对你而言太吃力，那你就要减小动作幅度。开始时只是稍微弯曲手臂—可能身体只下降了几分之一厘米，然后逐步增加次数和动作幅度，直到头部可以向地面下降一半的距离。假以时日，你会做到的。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 4,
+        "standards": [
+          {
+            "id": "c2abccae-50ca-4537-8567-dfc54de83690",
+            "styleId": "d72ad32f-5c36-462c-b8e2-2e8bdb288666",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "b529145c-a4de-4aeb-868a-8d426aea83bd",
+            "styleId": "d72ad32f-5c36-462c-b8e2-2e8bdb288666",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "ac125ee1-d1a0-4783-ab5b-6a0e64fc81c2",
+            "styleId": "d72ad32f-5c36-462c-b8e2-2e8bdb288666",
+            "groupNumber": 2,
+            "number": 20,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "174e96db-bcf1-454f-bc92-9c93ca84f045",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "标准式",
+        "img1Url": "Skill_6_Style_5_1",
+        "img2Url": "Skill_6_Style_5_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=56&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "找一面墙，双手手掌平放在距离墙根约15 一25 厘米的地面上，双手与肩同宽。双膝曲，蹬起靠墙成倒立姿势。如果你从前几式一路练过来，那现在对此过程必然了如指掌。如果你已经找到了适合自己的上墙技巧，那也很好。重要的是培养肌肉，而不是上墙的方式。上墙之后，只有双脚脚跟与墙壁接触，背部略微向内弯曲成弓形，双臂伸直。这是该动作的起始姿势（图1 巧）。弯曲肘部，直到头顶轻轻接触地板。这是该动作的结束姿势（图116）。使用“亲亲宝贝”的方法保护头部（参见第37 页）。暂停1 秒钟，然后推起身体，回到起始姿势。在所有倒立动作中都要通过肌肉控制身体，同时还要集中精神，以确保安全。尽量保持平缓呼吸。",
+        "analysis": "这是标准的“囚徒”倒立撑，它可以强化肩部、肮三头肌、肘部、斜方肌、胸肌及双手—其实整个上半身的力量都会得到发展。很多训练者都认为，倒立撑应该是“自由”的，即离开墙做。但这对平衡能力的要求极高。所有老派倒立练习者都相信，要想拥有超凡的平衡能力，首先应该培养力量。",
+        "slowSteady": "最低点是该动作的最难点。如果你不能完成5 次全幅度的倒立撑，那就不要一开始就降到最低点。等你更强壮的时候再增加动作幅度。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 5,
+        "standards": [
+          {
+            "id": "8805c3fa-656a-4db8-a57a-97801db6e6d7",
+            "styleId": "174e96db-bcf1-454f-bc92-9c93ca84f045",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "8d4748cf-d4fe-4090-97a6-ee95f2108030",
+            "styleId": "174e96db-bcf1-454f-bc92-9c93ca84f045",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "9a59dd30-36e6-45da-a344-a0aeee2b5c91",
+            "styleId": "174e96db-bcf1-454f-bc92-9c93ca84f045",
+            "groupNumber": 2,
+            "number": 15,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "7eedce76-afa3-4de6-b27f-d4bc427dc37c",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "窄距式",
+        "img1Url": "Skill_6_Style_6_1",
+        "img2Url": "Skill_6_Style_6_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=57&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "找一面墙，双手手掌平放在距离墙根约15 一25 厘米的地面上，但双手（尤其是两个食指）要互相接触。蹬起成倒立姿势，双臂伸直，脚跟与墙壁接触，身体微微弯曲。这是该动作的起始姿势（图117）。弯曲肘部，直到头部轻轻“亲吻”地板，肘部保持向前、向外的朝向（图118）。暂停一下（此时完全在控制之中），然后推起身体，回到起始姿势。",
+        "analysis": "标准倒立撑是绝佳的基本练习，可以教你有力且协调地使用最强的推力肌肉。但是，如果你想升级到非常高级的单臂倒立动作，那就需要非常强大的肌腱，尤其是肘部、前臂及腕部的肌腱。窄距倒立撑可以培养这些肌腿的力量，因为双手接近的姿势使得上肢带肌在这个动作中更难发力，而这会强迫肘部变得更加强壮。",
+        "slowSteady": "如果你够强，在达到一个动作的升级标准后直接升级到下一式动作的初级标准，通常不会有太多问题。可是，在从标准倒立撑升级到窄距倒立撑时你最好慢慢来，以让肌腔逐步适应。掌握倒立撑之后，每次练习时（或在你觉得状态不错的时候）都让双手更靠近一点儿，在地板上做标记也许有帮助。如果做倒立撑时你的双手相距大约45 厘米，那你要想升级到窄距倒立撑，至少要用18 周，甚至更长的时间。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 6,
+        "standards": [
+          {
+            "id": "5aeb6c55-f425-46c4-b84b-4abd88dd0265",
+            "styleId": "7eedce76-afa3-4de6-b27f-d4bc427dc37c",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "6004a0da-7bc3-43de-9a6a-ee50eaad0795",
+            "styleId": "7eedce76-afa3-4de6-b27f-d4bc427dc37c",
+            "groupNumber": 2,
+            "number": 9,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "d57fda9c-dccb-447b-a993-d86c966850c3",
+            "styleId": "7eedce76-afa3-4de6-b27f-d4bc427dc37c",
+            "groupNumber": 2,
+            "number": 12,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": false,
+        "isSingle": false,
+        "isRemoved": false
+      },
+      {
+        "id": "aab7e2c3-e8b0-4020-aee0-c9cda691246d",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "偏重式",
+        "img1Url": "Skill_6_Style_7_1",
+        "img2Url": "Skill_6_Style_7_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=58&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "在墙边放一个篮球，用自己觉得最容易的方式在篮球旁边蹬起成靠墙倒立，然后将一只手伸出去放在篮球上。这个动作说来简单，实际做起来却非常难，这需要你在很短时间（你的手找篮球所用的时间）内用一只锁定的手臂支撑整个体重。手在篮球上放稳之后再调整球的位置，使双手间距大约与肩同宽。支撑在地上的那只手臂要伸直，另一只手臂则是弯曲的。让双手尽量均匀地承担体重，平缓呼吸。在这时，肪三头肌、肱二头肌及肩部都需要非常卖力，否则很可能因为控制不住篮球而摔倒。这是该动作的起始姿势（图119）。弯曲肘部，直到头部轻轻接触地板。这是该动作的结束姿势（图120）。暂停一下，然后推起身体。",
+        "analysis": "为了把自己推起来，必须稳住篮球。如果不能以静力控制篮球，篮球就会向外滚动，这需要有力量极大的手臂与肩部，还有冠军级的肩袖。征服这个动作，你就会拥有超级强悍的关节和山地大猩猩般的肩膀。",
+        "slowSteady": "使用篮球要求训练者有高度的力量与平衡能力，还有快速的反应能力。我建议所有训练者刚开始练习这个时都使用稳固的物体，而不是篮球。可以使用一块砖头来起步，到后来用三块垒起来的砖头。在监狱里，很多家伙刚开始练习时会把几本薄书摞起来，以后再逐步往上加书。等到书与篮球一样高时，再用篮球做尝试。总之，安全至上。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 7,
+        "standards": [
+          {
+            "id": "d516fe4b-0f2f-4856-aef1-89e94ae5907a",
+            "styleId": "aab7e2c3-e8b0-4020-aee0-c9cda691246d",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "a0ab5798-c413-4b5b-a614-40468c5b614a",
+            "styleId": "aab7e2c3-e8b0-4020-aee0-c9cda691246d",
+            "groupNumber": 2,
+            "number": 8,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "5b5e8ebb-64f2-45ce-83ff-1cc9021a3ceb",
+            "styleId": "aab7e2c3-e8b0-4020-aee0-c9cda691246d",
+            "groupNumber": 2,
+            "number": 10,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "070bb23b-a869-4ee4-a60d-587c6e9dc837",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "单臂半式",
+        "img1Url": "Skill_6_Style_8_1",
+        "img2Url": "Skill_6_Style_8_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=59&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "蹬起靠墙成倒立姿势，脚跟与墙壁接触，身体略微成弓形。双手与肩同宽，距离墙根约15 一25 厘米，手臂伸直。逐渐抬起一只手的手掌，将重心慢慢转移到身体的另一侧，另一侧的手掌会承受越来越多的体重。继续这种转移过程（持续几秒钟），直到略微抬起的手掌上只剩下几千克的压力。现在轻轻抬起这只手，使之离开地面，并将它伸向远处以保持平衡。现在，你就是在以一只伸直的手臂支撑整个身体。这是该动作的起始姿势（图121）。支撑身体的手臂肘部弯曲，直到头部向地面方向下降一半高度。这是该动作的结束姿势（图122）。暂停一下，然后推起身体。",
+        "analysis": "这是以单臂推起整个体重的第一个动作，该动作不仅要求训练者有极大的肩部和手臂力量，也需要有极为强大的关节、较高的身体协调能力、出色的平衡能力以及极其熟练的倒立推举技巧。要想从单臂半倒立撑中获益，你得投人大量时间，“榨干”此前那些动作的全部“营养”—要花费至少六个月甚至更长的时间，否则连试都不要试这个，不然你很可能是在自讨苦吃。",
+        "slowSteady": "该动作很难，只有长久练习，逐渐增加动作幅度，才能掌握。试着以手掌推起身体，而不是用手指推，这样有助于推力肌肉协调发力。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 8,
+        "standards": [
+          {
+            "id": "b268a6ac-1899-41df-a56f-bb702bc8299d",
+            "styleId": "070bb23b-a869-4ee4-a60d-587c6e9dc837",
+            "groupNumber": 1,
+            "number": 4,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "71d7d4b8-8856-4ab5-b346-4126994e0ba1",
+            "styleId": "070bb23b-a869-4ee4-a60d-587c6e9dc837",
+            "groupNumber": 2,
+            "number": 6,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "386f9cec-6258-4e48-9e18-b25fdbce4188",
+            "styleId": "070bb23b-a869-4ee4-a60d-587c6e9dc837",
+            "groupNumber": 2,
+            "number": 8,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "b333c397-682e-4010-8435-11c5f3db76cb",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "杠杆式",
+        "img1Url": "Skill_6_Style_9_1",
+        "img2Url": "Skill_6_Style_9_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=60&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "蹬起靠墙成倒立姿势。像平常一样，双手距离与肩同宽，距离墙根约15 一25 厘米。只有双脚脚跟与墙壁接触，身体保持自然的弓形。如第八式那样，把身体的大部分重量（约90%）慢慢转移到一只手上。然后翻转另一只手的手掌，使手背贴地，手心向上，手指朝前（视线方向为前）。将这只手臂在自己面前伸展，而这只手始终保持与地面的接触——部分体重的压力仍然要通过这只手的手指传递。这是该动作的起始姿势（图123）。手掌向上的那只手臂保持伸展状态，另一只手臂的肘部弯曲，完全在肌肉的控制之中放低身体，不要让身体快速下落，否则会伤到头部，甚至很可能扭伤颈部。头顶轻轻接触地板，然后暂停一下。这是该动作的结束姿势（图124）。最后，用一只手的手掌及另一只手的手背同时推起身体，回到起始姿势。",
+        "analysis": "前一式将使你掌握单臂倒立撑的上半部分，这个动作则能够帮你掌握更具挑战的下半部分动作。由于有一只手的手掌向上，所以那只手臂很难用太多力，只能确保在动作最低点时，给你足够的帮助以推起身体—这会让肌肉的发展最大化。",
+        "slowSteady": "辅助的（即手掌向上的）手臂如果略微弯曲，并更靠近身体，则能够给你更好的辅助力量。随着你不断变强，逐渐伸直辅助的手臂。",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 9,
+        "standards": [
+          {
+            "id": "e8bb57ef-5f28-4403-bc67-1f92c89bab03",
+            "styleId": "b333c397-682e-4010-8435-11c5f3db76cb",
+            "groupNumber": 1,
+            "number": 3,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "141e086b-ce46-4bdb-8d02-4e3eea47a3b8",
+            "styleId": "b333c397-682e-4010-8435-11c5f3db76cb",
+            "groupNumber": 2,
+            "number": 4,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "fff49593-47ce-4293-847a-8079363ba114",
+            "styleId": "b333c397-682e-4010-8435-11c5f3db76cb",
+            "groupNumber": 2,
+            "number": 6,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      },
+      {
+        "id": "3e91d60c-104e-466d-a399-32f1a403b567",
+        "skillId": "3cb0c31b-9cad-4f60-acb2-5efdbfc931b2",
+        "name": "单臂式",
+        "img1Url": "Skill_6_Style_10_1",
+        "img2Url": "Skill_6_Style_10_1",
+        "videoUrl": "https://www.bilibili.com/video/BV1ms411y7J5?p=61&share_source=copy_web",
+        "traningPart": "肩部",
+        "actionDescription": "蹬起靠墙成倒立姿势，向一侧略微倾斜，直到仅用单臂支撑身体的全部重量，就像单臂半倒立撑（第八式）中那样。脚跟与墙壁接触，身体略微成弓形。这是该动作的起始姿势（图125）。弯曲支撑身体的那只手臂，直到头顶轻轻接触地面。另一只手臂则要随时做好准备，以便失误时可以助你一臂之力。这是该动作的结束姿势（图126）。在将身体推回到起始姿势的过程中，可能需要用些爆发力。为使身体脱离动作的最低点，你也可以向上蹬腿：双膝弯曲（脚跟依然要接触墙壁）并迅速伸直，这样可以增加一些向上的冲力。",
+        "analysis": "单臂倒立撑是锻炼肩部和手臂的终极动作。忘掉卧推吧——它只能给你带来伤痛和不幸。谨慎练习整个倒立撑系列，直至掌握最终式，你的力量会比你碰到的所有练卧推的都大—这里说的是纯粹、有用、能把人抓起来扔出去的力量。如果有一位体重达90 千克的男子做单臂倒立撑，那就相当于他用单臂推举起了近90 千克的哑铃；如果是双臂，就是近180千克的杠铃！你认识几个家伙能提起（更不用说推举）180 千克的重量呢？体操会让你毫发无伤地拥有这等力量，还有一副健康的肩膀。",
+        "slowSteady": "你必须逐渐增加动作幅度。其实，唯一能真正掌握此动作的方式，就是练上几年—或许三年，或许更久。你本来就是要再老上三年的，对吧？那为什么不让自己在那时变得超级强大呢？",
+        "createTime": "2022-03-03T16:25:08.393818",
+        "orderNumber": 10,
+        "standards": [
+          {
+            "id": "ec6e7172-faa0-4e2d-bd06-54f12898bd09",
+            "styleId": "3e91d60c-104e-466d-a399-32f1a403b567",
+            "groupNumber": 1,
+            "number": 1,
+            "grade": 1,
+            "style": null
+          },
+          {
+            "id": "4ef924d9-97bf-4a1e-8b44-3734785873e6",
+            "styleId": "3e91d60c-104e-466d-a399-32f1a403b567",
+            "groupNumber": 2,
+            "number": 2,
+            "grade": 2,
+            "style": null
+          },
+          {
+            "id": "d267c94d-7d15-41f7-98d7-bbb955037ca6",
+            "styleId": "3e91d60c-104e-466d-a399-32f1a403b567",
+            "groupNumber": 1,
+            "number": 5,
+            "grade": 3,
+            "style": null
+          }
+        ],
+        "skillName": "倒立撑",
+        "traningType": false,
+        "isSingle": true,
+        "isRemoved": false
+      }
+    ]
+  }
+]
