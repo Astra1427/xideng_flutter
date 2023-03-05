@@ -31,7 +31,7 @@ class StandardDTO extends ModelBase {
   }
 
 //[Newtonsoft.Json.JsonIgnore]
-  SkillStyleDTO style;
+  SkillStyleDTO? style;
 
 //[Newtonsoft.Json.JsonIgnore]
 //[SQLite.Ignore]
@@ -42,12 +42,18 @@ class StandardDTO extends ModelBase {
   }
 
   StandardDTO(super.id, this.styleId, this.groupNumber, this.number, this.grade,
-      this.style);
+      {this.style});
 
   @override
   String toString() {
-    if (!style.traningType) {
+    if (style == null)
+    {
+      return "休息日";
+    }
+
+    if (!style!.traningType) {
       return "$groupNumber 组 $number次";
+
     } else {
       return "$groupNumber 组 $number秒";
     }

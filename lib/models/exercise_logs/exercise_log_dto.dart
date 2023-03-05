@@ -36,7 +36,7 @@ class ExerciseLogDTO extends ModelBase {
   /// Dis Feeling max char : 11
   /// </summary>
   //[SQLite.Ignore]
-  @JsonKey(includeToJson: false,includeFromJson: false)
+  @JsonKey(includeToJson: false, includeFromJson: false)
   String disFeeling;
 
   int groupNumber;
@@ -44,7 +44,7 @@ class ExerciseLogDTO extends ModelBase {
   int number;
 
   //[Newtonsoft.Json.JsonIgnore]
-  @JsonKey(includeToJson: false,includeFromJson: false)
+  @JsonKey(includeToJson: false, includeFromJson: false)
   SkillStyleDTO? style;
 
   //[SQLite.Ignore]
@@ -57,18 +57,18 @@ class ExerciseLogDTO extends ModelBase {
   }
 
   ExerciseLogDTO(
-      super.id,
-      this.skillName,
-      this.accountId,
-      this.styleId,
-      this.exerciseDateTime,
-      this.exerciseTime,
-      this.feeling,
-
-      this.groupNumber,
-      this.number,
-
-      {this.style = null,this.disFeeling = "",});
+    super.id,
+    this.skillName,
+    this.accountId,
+    this.styleId,
+    this.exerciseDateTime,
+    this.exerciseTime,
+    this.feeling,
+    this.groupNumber,
+    this.number, {
+    this.style,
+    this.disFeeling = "",
+  });
 
 /* override String ToString()
   {
@@ -82,21 +82,21 @@ class ExerciseLogDTO extends ModelBase {
   }
   }*/
 
-@override
+  @override
   String toString() {
-  if (style == null)
-  {
-    return "休息日";
+    if (style == null) {
+      return "休息日";
+    }
+
+    if (!style!.traningType) {
+      return "$groupNumber 组 $number次";
+    } else {
+      return "$groupNumber 组 $number秒";
+    }
   }
 
-  if (!style!.traningType) {
-    return "$groupNumber 组 $number次";
-  } else {
-    return "$groupNumber 组 $number秒";
-  }
+  Map<String, dynamic> toJson() => _$ExerciseLogDTOToJson(this);
 
-  }
-
-  Map<String,dynamic> toJson() => _$ExerciseLogDTOToJson(this);
-  factory ExerciseLogDTO.fromJson(Map<String,dynamic> json) => _$ExerciseLogDTOFromJson(json);
+  factory ExerciseLogDTO.fromJson(Map<String, dynamic> json) =>
+      _$ExerciseLogDTOFromJson(json);
 }

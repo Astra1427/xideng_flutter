@@ -13,7 +13,6 @@ SkillStyleDTO _$SkillStyleDTOFromJson(Map<String, dynamic> json) =>
       json['name'] as String,
       json['img1Url'] as String,
       json['img2Url'] as String,
-      json['videoUrl'] as String,
       json['traningPart'] as String,
       json['actionDescription'] as String,
       json['analysis'] as String,
@@ -25,6 +24,7 @@ SkillStyleDTO _$SkillStyleDTOFromJson(Map<String, dynamic> json) =>
           ?.map((e) => StandardDTO.fromJson(e as Map<String, dynamic>))
           .toList(),
       json['skillName'] as String,
+      videoUrl: json['videoUrl'] as String?,
     )..createTime = json['createTime'] as String?;
 
 Map<String, dynamic> _$SkillStyleDTOToJson(SkillStyleDTO instance) =>

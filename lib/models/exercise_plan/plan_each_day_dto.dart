@@ -64,7 +64,6 @@ set { style = value; RaisePropertyChanged(nameof(Style)); }
       {this.style,});
   @override
   String toString() {
-    // TODO: implement toString
     if (isRestDay || style == null)
     {
       return "休息日";

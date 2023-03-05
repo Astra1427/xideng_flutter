@@ -18,7 +18,7 @@ class SkillStyleDTO extends ModelBase{
 //[SQLite.Ignore]
 //[Newtonsoft.Json.JsonIgnore]
  //ImageSource Img2 => Uri.CheckSchemeName(Img2Url) ? ImageSource.FromUri(new Uri(Img2Url)) : Utility.GetImage(Img2Url);
- String videoUrl;
+ String? videoUrl;
  String traningPart;
  String actionDescription;
  String analysis;
@@ -56,7 +56,7 @@ class SkillStyleDTO extends ModelBase{
       this.name,
       this.img1Url,
       this.img2Url,
-      this.videoUrl,
+
       this.traningPart,
       this.actionDescription,
       this.analysis,
@@ -65,7 +65,8 @@ class SkillStyleDTO extends ModelBase{
       this.traningType,
       this.isSingle,
       this.standards,
-      this.skillName);
+      this.skillName,
+      {this.videoUrl,});
 
  Map<String,dynamic> toJson() => _$SkillStyleDTOToJson(this);
  factory SkillStyleDTO.fromJson(Map<String,dynamic> json) => _$SkillStyleDTOFromJson(json);
