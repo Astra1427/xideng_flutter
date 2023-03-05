@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:xideng_flutter/services/service_response.dart';
 
 
 class HttpUtil{
@@ -54,6 +55,20 @@ class HttpUtil{
       debugPrint('post end....');
 
     }
+  }
+
+  static Future<ServiceResponse<String>> responseBasicCheck(HttpClientResponse? response,{String msg = ""})async{
+    if(response == null){
+
+      return ServiceResponse(false, "获取失败，response is null");
+    }
+    else if(response.statusCode == HttpStatus.unauthorized){
+      return ServiceResponse(false, "请登录！");
+    }else if(response.statusCode != HttpStatus.ok){
+      return ServiceResponse(true, msg);
+    }
+    var json = await response.transform(utf8.decoder).join();
+    return ServiceResponse(true, "",dataModel: json);
   }
 }
 //http://101.33.206.168:8001/api/account/authenticate
