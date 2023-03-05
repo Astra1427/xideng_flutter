@@ -10,4 +10,8 @@ extension StringExtension on String{
   Map<String,dynamic> toMap(){
     return json.decode(this);
   }
+
+  List<dynamic> toList(){
+    return json.decode(this);
+  }
 }
