@@ -39,6 +39,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   sqflite: ^2.2.3
   shared_preferences: ^2.0.15
+  webview_flutter: ^4.0.6
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +72,7 @@ flutter:
   assets:
     - images/
     - images/xd_logo_02.png
+    - res/data/XiDengSkillsDataJson.json
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
