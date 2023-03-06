@@ -1,15 +1,13 @@
-
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xideng_flutter/styles/main_style.dart';
 
+import '../models/app_config.dart';
 import '../services/service_response.dart';
 
 part 'common_components.dart';
 
-class Util {
-
-}
+class Util {}
 
 extension ContextExtension on BuildContext {
   Future<bool?> showMsg(
@@ -48,31 +46,61 @@ extension ContextExtension on BuildContext {
         builder: (dialogContext) {
           return AlertDialog(
             title: Text(title),
-            content: ConstrainedBox(
-              constraints: BoxConstraints(
-                maxHeight: 300
-              ),
+            content: SingleChildScrollView(
+              child: Column(
 
-
-              child: ListView(
-                shrinkWrap: true,
                 children: [
                   for (var item in items)
-                    InkWell(
-                      child: Padding(
-                        padding: EdgeInsets.all(10),
-                        child: Text(item),
-                      ),
-                      onTap: () {
-                        Navigator.of(dialogContext).pop(item);
-                      },
-                    )
+                    SizedBox(
+                        width: double.infinity,
+                        child: InkWell(
+                          child: Padding(
+                            padding: EdgeInsets.all(10),
+                            child: Text(item,textAlign: TextAlign.center,),
+                          ),
+                          onTap: () {
+                            Navigator.of(dialogContext).pop(item);
+                          },
+                        ))
                 ],
               ),
             ),
             actions: const [DialogResultButton(result: "")],
           );
         });
+  }
+
+  showSoundsDialog() async {
+    var configModel = await showDialog<AppConfigModel>(
+      context: this,
+      builder: (BuildContext dialogContext) {
+        return AlertDialog(
+          scrollable: true,
+          title: Text('设置'),
+          content: ConstrainedBox(
+            constraints: BoxConstraints(maxHeight: 300),
+            child: ListView(
+              children: [
+                Text('背景音乐音量：'),
+                Slider(value: 1, onChanged: (value) {}),
+                Text('背景音乐音量：'),
+                Slider(value: 1, onChanged: (value) {}),
+                Text('背景音乐音量：'),
+                Slider(value: 1, onChanged: (value) {}),
+                Text('背景音乐音量：'),
+                Slider(value: 1, onChanged: (value) {}),
+              ],
+            ),
+          ),
+          actions: [
+            DialogResultButton(
+              result: 'configModel',
+              text: '保存',
+            )
+          ],
+        );
+      },
+    );
   }
 
   void closeLoading() async {
@@ -91,7 +119,5 @@ extension ContextExtension on BuildContext {
     ));
   }
 
-  showOverlayDialog(){
-
-  }
+  showOverlayDialog() {}
 }

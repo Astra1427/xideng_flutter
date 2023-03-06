@@ -12,9 +12,6 @@ StandardDTO _$StandardDTOFromJson(Map<String, dynamic> json) => StandardDTO(
       json['groupNumber'] as int,
       json['number'] as int,
       json['grade'] as int,
-      style: json['style'] == null
-          ? null
-          : SkillStyleDTO.fromJson(json['style'] as Map<String, dynamic>),
     )..createTime = json['createTime'] as String?;
 
 Map<String, dynamic> _$StandardDTOToJson(StandardDTO instance) =>
@@ -25,5 +22,4 @@ Map<String, dynamic> _$StandardDTOToJson(StandardDTO instance) =>
       'groupNumber': instance.groupNumber,
       'number': instance.number,
       'grade': instance.grade,
-      'style': instance.style,
     };

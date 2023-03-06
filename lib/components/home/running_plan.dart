@@ -6,7 +6,6 @@ class RunningPlan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Container(
-
       margin: EdgeInsets.all(2),
       color: Theme.of(context).backgroundColor,
       height: 200,

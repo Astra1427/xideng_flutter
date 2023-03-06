@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:xideng_flutter/common/nav_key.dart';
 import 'package:xideng_flutter/main_navigator_page.dart';
 import 'package:xideng_flutter/pages/home_page.dart';
 import 'package:xideng_flutter/providers/account_provider.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             darkTheme: darkTheme,
-
+            navigatorKey: NavKey.navKey,
             themeMode: provider.currentThemeMode,
             title: '熄灯',
             home: const MainNavigationPage(),

@@ -30,15 +30,18 @@ class AppConfigProvider with ChangeNotifier {
     }
     var prefs = await SharedPreferences.getInstance();
     await prefs.setString(appConfigModelKey, model.toJson().toRawJson());
+
   }
 
   Future loadAppConfigModel() async {
     var prefs = await SharedPreferences.getInstance();
     var json = prefs.getString(appConfigModelKey);
     if (json == null) {
-      return;
+      appConfigModel = AppConfigModel.getDefault();
+
+    }else {
+      appConfigModel = AppConfigModel.fromJson(json.toMap());
     }
-    appConfigModel = AppConfigModel.fromJson(json.toMap());
     notifyListeners();
   }
 

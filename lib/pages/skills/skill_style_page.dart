@@ -23,7 +23,7 @@ class _SkillStylePageState extends State<SkillStylePage> {
 
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async{
       for (var i = 0; i < widget.skillModel.skillStyles.length; i++){
-        await Future.delayed(const Duration(milliseconds: 400));
+        await Future.delayed(const Duration(milliseconds: 200));
         _styleList.insert(i, widget.skillModel.skillStyles[i]);
         _listKey.currentState?.insertItem(i,duration: const Duration(milliseconds: 1000));
       }

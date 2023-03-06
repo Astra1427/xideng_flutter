@@ -8,6 +8,7 @@ class AppConfigModel{
 /// <summary>
 /// 动作间隔时间 毫秒 【已弃用】
 /// </summary>
+   @Deprecated('请使用 downNumberSecond 和 upNumberSecond来控制动作间隔时间')
  int numberSecond ;
 /// <summary>
 /// Down动作时间 毫秒
@@ -46,4 +47,18 @@ class AppConfigModel{
 
    factory AppConfigModel.fromJson(Map<String,dynamic> json) => _$AppConfigModelFromJson(json);
    Map<String,dynamic> toJson()=>_$AppConfigModelToJson(this);
+
+    factory AppConfigModel.getDefault() => AppConfigModel(
+        numberSecond: 1200,
+        sleepSecond: 45,
+        isRespiratoryRhythm: 0,
+        startContinueSecond: 3,
+        backAudioVolume: 1,
+        personAudioVolume: 1,
+        // TODO:get version
+        // versionNumber: VersionTracking.CurrentVersion,
+        versionNumber: '0.0.1',
+        upNumberSecond: 2000,
+        downNumberSecond: 3000,
+        isOffline: false);
 }

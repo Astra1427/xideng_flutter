@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:xideng_flutter/common/utils.dart';
@@ -14,23 +16,11 @@ class SoundsSettingsDialog extends StatefulWidget {
 
 class _SoundsSettingsDialogState extends State<SoundsSettingsDialog> {
   late final AppConfigProvider appProvider;
-  AppConfigModel configModel  =AppConfigModel(
-      numberSecond: 1200,
-      sleepSecond: 45,
-      isRespiratoryRhythm: 0,
-      startContinueSecond: 3,
-      backAudioVolume: 1,
-      personAudioVolume: 1,
-      // TODO:get version
-      // versionNumber: VersionTracking.CurrentVersion,
-      versionNumber: '0.0.1',
-      upNumberSecond: 2000,
-      downNumberSecond: 3000,
-      isOffline: false);
+
+  AppConfigModel configModel = AppConfigModel.getDefault();
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
       appProvider = Provider.of<AppConfigProvider>(context, listen: false);
@@ -46,11 +36,10 @@ class _SoundsSettingsDialogState extends State<SoundsSettingsDialog> {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text('设置'),
-      content: ConstrainedBox(
-        constraints: BoxConstraints(maxHeight: 300),
-        child: ListView(
-          shrinkWrap: true,
+      scrollable: true,
+      title: Text('音量设置'),
+      content: SingleChildScrollView(
+        child: Column(
           children: [
             Text('背景音乐音量：${configModel.backAudioVolume.toStringAsFixed(2)}'),
             Slider(
@@ -59,11 +48,25 @@ class _SoundsSettingsDialogState extends State<SoundsSettingsDialog> {
                   setState(() {
                     configModel.backAudioVolume = value;
                   });
-                })
+                }),
+            Text('人声音量：${configModel.personAudioVolume.toStringAsFixed(2)}'),
+            Slider(
+                value: configModel.personAudioVolume,
+                onChanged: (value) {
+                  setState(() {
+                    configModel.personAudioVolume = value;
+                  });
+                }),
           ],
         ),
       ),
-      actions: [DialogResultButton(result: configModel,text: '保存',)],
+      actions: [
+        DialogResultButton(
+
+          result: configModel,
+          text: '保存',
+        )
+      ],
     );
   }
 }

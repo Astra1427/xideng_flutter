@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:xideng_flutter/common/utils.dart';
 import 'package:xideng_flutter/components/skills/sounds_settings_dialog.dart';
+import 'package:xideng_flutter/components/skills/training_settings_dialog.dart';
 import 'package:xideng_flutter/models/app_config.dart';
 import 'package:xideng_flutter/pages/webview_page.dart';
 import 'package:xideng_flutter/providers/app_config_provider.dart';
@@ -64,6 +65,7 @@ class _StyleDetailPageState extends State<StyleDetailPage> {
               }
               await Provider.of<AppConfigProvider>(context, listen: false)
                   .setAppConfigModel(configModel);
+
             },
             icon: const Icon(Icons.music_note)),
         buildDropDownButton(),
@@ -75,7 +77,7 @@ class _StyleDetailPageState extends State<StyleDetailPage> {
     return PopupMenuButton(
       offset: const Offset(0, 60),
       itemBuilder: (context) {
-        return [const PopupMenuItem(child: Text('text1'), value: 1)];
+        return [const PopupMenuItem(value: 1, child: Text('text1'))];
       },
       onSelected: (value) {
         context.showMsg(value.toString());
@@ -162,7 +164,13 @@ class _StyleDetailPageState extends State<StyleDetailPage> {
   Widget buildTrainingButton() {
     return SizedBox(
       width: double.infinity,
-      child: ElevatedButton(onPressed: () {}, child: const Text('开始训练')),
+      child: ElevatedButton(onPressed: () {
+        showDialog(context: context, builder: (context){
+          return TrainingSettingsDialog(styleModel: widget.styleModel,);
+        });
+      },style: ButtonStyle(
+        padding: MaterialStateProperty.all(const EdgeInsets.all(18))
+      ), child: const Text('开始训练'),),
     );
   }
 }

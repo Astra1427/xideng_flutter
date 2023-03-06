@@ -33,19 +33,7 @@ class _HomePageState extends State<HomePage> {
       appConfigProvider.loadAppConfigModel();
       if (await appConfigProvider.isFirstStart()) {
         appConfigProvider.setFirstStart();
-        appConfigProvider.setAppConfigModel(AppConfigModel(
-            numberSecond: 1200,
-            sleepSecond: 45,
-            isRespiratoryRhythm: 0,
-            startContinueSecond: 3,
-            backAudioVolume: 1,
-            personAudioVolume: 1,
-            // TODO:get version
-            // versionNumber: VersionTracking.CurrentVersion,
-            versionNumber: '0.0.1',
-            upNumberSecond: 2000,
-            downNumberSecond: 3000,
-            isOffline: false));
+        appConfigProvider.setAppConfigModel(AppConfigModel.getDefault());
         context.showMsg("这是您第一次使用app，程序将会下载一些必要的数据，请确保网络连接正常。");
         var skillsJson = await DefaultAssetBundle.of(context)
             .loadString("res/data/XiDengSkillsDataJson.json");
@@ -99,7 +87,7 @@ class _HomePageState extends State<HomePage> {
       actions: [
         IconButton(
             onPressed: () {},
-            icon: ImageIcon(
+            icon: const ImageIcon(
               AssetImage('images/book_64.png'),
             )),
         Consumer<AppThemeProvider>(builder: (context, provider, child) {
