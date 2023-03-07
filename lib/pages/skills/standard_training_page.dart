@@ -25,7 +25,7 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
   late final AppConfigModel configModel;
   late final SkillStyleDTO styleModel;
   int countDownSecond = 3;
-  bool isImg1 = false;
+  bool isImg1 = true;
   bool isCountDown = false;
   bool isPause = false;
   bool isSleep = false;
@@ -85,6 +85,9 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
       body: Center(
         child: GestureDetector(
           onTap: (){
+            if(isFinish){
+              return;
+            }
             trainingProvider.switchPause();
             setState(() {
               isPause = !isPause;
@@ -136,6 +139,9 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
   Widget buildPausePanel() {
     return buildCirclePanel(
       onTap: (){
+        if(isFinish){
+          return;
+        }
         trainingProvider.switchPause();
         setState(() {
           isPause = !isPause;
@@ -195,7 +201,7 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
         //TODO play 'one' audio
         break;
       case TrainingPartType.training_2:
-        currentNumber = event.value;
+        // currentNumber = event.value;
         isImg1 = false;
         //TODO play 'two' audio
         break;
@@ -229,13 +235,9 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
   }
 
   void initData(){
-    countDownSecond = 3;
-    isImg1 = false;
     isCountDown = false;
     isPause = trainingProvider.isPause;
     isSleep = false;
-    currentGroupNumber = 0;
-    currentNumber = 0;
 
   }
 }

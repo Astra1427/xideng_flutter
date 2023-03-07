@@ -26,12 +26,12 @@ class StandardTrainingProvider with ChangeNotifier {
     for (int i = 0; i < standardModel.groupNumber; i++) {
       for (int j = 1; j <= standardModel.number; j++) {
         taskItems.add(TrainingTaskItem(
-            configModel.downNumberSecond, TrainingPartType.training_1, j));
+            configModel.downNumberSecond, TrainingPartType.training_2, j));
         taskItems.add(TrainingTaskItem(
-            configModel.upNumberSecond, TrainingPartType.training_2, j));
+            configModel.upNumberSecond, TrainingPartType.training_1, j));
       }
 
-      if(standardModel.groupNumber == i+1){
+      if (standardModel.groupNumber == i + 1) {
         //finish
         taskItems.add(TrainingTaskItem(500, TrainingPartType.finish, 0));
         debugPrint('finish...');
@@ -47,15 +47,23 @@ class StandardTrainingProvider with ChangeNotifier {
   }
 
   List<TrainingTaskItem> generateCountDown() {
-    taskItems
-        .where((element) => element.type == TrainingPartType.countDown).toList()
-        .forEach((entry) {
+    var removedItems = taskItems
+        .where((element) => element.type == TrainingPartType.countDown || element.type == TrainingPartType.sleep)
+        .toList();
+
+    if(currentTrainingTaskItem?.type == TrainingPartType.countDown || currentTrainingTaskItem?.type == TrainingPartType.sleep){
+      currentTrainingTaskItem = removedItems.first.previous;
+      currentTrainingTaskItem ??= removedItems.last.next;
+    }
+
+    for (var entry in removedItems) {
       taskItems.remove(entry);
-    });
+    }
     List<TrainingTaskItem> items = [];
     for (int i = 3; i > 0; i--) {
       items.add(TrainingTaskItem(1000, TrainingPartType.countDown, i));
     }
+
     return items;
   }
 
@@ -68,19 +76,24 @@ class StandardTrainingProvider with ChangeNotifier {
   bool isPause = false;
 
   void switchPause() {
+
     isPause = !isPause;
     notifyListeners();
-    /*if (isPause) {
-      currentTrainingTaskItem
-          ?.insertAfter(TrainingTaskItem(50, TrainingPartType.pause, 0));
+    if (isPause) {
+      // currentTrainingTaskItem
+      //     ?.insertAfter(TrainingTaskItem(50, TrainingPartType.pause, 0));
     } else {
       var countDownTasks = generateCountDown();
-      currentTrainingTaskItem?.insertAfter(TrainingTaskItem(50, TrainingPartType.start, 0));
-      for (var element in countDownTasks.reversed) {
-        currentTrainingTaskItem?.insertAfter(element);
-      }
 
-    }*/
+
+      for (var element in countDownTasks) {
+        currentTrainingTaskItem?.insertBefore(element);
+      }
+      currentTrainingTaskItem
+          ?.insertBefore(TrainingTaskItem(50, TrainingPartType.start, 0));
+      currentTrainingTaskItem = countDownTasks.first;
+    }
+
   }
 
   bool isFinish = false;
@@ -94,21 +107,24 @@ class StandardTrainingProvider with ChangeNotifier {
     isPause = false;
     isFinish = false;
     while (currentTrainingTaskItem != null) {
-
-      if(trainingTaskStreamController.isClosed){
+      if (trainingTaskStreamController.isClosed) {
         break;
       }
       trainingTaskStreamController.sink.add(currentTrainingTaskItem!);
+
       if (isPause) {
-        await Future.delayed(const Duration(milliseconds: 500));
+        await Future.delayed(const Duration(milliseconds: 200));
         continue;
       }
       if (isFinish) {
         break;
       }
-      if(currentTrainingTaskItem != null){
+
+      if (currentTrainingTaskItem != null) {
         await Future.delayed(
             Duration(milliseconds: currentTrainingTaskItem!.delayTime));
+      }
+      if(currentTrainingTaskItem != null){
         currentTrainingTaskItem = currentTrainingTaskItem!.next;
       }
 
@@ -121,12 +137,12 @@ class StandardTrainingProvider with ChangeNotifier {
 
   StreamSubscription<TrainingTaskItem> openSubscription(
       void Function(TrainingTaskItem event) onData) {
-    if(trainingTaskStreamController.isClosed) {
-      trainingTaskStreamController = StreamController<TrainingTaskItem>.broadcast();
+    if (trainingTaskStreamController.isClosed) {
+      trainingTaskStreamController =
+          StreamController<TrainingTaskItem>.broadcast();
     }
     return trainingTaskStreamController.stream.listen(onData);
   }
-
 
   @override
   void dispose() {
@@ -134,7 +150,7 @@ class StandardTrainingProvider with ChangeNotifier {
     super.dispose();
   }
 
-  void disposeData(){
+  void disposeData() {
     taskItems.clear();
     trainingTaskStreamController.close();
     currentTrainingTaskItem = null;
