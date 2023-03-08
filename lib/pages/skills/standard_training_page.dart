@@ -38,11 +38,10 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
 
       trainingProvider =
           Provider.of<StandardTrainingProvider>(context, listen: false);
-      trainingProvider.setStandard = widget.standardModel;
-      trainingProvider.generateTrainingTaskItemQueue(configModel);
+      trainingProvider.generateTrainingTaskItemQueue(configModel,widget.standardModel);
       subscription = trainingProvider.openSubscription();
 
-      await trainingProvider.startContinue();
+      await trainingProvider.startTraining();
     });
 
     var style = widget.standardModel.getSkillStyleDTO();
