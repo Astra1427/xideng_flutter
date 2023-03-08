@@ -31,11 +31,12 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
   void initState() {
     super.initState();
 
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async{
-      var appProvider = Provider.of<AppConfigProvider>(context,listen: false);
-      var configModel = appProvider.appConfigModel ?? AppConfigModel.getDefault();
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+      var appProvider = Provider.of<AppConfigProvider>(context, listen: false);
+      var configModel =
+          appProvider.appConfigModel ?? AppConfigModel.getDefault();
 
-       trainingProvider =
+      trainingProvider =
           Provider.of<StandardTrainingProvider>(context, listen: false);
       trainingProvider.setStandard = widget.standardModel;
       trainingProvider.generateTrainingTaskItemQueue(configModel);
@@ -57,51 +58,71 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
         title: Text(
             '${widget.standardModel.getSkillStyleDTO()?.name ?? ''} ${widget.standardModel.toString()}'),
       ),
       body: Center(
-        child: Consumer2<StandardTrainingProvider,AppConfigProvider>(builder:(context,trainingProvider,appProvider,child){
-
-
-
-
+        child: Consumer2<StandardTrainingProvider, AppConfigProvider>(
+            builder: (context, trainingProvider, appProvider, child) {
           return GestureDetector(
-            onTap: (){
-              if(trainingProvider.isFinish){
+            onTap: () {
+              if (trainingProvider.isFinish) {
                 return;
               }
               trainingProvider.switchPause();
-
             },
-            child: Stack(
-              alignment: Alignment.center,
-              children: [
-                Visibility(
-                    visible: trainingProvider.isImg1,
-                    child: Image.asset(
-                      'images/${styleModel.img1Url}.png',
-                      fit: BoxFit.fill,
-                    )),
-                Visibility(
-                    visible: !trainingProvider.isImg1,
-                    child: Image.asset(
-                      'images/${styleModel.img2Url}.png',
-                      fit: BoxFit.fill,
-                    )),
-                Text(
-                  '${trainingProvider.currentNumber} / ${widget.standardModel.number}',
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(fontSize: 30, color: Colors.white),
-                ),
-                Visibility(
-                    visible: trainingProvider.isCountDown || trainingProvider.isSleep, child: buildCountDown(trainingProvider)),
-                Visibility(visible: trainingProvider.isPause, child: buildPausePanel(trainingProvider)),
-                Visibility(visible: trainingProvider.isFinish, child: buildFinishPanel())
-              ],
+            child: SizedBox(
+              height: double.infinity,
+              width: double.infinity,
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+
+                  Visibility(
+                      visible: trainingProvider.isImg1,
+                      child: Image.asset(
+                        'images/${styleModel.img1Url}.png',
+                        fit: BoxFit.fill,
+                      )),
+                  Visibility(
+                      visible: !trainingProvider.isImg1,
+                      child: Image.asset(
+                        'images/${styleModel.img2Url}.png',
+                        fit: BoxFit.fill,
+                      )),
+                  Text(
+                    '${trainingProvider.currentNumber} / ${widget.standardModel.number}',
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 30, color: Colors.white),
+                  ),
+                  Visibility(
+                      visible: trainingProvider.isCountDown ||
+                          trainingProvider.isSleep,
+                      child: buildCountDown(trainingProvider)),
+                  Visibility(
+                      visible: trainingProvider.isPause,
+                      child: buildPausePanel(trainingProvider)),
+                  Visibility(
+                      visible: trainingProvider.isFinish,
+                      child: buildFinishPanel()),
+                  Positioned(
+                      top: 0,
+                      left: 0,
+                      child: Text(
+                        '动作数：${trainingProvider.currentNumber}/${widget.standardModel.number}',
+                        style: const TextStyle(fontSize: 20, color: Colors.white),
+                      )),
+                  Positioned(
+                      top: 0,
+                      right: 0,
+                      child: Text(
+                        '组数：${trainingProvider.currentGroupNumber}/${widget.standardModel.groupNumber}',
+                        style: const TextStyle(fontSize: 20, color: Colors.white),
+                      )),
+                ],
+              ),
             ),
           );
         }),
@@ -111,35 +132,35 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
 
   Widget buildCountDown(StandardTrainingProvider trainingProvider) {
     return buildCirclePanel(
-      onTap: (){
-        trainingProvider.switchPause();
-      },
-      child: Text(
-        trainingProvider.countDownSecond.toString(),
-        style: const TextStyle(color: Colors.white, fontSize: 45),
-      )
-    );
+        onTap: () {
+          trainingProvider.switchPause();
+        },
+        child: Text(
+          trainingProvider.countDownSecond.toString(),
+          style: const TextStyle(color: Colors.white, fontSize: 45),
+        ));
   }
 
   Widget buildPausePanel(StandardTrainingProvider trainingProvider) {
     return buildCirclePanel(
-      onTap: (){
-        if(trainingProvider.isFinish){
-          return;
-        }
-        trainingProvider.switchPause();
-
-      },
-      child: const Icon(
-        Icons.play_arrow_rounded,
-        size: 60,
-      )
-    );
+        onTap: () {
+          if (trainingProvider.isFinish) {
+            return;
+          }
+          trainingProvider.switchPause();
+        },
+        child: const Icon(
+          Icons.play_arrow_rounded,
+          size: 60,
+        ));
   }
 
-  Widget buildFinishPanel(){
+  Widget buildFinishPanel() {
     return buildCirclePanel(
-      child: Text('完毕',style: const TextStyle(color: Colors.white, fontSize: 45),),
+      child: Text(
+        '完毕',
+        style: const TextStyle(color: Colors.white, fontSize: 45),
+      ),
     );
   }
 
@@ -150,7 +171,7 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
         ? screenSize.height * 0.5
         : screenSize.width * 0.5;
     return InkWell(
-      onTap:onTap,
+      onTap: onTap,
       child: Container(
         clipBehavior: Clip.antiAlias,
         width: circleWidth,
@@ -168,15 +189,11 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
   void dispose() {
     // TODO: implement dispose
 
-    subscription.cancel();
+    //subscription.cancel();
 
     // Provider.of<StandardTrainingProvider>(context,listen: false).disposeData();
     trainingProvider.disposeData();
     debugPrint('dispose....');
     super.dispose();
-
-
   }
-
-
 }
