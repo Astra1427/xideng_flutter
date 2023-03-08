@@ -11,8 +11,16 @@ class StandardTrainingProvider with ChangeNotifier {
 
   set setStandard(StandardDTO model) {
     standardModel = model;
-    notifyListeners();
   }
+
+  int countDownSecond = 3;
+  bool isImg1 = true;
+  bool isCountDown = false;
+  bool isPause = false;
+  bool isSleep = false;
+  bool isFinish = false;
+  int currentGroupNumber = 0;
+  int currentNumber = 0;
 
   LinkedList<TrainingTaskItem> taskItems = LinkedList();
   TrainingTaskItem? currentTrainingTaskItem;
@@ -73,7 +81,6 @@ class StandardTrainingProvider with ChangeNotifier {
         .insertAfter(entry);
   }
 
-  bool isPause = false;
 
   void switchPause() {
 
@@ -90,13 +97,12 @@ class StandardTrainingProvider with ChangeNotifier {
         currentTrainingTaskItem?.insertBefore(element);
       }
       currentTrainingTaskItem
-          ?.insertBefore(TrainingTaskItem(50, TrainingPartType.start, 0));
+          ?.insertBefore(TrainingTaskItem(500, TrainingPartType.start, 0));
       currentTrainingTaskItem = countDownTasks.first;
     }
 
   }
 
-  bool isFinish = false;
 
   void switchFinish() {
     isFinish = !isFinish;
@@ -136,16 +142,68 @@ class StandardTrainingProvider with ChangeNotifier {
       StreamController<TrainingTaskItem>.broadcast();
 
   StreamSubscription<TrainingTaskItem> openSubscription(
-      void Function(TrainingTaskItem event) onData) {
+      ) {
     if (trainingTaskStreamController.isClosed) {
       trainingTaskStreamController =
           StreamController<TrainingTaskItem>.broadcast();
     }
-    return trainingTaskStreamController.stream.listen(onData);
+    return trainingTaskStreamController.stream.listen((event) {
+      trainingTaskItemAction(event);
+      notifyListeners();
+    });
+  }
+
+  void trainingTaskItemAction(TrainingTaskItem event) {
+    initData();
+    switch (event.type) {
+      case TrainingPartType.training_1:
+        currentNumber = event.value;
+        isImg1 = true;
+        //TODO play 'one' audio
+        break;
+      case TrainingPartType.training_2:
+      // currentNumber = event.value;
+        isImg1 = false;
+        //TODO play 'two' audio
+        break;
+      case TrainingPartType.readSecond:
+      //TODO play 'value' audio
+      //play(value)
+        currentNumber = event.value;
+        break;
+      case TrainingPartType.countDown:
+      //TODO play 'value' audio
+      //play(value)
+        countDownSecond = event.value;
+        isCountDown = true;
+        break;
+      case TrainingPartType.sleep:
+        countDownSecond = event.value;
+        isSleep = true;
+        break;
+      case TrainingPartType.start:
+      //TODO play 'start' audio
+        break;
+      case TrainingPartType.finish:
+      //TODO play 'finish' audio
+        isFinish = true;
+        break;
+      case TrainingPartType.pause:
+        isPause = true;
+        break;
+
+    }
+  }
+
+  void initData(){
+    isCountDown = false;
+    isSleep = false;
+
   }
 
   @override
   void dispose() {
+    debugPrint('trainingProvider dispose');
     disposeData();
     super.dispose();
   }
@@ -154,8 +212,15 @@ class StandardTrainingProvider with ChangeNotifier {
     taskItems.clear();
     trainingTaskStreamController.close();
     currentTrainingTaskItem = null;
-    isFinish = true;
+    countDownSecond = 3;
+    isImg1 = true;
+    isCountDown = false;
     isPause = false;
+    isSleep = false;
+    isFinish = false;
+    currentGroupNumber = 0;
+    currentNumber = 0;
+    // notifyListeners();
   }
 }
 

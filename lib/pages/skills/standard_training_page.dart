@@ -22,44 +22,24 @@ class StandardTrainingPage extends StatefulWidget {
 
 class _StandardTrainingPageState extends State<StandardTrainingPage> {
   String content = '';
-  late final AppConfigModel configModel;
   late final SkillStyleDTO styleModel;
-  int countDownSecond = 3;
-  bool isImg1 = true;
-  bool isCountDown = false;
-  bool isPause = false;
-  bool isSleep = false;
-  bool isFinish = false;
-  int currentGroupNumber = 0;
-  int currentNumber = 0;
+
   late StreamSubscription<TrainingTaskItem> subscription;
   late StandardTrainingProvider trainingProvider;
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
-      setState(() {
-        var appProvider =
-            Provider.of<AppConfigProvider>(context, listen: false);
-        if (appProvider.appConfigModel == null) {
-          configModel = AppConfigModel.getDefault();
-        } else {
-          configModel = appProvider.appConfigModel!;
-        }
 
-      });
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async{
+      var appProvider = Provider.of<AppConfigProvider>(context,listen: false);
+      var configModel = appProvider.appConfigModel ?? AppConfigModel.getDefault();
 
-      trainingProvider =
+       trainingProvider =
           Provider.of<StandardTrainingProvider>(context, listen: false);
       trainingProvider.setStandard = widget.standardModel;
       trainingProvider.generateTrainingTaskItemQueue(configModel);
-      subscription = trainingProvider.openSubscription((event) {
-        setState(() {
-          trainingTaskItemAction(event);
-        });
-      });
-
+      subscription = trainingProvider.openSubscription();
 
       await trainingProvider.startContinue();
     });
@@ -77,75 +57,78 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         title: Text(
             '${widget.standardModel.getSkillStyleDTO()?.name ?? ''} ${widget.standardModel.toString()}'),
       ),
       body: Center(
-        child: GestureDetector(
-          onTap: (){
-            if(isFinish){
-              return;
-            }
-            trainingProvider.switchPause();
-            setState(() {
-              isPause = !isPause;
-            });
-          },
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              Visibility(
-                  visible: isImg1,
-                  child: Image.asset(
-                    'images/${styleModel.img1Url}.png',
-                    fit: BoxFit.fill,
-                  )),
-              Visibility(
-                  visible: !isImg1,
-                  child: Image.asset(
-                    'images/${styleModel.img2Url}.png',
-                    fit: BoxFit.fill,
-                  )),
-              Text(
-                '$currentNumber / ${widget.standardModel.number}',
-                textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 30, color: Colors.white),
-              ),
-              Visibility(
-                  visible: isCountDown || isSleep, child: buildCountDown()),
-              Visibility(visible: isPause, child: buildPausePanel()),
-              Visibility(visible: isFinish, child: buildFinishPanel())
-            ],
-          ),
-        ),
+        child: Consumer2<StandardTrainingProvider,AppConfigProvider>(builder:(context,trainingProvider,appProvider,child){
+
+
+
+
+          return GestureDetector(
+            onTap: (){
+              if(trainingProvider.isFinish){
+                return;
+              }
+              trainingProvider.switchPause();
+
+            },
+            child: Stack(
+              alignment: Alignment.center,
+              children: [
+                Visibility(
+                    visible: trainingProvider.isImg1,
+                    child: Image.asset(
+                      'images/${styleModel.img1Url}.png',
+                      fit: BoxFit.fill,
+                    )),
+                Visibility(
+                    visible: !trainingProvider.isImg1,
+                    child: Image.asset(
+                      'images/${styleModel.img2Url}.png',
+                      fit: BoxFit.fill,
+                    )),
+                Text(
+                  '${trainingProvider.currentNumber} / ${widget.standardModel.number}',
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 30, color: Colors.white),
+                ),
+                Visibility(
+                    visible: trainingProvider.isCountDown || trainingProvider.isSleep, child: buildCountDown(trainingProvider)),
+                Visibility(visible: trainingProvider.isPause, child: buildPausePanel(trainingProvider)),
+                Visibility(visible: trainingProvider.isFinish, child: buildFinishPanel())
+              ],
+            ),
+          );
+        }),
       ),
     );
   }
 
-  Widget buildCountDown() {
+  Widget buildCountDown(StandardTrainingProvider trainingProvider) {
     return buildCirclePanel(
       onTap: (){
         trainingProvider.switchPause();
       },
       child: Text(
-        countDownSecond.toString(),
+        trainingProvider.countDownSecond.toString(),
         style: const TextStyle(color: Colors.white, fontSize: 45),
       )
     );
   }
 
-  Widget buildPausePanel() {
+  Widget buildPausePanel(StandardTrainingProvider trainingProvider) {
     return buildCirclePanel(
       onTap: (){
-        if(isFinish){
+        if(trainingProvider.isFinish){
           return;
         }
         trainingProvider.switchPause();
-        setState(() {
-          isPause = !isPause;
-        });
+
       },
       child: const Icon(
         Icons.play_arrow_rounded,
@@ -184,60 +167,16 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
   @override
   void dispose() {
     // TODO: implement dispose
-    super.dispose();
+
     subscription.cancel();
+
+    // Provider.of<StandardTrainingProvider>(context,listen: false).disposeData();
     trainingProvider.disposeData();
     debugPrint('dispose....');
+    super.dispose();
 
 
   }
 
-  void trainingTaskItemAction(TrainingTaskItem event) {
-    initData();
-    switch (event.type) {
-      case TrainingPartType.training_1:
-        currentNumber = event.value;
-        isImg1 = true;
-        //TODO play 'one' audio
-        break;
-      case TrainingPartType.training_2:
-        // currentNumber = event.value;
-        isImg1 = false;
-        //TODO play 'two' audio
-        break;
-      case TrainingPartType.readSecond:
-        //TODO play 'value' audio
-        //play(value)
-        currentNumber = event.value;
-        break;
-      case TrainingPartType.countDown:
-        //TODO play 'value' audio
-        //play(value)
-        countDownSecond = event.value;
-        isCountDown = true;
-        break;
-      case TrainingPartType.sleep:
-        countDownSecond = event.value;
-        isSleep = true;
-        break;
-      case TrainingPartType.start:
-        //TODO play 'start' audio
-        break;
-      case TrainingPartType.finish:
-        //TODO play 'finish' audio
-        isFinish = true;
-        break;
-      case TrainingPartType.pause:
-        isPause = true;
-        break;
 
-    }
-  }
-
-  void initData(){
-    isCountDown = false;
-    isPause = trainingProvider.isPause;
-    isSleep = false;
-
-  }
 }
