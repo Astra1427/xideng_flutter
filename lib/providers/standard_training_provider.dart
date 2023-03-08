@@ -315,9 +315,11 @@ class TrainingTaskItem extends LinkedListEntry<TrainingTaskItem> {
   int delayTime;
   TrainingPartType type;
   int value;
+
   int? tag;
 
   TrainingTaskItem(this.delayTime, this.type, this.value, {this.tag});
+
 }
 
 enum TrainingPartType {
