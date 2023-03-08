@@ -80,6 +80,7 @@ class StandardTrainingProvider with ChangeNotifier {
         taskItems
             .add(TrainingTaskItem(1000, TrainingPartType.sleep, j, tag: i));
       }
+      taskItems.add(TrainingTaskItem(50, TrainingPartType.start, 0));
     }
 
     //设置当前的动作为 排在第一位的 '动作2'任务
