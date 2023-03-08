@@ -311,15 +311,13 @@ class StandardTrainingProvider with ChangeNotifier {
 }
 
 class TrainingTaskItem extends LinkedListEntry<TrainingTaskItem> {
-  // 每个任务都一个执行时间
+  // 每个任务都有一个执行时间
   int delayTime;
   TrainingPartType type;
   int value;
-
   int? tag;
 
   TrainingTaskItem(this.delayTime, this.type, this.value, {this.tag});
-
 }
 
 enum TrainingPartType {
