@@ -163,7 +163,6 @@ class TrainingTaskItem extends LinkedListEntry<TrainingTaskItem> {
   int delayTime;
   TrainingPartType type;
   int value;
-
   TrainingTaskItem(this.delayTime, this.type, this.value);
 }
 
