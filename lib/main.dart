@@ -7,6 +7,7 @@ import 'package:xideng_flutter/main_navigator_page.dart';
 import 'package:xideng_flutter/pages/home_page.dart';
 import 'package:xideng_flutter/providers/account_provider.dart';
 import 'package:xideng_flutter/providers/app_config_provider.dart';
+import 'package:xideng_flutter/providers/exercise_plan_provider.dart';
 import 'package:xideng_flutter/providers/skills_provider.dart';
 import 'package:xideng_flutter/providers/standard_training_provider.dart';
 import 'package:xideng_flutter/providers/theme_provider.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context)=> AppConfigProvider()),
         ChangeNotifierProvider(create: (context)=> SkillsProvider()),
         ChangeNotifierProvider(create: (context)=> StandardTrainingProvider()),
+        ChangeNotifierProvider(create: (context)=> ExercisePlanProvider()),
       ],
       child: Consumer<AppThemeProvider>(
         builder: (context, provider, child) {

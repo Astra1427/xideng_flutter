@@ -1,13 +1,16 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
 import 'package:provider/provider.dart';
 import 'package:xideng_flutter/common/utils.dart';
 import 'package:xideng_flutter/components/home/running_plan.dart';
 import 'package:xideng_flutter/components/home/skill_item.dart';
 import 'package:xideng_flutter/models/app_config.dart';
+import 'package:xideng_flutter/providers/exercise_plan_provider.dart';
 import 'package:xideng_flutter/providers/skills_provider.dart';
 import 'package:xideng_flutter/providers/theme_provider.dart';
+import 'package:xideng_flutter/services/audio_service.dart';
 import 'package:xideng_flutter/styles/main_style.dart';
 
 import '../models/skill/skill_dto.dart';
@@ -58,6 +61,14 @@ class _HomePageState extends State<HomePage> {
         skills = skillsProvider.skills;
         print("skills.length:${skills.length}");
       });
+      if (!mounted) {
+        return;
+      }
+      await Provider.of<ExercisePlanProvider>(context, listen: false).loadExercisePlans();
+      if (!mounted) {
+        return;
+      }
+      debugPrint('provider.exercisePlans ${Provider.of<ExercisePlanProvider>(context, listen: false).exercisePlans.length}');
     });
   }
 
@@ -67,7 +78,10 @@ class _HomePageState extends State<HomePage> {
       appBar: buildAppBar(context),
       body: ListView(
         children: [
-          const RunningPlan(),
+           Consumer<ExercisePlanProvider>(builder: (context,provider,child){
+
+             return RunningPlan(planModel: provider.exercisePlans.isNotEmpty ? provider.exercisePlans.first : null);
+           }),
           const SizedBox(
             height: 10,
           ),
@@ -86,7 +100,10 @@ class _HomePageState extends State<HomePage> {
               TextStyle(color: Theme.of(context).appBarTheme.foregroundColor)),
       actions: [
         IconButton(
-            onPressed: () {},
+            onPressed: () {
+              AudioService.onePlayer.load();
+              AudioService.onePlayer..setLoopMode(LoopMode.one)..play();
+            },
             icon: const ImageIcon(
               AssetImage('images/book_64.png'),
             )),

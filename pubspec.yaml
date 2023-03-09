@@ -40,6 +40,7 @@ dependencies:
   sqflite: ^2.2.3
   shared_preferences: ^2.0.15
   webview_flutter: ^4.0.6
+  just_audio: ^0.9.31
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +74,9 @@ flutter:
     - images/
     - images/xd_logo_02.png
     - res/data/XiDengSkillsDataJson.json
+    - res/audios/
+    - assets/res/audios/
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

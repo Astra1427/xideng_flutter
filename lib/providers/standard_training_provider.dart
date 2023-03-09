@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:xideng_flutter/models/app_config.dart';
 
 import '../models/skill/standard_dto.dart';
+import '../services/audio_service.dart';
 
 class StandardTrainingProvider with ChangeNotifier {
   ///倒计时秒数
@@ -50,6 +51,10 @@ class StandardTrainingProvider with ChangeNotifier {
     for (int i = 3; i > 0; i--) {
       taskItems.add(TrainingTaskItem(1000, TrainingPartType.countDown, i));
     }
+
+    //生成开始
+    taskItems.add(TrainingTaskItem(1000, TrainingPartType.start, 0));
+
     //生成 动作/组
     for (int i = 1; i <= standardModel.groupNumber; i++) {
       //生成动作
@@ -234,7 +239,7 @@ class StandardTrainingProvider with ChangeNotifier {
   }
 
   /// 根据task的type执行对应的操作
-  void trainingTaskItemAction(TrainingTaskItem event) {
+  void trainingTaskItemAction(TrainingTaskItem event) async {
     //初始化数据
     initData();
     switch (event.type) {
@@ -242,11 +247,16 @@ class StandardTrainingProvider with ChangeNotifier {
         currentNumber = event.value;
         isImg1 = true;
         //TODO play 'one' audio
+        AudioService.twoPlayer.load();
+        AudioService.twoPlayer.play();
         break;
       case TrainingPartType.training_2:
         // currentNumber = event.value;
         isImg1 = false;
         //TODO play 'two' audio
+
+        AudioService.onePlayer.load();
+        AudioService.onePlayer.play();
         break;
       case TrainingPartType.readSecond:
         //TODO play 'value' audio
@@ -255,6 +265,20 @@ class StandardTrainingProvider with ChangeNotifier {
         break;
       case TrainingPartType.countDown:
         //TODO play 'value' audio
+        switch (event.value) {
+          case 3:
+            AudioService.threePlayer.load();
+            AudioService.threePlayer.play();
+            break;
+          case 2:
+            AudioService.twoPlayer.load();
+            AudioService.twoPlayer.play();
+            break;
+          case 1:
+            AudioService.onePlayer.load();
+            AudioService.onePlayer.play();
+            break;
+        }
         //play(value)
         countDownSecond = event.value;
         isCountDown = true;
@@ -267,9 +291,13 @@ class StandardTrainingProvider with ChangeNotifier {
         break;
       case TrainingPartType.start:
         //TODO play 'start' audio
+        AudioService.startPlayer.load();
+        AudioService.startPlayer.play();
         break;
       case TrainingPartType.finish:
         //TODO play 'finish' audio
+        AudioService.finishPlayer.load();
+        AudioService.finishPlayer.play();
         isFinish = true;
         break;
       case TrainingPartType.pause:
@@ -277,6 +305,8 @@ class StandardTrainingProvider with ChangeNotifier {
         break;
       case TrainingPartType.newGroup:
         currentGroupNumber = event.value;
+        AudioService.tickPlayer.load();
+        AudioService.tickPlayer.play();
         break;
     }
   }

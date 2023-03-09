@@ -4,6 +4,7 @@ import 'package:xideng_flutter/common/utils.dart';
 import 'package:xideng_flutter/models/account/account_dto.dart';
 import 'package:xideng_flutter/pages/account/login_page.dart';
 import 'package:xideng_flutter/providers/account_provider.dart';
+import 'package:xideng_flutter/providers/exercise_plan_provider.dart';
 import 'package:xideng_flutter/styles/main_style.dart';
 
 import '../services/account_service.dart';
@@ -174,6 +175,12 @@ class _MyPageState extends State<MyPage> {
         return;
       }
       provider.setCurrentUser(result.dataModel?.account);
+      if(result.dataModel?.exercisePlans != null) {
+        await Provider.of<ExercisePlanProvider>(context,listen: false).setExercisePlans(result.dataModel!.exercisePlans);
+      }
+      if(!mounted){
+        return;
+      }
       context.showMsg(result.dataModel?.exercisePlans.first.name ?? "");
     }else{
       context.showMsg(result.msg);

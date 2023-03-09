@@ -1,10 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
 import 'package:provider/provider.dart';
 import 'package:xideng_flutter/common/extensions/map_extension.dart';
 import 'package:xideng_flutter/common/utils.dart';
 import 'package:xideng_flutter/providers/app_config_provider.dart';
+import 'package:xideng_flutter/services/audio_service.dart';
 
 import '../../models/app_config.dart';
 import '../../models/skill/skill_style_dto.dart';
@@ -41,7 +43,11 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
       trainingProvider.generateTrainingTaskItemQueue(configModel,widget.standardModel);
       subscription = trainingProvider.openSubscription();
 
+
+      await AudioService.backPlayer.load();
+      AudioService.backPlayer..setLoopMode(LoopMode.one)..play();
       await trainingProvider.startTraining();
+
     });
 
     var style = widget.standardModel.getSkillStyleDTO();
@@ -193,6 +199,7 @@ class _StandardTrainingPageState extends State<StandardTrainingPage> {
     // Provider.of<StandardTrainingProvider>(context,listen: false).disposeData();
     trainingProvider.disposeData();
     debugPrint('dispose....');
+    AudioService.backPlayer.stop();
     super.dispose();
   }
 }
