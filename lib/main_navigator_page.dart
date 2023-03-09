@@ -28,18 +28,15 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp){
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       debugPrint('main navigator page addPostFrameCallback...');
-      Provider.of<AccountProvider>(context,listen: false).loadSavedUserInfo();
-
+      Provider.of<AccountProvider>(context, listen: false).loadSavedUserInfo();
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       body: getCurrentIndexPage(),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: curIndex,
@@ -51,21 +48,24 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
           });
         },
         items: const [
-          BottomNavigationBarItem(icon: ImageIcon(AssetImage('images/home_6_240.png')), label: '首页'),
           BottomNavigationBarItem(
-              icon: ImageIcon(AssetImage('images/weather_116_240.png')), label: '计划'),
+              icon: ImageIcon(AssetImage('images/home_6_240.png')),
+              label: '首页'),
+/*          BottomNavigationBarItem(
+              icon: ImageIcon(AssetImage('images/weather_116_240.png')), label: '计划'),*/
           BottomNavigationBarItem(
-              icon: ImageIcon(AssetImage('images/user_5_240.png')), label: '我的'),
+              icon: ImageIcon(AssetImage('images/user_5_240.png')),
+              label: '我的'),
         ],
       ),
     );
   }
 
-  Widget getCurrentIndexPage(){
-    switch(curIndex){
+  Widget getCurrentIndexPage() {
+    switch (curIndex) {
+/*      case 1:
+        return const PublicPlanPage();*/
       case 1:
-        return const PublicPlanPage();
-      case 2:
         return const MyPage();
       default:
         return const HomePage();

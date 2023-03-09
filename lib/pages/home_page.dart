@@ -99,14 +99,12 @@ class _HomePageState extends State<HomePage> {
           style:
               TextStyle(color: Theme.of(context).appBarTheme.foregroundColor)),
       actions: [
-        IconButton(
+        /*IconButton(
             onPressed: () {
-              AudioService.onePlayer.load();
-              AudioService.onePlayer..setLoopMode(LoopMode.one)..play();
             },
             icon: const ImageIcon(
               AssetImage('images/book_64.png'),
-            )),
+            )),*/
         Consumer<AppThemeProvider>(builder: (context, provider, child) {
           return IconButton(
               onPressed: () {
