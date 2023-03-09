@@ -33,8 +33,8 @@ static final AudioPlayer finishPlayer = AudioPlayer()
 static final AudioPlayer backPlayer = AudioPlayer()
     ..setAudioSource(AudioSource.asset('assets/${_playUrls['bengbengca']!}'))
     ..setVolume(1);
-static final AudioPlayer tickPlayer = AudioPlayer()
-    ..setAudioSource(AudioSource.asset('assets/${_playUrls['tick']!}'))
+static final AudioPlayer recoveryPlayer = AudioPlayer()
+    ..setAudioSource(AudioSource.asset('assets/${_playUrls['recovery']!}'))
     ..setVolume(1);
 
   void initAudioPlayer() {
