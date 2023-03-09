@@ -305,8 +305,8 @@ class StandardTrainingProvider with ChangeNotifier {
         break;
       case TrainingPartType.newGroup:
         currentGroupNumber = event.value;
-        AudioService.tickPlayer.load();
-        AudioService.tickPlayer.play();
+        AudioService.recoveryPlayer.load();
+        AudioService.recoveryPlayer.play();
         break;
     }
   }
