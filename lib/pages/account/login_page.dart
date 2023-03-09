@@ -21,7 +21,7 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   var txtUserNameController = TextEditingController();
-  var txtEmailController = TextEditingController(text: '1427917847@qq.com');
+  var txtEmailController = TextEditingController();
   var txtPasswordController = TextEditingController();
   var txtConfirmPasswordController = TextEditingController();
   var txtVerifyCodeController = TextEditingController();
